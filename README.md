@@ -23,7 +23,9 @@ file type.
 For instance, this extension contains a TextMate bundle for YAML files,
 but if you decide to install the more powerful
 [YAML Editor extension](https://visualstudiogallery.msdn.microsoft.com/34423c06-f756-4721-8394-bc3d23b91ca7)
-then that extension will win take over.
+then that extension will win. That makes it safe to install this
+extension even if you have separate extensions for one or more of the
+languages already.
 
 ## Supported languages and file types
 
