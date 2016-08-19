@@ -164,6 +164,7 @@
         <key>fileTypes</key>
         <array>
             <string>bat</string>
+            <string>cmd</string>
         </array>
     </dict>
 </plist>
