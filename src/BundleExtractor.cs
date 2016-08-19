@@ -22,10 +22,10 @@ namespace TextmateBundleInstaller
 
                     CopyDirectory(src, dest);
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
+                    System.Diagnostics.Debug.Write(ex);
                     return false;
-                    // TODO :implement logger
                 }
 
                 return true;

@@ -2,8 +2,7 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/qpd0qtdvpsnmygy0?svg=true)](https://ci.appveyor.com/project/madskristensen/textmatebundleinstaller)
 
-<!-- Update the VS Gallery link after you upload the VSIX-->
-Download this extension from the [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/[GuidFromGallery])
+Download this extension from the [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/d92fd742-bab3-4314-b866-50b871d679ee)
 or get the [CI build](http://vsixgallery.com/extension/4773ce75-6f30-4269-9557-1f7c30a47be2/).
 
 ---------------------------------------
@@ -48,6 +47,7 @@ then that extension will win take over.
 - Rust
 - Shaderlab
 - ShellScript (Bash)
+- Stylus
 - Swift
 - YAML
 
