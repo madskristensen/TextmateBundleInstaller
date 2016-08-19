@@ -3,7 +3,7 @@
     <Metadata>
         <Identity Id="4773ce75-6f30-4269-9557-1f7c30a47be2" Version="1.0" Language="en-US" Publisher="Mads Kristensen" />
         <DisplayName>TextMate Bundle Installer</DisplayName>
-        <Description xml:space="preserve">Adds basic language support for a wide variety of programming languages such as Clojure, Go, Jade, Lua, Swift, Ruby and many more</Description>
+        <Description xml:space="preserve">Adds basic language support for a wide variety of programming languages such as Clojure, Go, Jade, Lua, Swift, Ruby and many more...</Description>
         <MoreInfo>https://github.com/madskristensen/TextmateBundleInstaller</MoreInfo>
         <License>Resources\LICENSE</License>
         <ReleaseNotes>https://github.com/madskristensen/TextmateBundleInstaller/blob/master/CHANGELOG.md</ReleaseNotes>
