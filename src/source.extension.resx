@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="110" xml:space="preserve">
-    <value>TextMate Bundle Installer</value>
+    <value>Visual Studio Language Pack</value>
   </data>
   <data name="112" xml:space="preserve">
     <value>Adds basic language support for a wide variety of programming languages such as Clojure, Go, Jade, Lua, Swift, Ruby and many more...</value>

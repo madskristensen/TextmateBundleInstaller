@@ -13,13 +13,11 @@ namespace TextmateBundleInstaller
             string src = GetSourceFolder();
             string dest = GetDestinationFolder();
 
-            return await System.Threading.Tasks.Task.Run(() =>
+            return await Task.Run(() =>
             {
                 try
                 {
-                    if (Directory.Exists(dest))
-                        Directory.Delete(dest, true);
-
+                    CleanDirectory(dest);
                     CopyDirectory(src, dest);
                 }
                 catch (Exception ex)
@@ -30,6 +28,17 @@ namespace TextmateBundleInstaller
 
                 return true;
             });
+        }
+
+        private static void CleanDirectory(string directory)
+        {
+            if (Directory.Exists(directory))
+            {
+                foreach (var childDir in Directory.GetDirectories(directory))
+                {
+                    Directory.Delete(childDir, true);
+                }
+            }
         }
 
         public static bool HasFilesBeenCopied()
