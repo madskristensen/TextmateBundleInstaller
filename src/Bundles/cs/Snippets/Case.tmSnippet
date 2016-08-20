@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>case ${1:Condition}:
+	$2
+$0</string>
+	<key>name</key>
+	<string>Case</string>
+	<key>scope</key>
+	<string>source.cs</string>
+	<key>tabTrigger</key>
+	<string>cs</string>
+	<key>uuid</key>
+	<string>92C1277D-A9E0-4A96-B668-2C930134CC22</string>
+</dict>
+</plist>

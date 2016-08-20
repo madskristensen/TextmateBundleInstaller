@@ -41,12 +41,15 @@ languages already.
 - JavaDoc
 - Lua
 - Make
+- Markdown
 - Objective-C
 - Perl
 - PHP
 - PowerShell
+- R
 - Ruby
 - Rust
+- ScriptCS
 - Shaderlab
 - ShellScript (Bash)
 - Stylus
@@ -59,6 +62,12 @@ free
 [File Icons extension](https://visualstudiogallery.msdn.microsoft.com/5e1762e8-a88b-417c-8467-6a65d771cc4e).
 
 ## Contribute
+Feel free to suggest new languages not currently supported by this
+extension on the
+[issue tracker](https://github.com/madskristensen/TextmateBundleInstaller/issues).
+If you know a TextMate bundle that would work, then remember to add a
+link to that as well.
+
 Check out the [contribution guidelines](.github/CONTRIBUTING.md)
 if you want to contribute to this project.
 

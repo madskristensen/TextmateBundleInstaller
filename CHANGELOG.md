@@ -1,6 +1,8 @@
 # Road map
 
-- [ ] More languages
+- [x] Support for Markdown
+- [x] Support for R
+- [x] Support for ScriptCS
 
 Features that have a checkmark are complete and available for
 download in the
