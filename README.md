@@ -38,7 +38,7 @@ languages already.
 - Go
 - Groovy
 - Ini
-- Jade
+- Jade/Pug
 - Java
 - JavaDoc
 - JSOM
