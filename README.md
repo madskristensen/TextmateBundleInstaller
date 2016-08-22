@@ -34,12 +34,14 @@ languages already.
 - Clojure
 - CMake
 - Dockerfile
+- F#
 - Go
 - Groovy
 - Ini
 - Jade
 - Java
 - JavaDoc
+- JSOM
 - Lua
 - Make
 - Markdown
@@ -53,8 +55,10 @@ languages already.
 - ScriptCS
 - Shaderlab
 - ShellScript (Bash)
+- SQL
 - Stylus
 - Swift
+- TypeScript
 - YAML
 
 ## File Icons
