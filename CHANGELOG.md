@@ -1,8 +1,8 @@
 # Road map
 
-- [x] Support for Markdown
-- [x] Support for R
-- [x] Support for ScriptCS
+- [x] Support for JSON
+- [x] Support for SQL
+- [x] Support for TypeScript
 
 Features that have a checkmark are complete and available for
 download in the
@@ -12,6 +12,14 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 1.0.1
+
+**2016-08-20**
+
+- [x] Support for Markdown
+- [x] Support for R
+- [x] Support for ScriptCS
 
 ## 1.0
 
