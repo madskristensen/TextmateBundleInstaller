@@ -1,4 +1,4 @@
-# TextMate Bundle Installer
+# Syntax Highlighting Pack
 
 [![Build status](https://ci.appveyor.com/api/projects/status/qpd0qtdvpsnmygy0?svg=true)](https://ci.appveyor.com/project/madskristensen/textmatebundleinstaller)
 
@@ -7,8 +7,9 @@ or get the [CI build](http://vsixgallery.com/extension/4773ce75-6f30-4269-9557-1
 
 ---------------------------------------
 
-Adds basic language support for a wide variety of programming languages
-such as Clojure, Go, Jade, Lua, Swift, Ruby and many more
+Adds syntax highlighting and snippet support for a wide variety of
+programming languages such as Clojure, Go, Jade, Lua, Swift, Ruby and
+many more...
 
 See the [change log](CHANGELOG.md) for changes and road map.
 
