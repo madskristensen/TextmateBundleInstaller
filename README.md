@@ -13,6 +13,9 @@ many more...
 
 See the [change log](CHANGELOG.md) for changes and road map.
 
+![Documents](art/documents.png)
+*Showing Perl, Stylus and Ruby*
+
 ## TextMate bundles
 This extension uses Visual Studio's capability to load TextMate bundles.
 
