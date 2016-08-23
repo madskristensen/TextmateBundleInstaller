@@ -1,9 +1,6 @@
 # Road map
 
-- [x] Support for JSON
-- [x] Support for SQL
-- [x] Support for TypeScript
-- [x] Support for F#
+- [ ] More languages...
 
 Features that have a checkmark are complete and available for
 download in the
@@ -13,6 +10,15 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 1.1
+
+**2016-08-23**
+
+- [x] Support for JSON
+- [x] Support for SQL
+- [x] Support for TypeScript
+- [x] Support for F#
 
 ## 1.0.8
 
