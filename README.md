@@ -13,7 +13,7 @@ many more...
 
 See the [change log](CHANGELOG.md) for changes and road map.
 
-![Documents](art/documents.png)
+![Documents](art/documents.png)  
 *Showing Perl, Stylus and Ruby*
 
 ## TextMate bundles
