@@ -44,7 +44,7 @@ languages already.
 - Jade/Pug
 - Java
 - JavaDoc
-- JSOM
+- JSON
 - Lua
 - Make
 - Markdown
