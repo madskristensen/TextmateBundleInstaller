@@ -46,11 +46,10 @@ namespace TextmateBundleInstaller
             if (string.IsNullOrEmpty(language) || !language.Equals("Plain Text", StringComparison.OrdinalIgnoreCase))
                 return;
 
-            _ext = Path.GetExtension(_dte.ActiveDocument.FullName);
-
-            if (string.IsNullOrEmpty(_ext))
+            if (!CommandRegistration.IsFileSupported(_dte.ActiveDocument.FullName))
                 return;
 
+            _ext = Path.GetExtension(_dte.ActiveDocument.FullName);
             button.Text = $"Report missing language for {_ext} files...";
             button.Enabled = button.Visible = true;
         }

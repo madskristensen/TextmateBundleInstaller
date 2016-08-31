@@ -52,6 +52,9 @@
   <ItemGroup>
     <Compile Include="BundleExtractor.cs" />
     <Compile Include="Commands\CommandRegistration.cs" />
+    <Compile Include="Options.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Commands\ReportMissingLanguage.cs" />
     <Compile Include="source.extension.cs">
