@@ -10,17 +10,21 @@ namespace TextmateBundleInstaller
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
     [InstalledProductRegistration("#110", "#112", Vsix.Version, IconResourceID = 400)]
     [ProvideAutoLoad(UIContextGuids80.NoSolution, PackageAutoLoadFlags.BackgroundLoad)]
-    [Guid(PackageGuidString)]
-    public sealed class VSPackage : AsyncPackage
+    [Guid(PackageGuids.guidVSPackageString)]
+    [ProvideMenuResource("Menus.ctmenu", 1)]
+    public sealed class TextmateBundlerInstallerPackage : AsyncPackage
     {
-        public const string PackageGuidString = "13bea213-be01-48dc-a51e-7d148c7bec69";
+        public static AsyncPackage Instance { get; private set; }
 
         protected override async task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)
         {
+            Instance = this;
+
             if (!BundleExtractor.HasFilesBeenCopied())
             {
                 await BundleExtractor.CopyBundles();
             }
+
         }
     }
 }
