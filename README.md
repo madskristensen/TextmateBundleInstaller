@@ -33,18 +33,22 @@ languages already.
 
 ## Supported languages and file types
 
+- Apache (.htaccess)
 - Batch
 - Clojure
 - CMake
 - Dockerfile
+- Erlang
 - F#
 - Go
 - Groovy
+- Haskell
 - Ini
 - Jade/Pug
 - Java
 - JavaDoc
 - JSON
+- Lisp
 - Lua
 - Make
 - Markdown
@@ -55,6 +59,8 @@ languages already.
 - R
 - Ruby
 - Rust
+- Scala
+- Scheme
 - ScriptCS
 - Shaderlab
 - ShellScript (Bash)

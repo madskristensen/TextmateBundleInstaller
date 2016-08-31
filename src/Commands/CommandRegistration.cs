@@ -33,27 +33,30 @@ namespace TextmateBundleInstaller
             if (!DocumentService.TryGetTextDocument(textView.TextBuffer, out doc) || !IsFileSupported(doc.FilePath))
                 return;
 
-            ThreadHelper.Generic.BeginInvoke(() =>
-            {
                 ShowMessageBox(doc);
-            });
 
-            ThreadHelper.JoinableTaskFactory.Run(async () =>
+            if (ReportMissingLanguage.Instance == null)
             {
-                await ReportMissingLanguage.Initialize(TextmateBundlerInstallerPackage.Instance);
-            });
+                ThreadHelper.JoinableTaskFactory.Run(async () =>
+                {
+                    await ReportMissingLanguage.Initialize(TextmateBundlerInstallerPackage.Instance);
+                });
+            }
         }
 
         private void ShowMessageBox(ITextDocument doc)
         {
             if (TextmateBundlerInstallerPackage.Instance.Options.ShowPromptOnPlaintextFiles)
             {
-                string ext = Path.GetExtension(doc.FilePath);
-                string message = $"You can report missing language support for {ext} and other files not currently supported by Visual studio by right-clicking inside the editor";
-                VsShellUtilities.ShowMessageBox(ServiceProvider, message, Vsix.Name, OLEMSGICON.OLEMSGICON_INFO, OLEMSGBUTTON.OLEMSGBUTTON_OK, OLEMSGDEFBUTTON.OLEMSGDEFBUTTON_FIRST);
+                ThreadHelper.Generic.BeginInvoke(() =>
+                {
+                    string ext = Path.GetExtension(doc.FilePath);
+                    string message = $"You can report missing language support for {ext} and other files not currently supported by Visual studio by right-clicking inside the editor";
+                    VsShellUtilities.ShowMessageBox(ServiceProvider, message, Vsix.Name, OLEMSGICON.OLEMSGICON_INFO, OLEMSGBUTTON.OLEMSGBUTTON_OK, OLEMSGDEFBUTTON.OLEMSGDEFBUTTON_FIRST);
 
-                TextmateBundlerInstallerPackage.Instance.Options.ShowPromptOnPlaintextFiles = false;
-                TextmateBundlerInstallerPackage.Instance.Options.SaveSettingsToStorage();
+                    TextmateBundlerInstallerPackage.Instance.Options.ShowPromptOnPlaintextFiles = false;
+                    TextmateBundlerInstallerPackage.Instance.Options.SaveSettingsToStorage();
+                });
             }
         }
 

@@ -2,6 +2,12 @@
 
 - [ ] More languages...
 - [x] Command for reporting missing language support
+- [x] Lisp language support
+- [x] Haskell language support
+- [x] Scheme language support
+- [x] Apache (.htaccess) language support
+- [x] Scala language support
+- [x] Erlang language support
 
 Features that have a checkmark are complete and available for
 download in the

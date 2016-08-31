@@ -50,7 +50,7 @@ namespace TextmateBundleInstaller
                 return;
 
             _ext = Path.GetExtension(_dte.ActiveDocument.FullName);
-            button.Text = $"Report missing language for {_ext} files...";
+            button.Text = $"Report missing language support for {_ext} files...";
             button.Enabled = button.Visible = true;
         }
 
