@@ -25,7 +25,7 @@ namespace TextmateBundleInstaller
 
         public void TextViewCreated(IWpfTextView textView)
         {
-            if (TextmateBundlerInstallerPackage.Instance == null)
+            if (!TextmateBundlerInstallerPackage.IsInitialized)
                 return;
 
             ITextDocument doc = null;

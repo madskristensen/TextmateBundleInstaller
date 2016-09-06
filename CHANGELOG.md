@@ -1,13 +1,6 @@
 # Road map
 
 - [ ] More languages...
-- [x] Command for reporting missing language support
-- [x] Lisp language support
-- [x] Haskell language support
-- [x] Scheme language support
-- [x] Apache (.htaccess) language support
-- [x] Scala language support
-- [x] Erlang language support
 
 Features that have a checkmark are complete and available for
 download in the
@@ -18,9 +11,17 @@ download in the
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
 
-## 1.1
+## 1.2
 
-**2016-08-23**
+- [x] Command for reporting missing language support
+- [x] Lisp language support
+- [x] Haskell language support
+- [x] Scheme language support
+- [x] Apache (.htaccess) language support
+- [x] Scala language support
+- [x] Erlang language support
+
+## 1.1
 
 - [x] Support for JSON
 - [x] Support for SQL
@@ -29,15 +30,11 @@ on the official Visual Studio extension gallery.
 
 ## 1.0.8
 
-**2016-08-20**
-
 - [x] Support for Markdown
 - [x] Support for R
 - [x] Support for ScriptCS
 
 ## 1.0
-
-**2016-08-19**
 
 - [x] Initial release
 - [x] 23 languages supported
