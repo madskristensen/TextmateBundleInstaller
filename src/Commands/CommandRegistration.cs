@@ -47,18 +47,18 @@ namespace TextmateBundleInstaller
 
         private void ShowMessageBox(ITextDocument doc)
         {
-            if (TextmateBundlerInstallerPackage.Instance.Options.ShowPromptOnPlaintextFiles)
-            {
-                ThreadHelper.Generic.BeginInvoke(() =>
-                {
-                    string ext = Path.GetExtension(doc.FilePath);
-                    string message = $"You can report missing language support for {ext} and other files not currently supported by Visual studio by right-clicking inside the editor";
-                    VsShellUtilities.ShowMessageBox(ServiceProvider, message, Vsix.Name, OLEMSGICON.OLEMSGICON_INFO, OLEMSGBUTTON.OLEMSGBUTTON_OK, OLEMSGDEFBUTTON.OLEMSGDEFBUTTON_FIRST);
+            if (!TextmateBundlerInstallerPackage.Instance.Options.ShowPromptOnPlaintextFiles)
+                return;
 
-                    TextmateBundlerInstallerPackage.Instance.Options.ShowPromptOnPlaintextFiles = false;
-                    TextmateBundlerInstallerPackage.Instance.Options.SaveSettingsToStorage();
-                });
-            }
+            ThreadHelper.Generic.BeginInvoke(() =>
+            {
+                string ext = Path.GetExtension(doc.FilePath);
+                string message = $"You can report missing language support for {ext} and other files not currently supported by Visual studio by right-clicking inside the editor";
+                VsShellUtilities.ShowMessageBox(ServiceProvider, message, Vsix.Name, OLEMSGICON.OLEMSGICON_INFO, OLEMSGBUTTON.OLEMSGBUTTON_OK, OLEMSGDEFBUTTON.OLEMSGDEFBUTTON_FIRST);
+
+                TextmateBundlerInstallerPackage.Instance.Options.ShowPromptOnPlaintextFiles = false;
+                TextmateBundlerInstallerPackage.Instance.Options.SaveSettingsToStorage();
+            });
         }
 
         public static bool IsFileSupported(string fileName)
