@@ -10,7 +10,7 @@ namespace TextmateBundleInstaller
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
     [InstalledProductRegistration("#110", "#112", Vsix.Version, IconResourceID = 400)]
     [ProvideAutoLoad(UIContextGuids80.NoSolution, PackageAutoLoadFlags.BackgroundLoad)]
-    [ProvideOptionPage(typeof(Options), Vsix.Name, "General", 101, 102, true, new [] { "textmate", "language" })]
+    [ProvideOptionPage(typeof(Options), Vsix.Name, "General", 101, 102, true, new[] { "textmate", "language" })]
     [Guid(PackageGuids.guidVSPackageString)]
     [ProvideMenuResource("Menus.ctmenu", 1)]
     public sealed class TextmateBundlerInstallerPackage : AsyncPackage
@@ -44,7 +44,7 @@ namespace TextmateBundleInstaller
         {
             Instance = this;
 
-            if (!BundleExtractor.HasFilesBeenCopied())
+            if (!await BundleExtractor.HasFilesBeenCopied())
             {
                 await BundleExtractor.CopyBundles();
             }

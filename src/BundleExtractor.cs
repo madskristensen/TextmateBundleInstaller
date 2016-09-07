@@ -41,15 +41,18 @@ namespace TextmateBundleInstaller
             }
         }
 
-        public static bool HasFilesBeenCopied()
+        public static async Task<bool> HasFilesBeenCopied()
         {
-            string src = GetSourceFolder();
-            string dest = GetDestinationFolder();
+            return await Task.Run(() =>
+            {
+                string src = GetSourceFolder();
+                string dest = GetDestinationFolder();
 
-            if (!Directory.Exists(dest))
-                return false;
+                if (!Directory.Exists(dest))
+                    return false;
 
-            return Directory.GetDirectories(src).Count() == Directory.GetDirectories(dest).Count();
+                return Directory.GetDirectories(src).Count() == Directory.GetDirectories(dest).Count();
+            });
         }
 
         // from http://stackoverflow.com/questions/1974019/folder-copy-in-c-sharp
