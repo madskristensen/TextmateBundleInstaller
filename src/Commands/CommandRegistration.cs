@@ -11,10 +11,11 @@ using Microsoft.VisualStudio.Utilities;
 namespace TextmateBundleInstaller
 {
     [Export(typeof(IWpfTextViewCreationListener))]
-    [ContentType("plaintext")]
+    [ContentType(_contentType)]
     [TextViewRole(PredefinedTextViewRoles.Document)]
     public class CommandRegistration : IWpfTextViewCreationListener
     {
+        private const string _contentType = "plaintext";
         private static readonly string[] _ignoredFiles = { ".txt", ".rtf" };
 
         [Import]
@@ -33,10 +34,10 @@ namespace TextmateBundleInstaller
             if (!DocumentService.TryGetTextDocument(textView.TextBuffer, out doc) || !IsFileSupported(doc.FilePath))
                 return;
 
+            if (ReportMissingLanguage.Instance == null && textView.TextBuffer.ContentType.TypeName == _contentType)
+            {
                 ShowMessageBox(doc);
 
-            if (ReportMissingLanguage.Instance == null)
-            {
                 ThreadHelper.JoinableTaskFactory.Run(async () =>
                 {
                     await ReportMissingLanguage.Initialize(TextmateBundlerInstallerPackage.Instance);
