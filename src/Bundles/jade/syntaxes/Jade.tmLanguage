@@ -5,6 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>jade</string>
+        <string>pug</string>
 	</array>
 	<key>name</key>
 	<string>Jade</string>
