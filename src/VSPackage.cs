@@ -44,7 +44,7 @@ namespace TextmateBundleInstaller
         {
             Instance = this;
 
-            if (!await BundleExtractor.HasFilesBeenCopied())
+            if (!await BundleExtractor.IsLogFileCurrent())
             {
                 await BundleExtractor.CopyBundles();
             }

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.IO;
-using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
@@ -13,21 +12,19 @@ namespace TextmateBundleInstaller
             string src = GetSourceFolder();
             string dest = GetDestinationFolder();
 
-            return await Task.Run(() =>
+            try
             {
-                try
-                {
-                    CleanDirectory(dest);
-                    CopyDirectory(src, dest);
-                }
-                catch (Exception ex)
-                {
-                    System.Diagnostics.Debug.Write(ex);
-                    return false;
-                }
+                CleanDirectory(dest);
+                CopyDirectory(src, dest);
+                await WriteLogFile(dest);
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.Write(ex);
+                return false;
+            }
 
-                return true;
-            });
+            return true;
         }
 
         private static void CleanDirectory(string directory)
@@ -41,18 +38,40 @@ namespace TextmateBundleInstaller
             }
         }
 
-        public static async Task<bool> HasFilesBeenCopied()
+        public static async Task<bool> IsLogFileCurrent()
         {
-            return await Task.Run(() =>
+            try
             {
-                string src = GetSourceFolder();
                 string dest = GetDestinationFolder();
 
                 if (!Directory.Exists(dest))
                     return false;
 
-                return Directory.GetDirectories(src).Count() == Directory.GetDirectories(dest).Count();
-            });
+                string logFile = Path.Combine(dest, Vsix.Name + ".log");
+
+                if (!File.Exists(logFile))
+                    return false;
+
+                using (var reader = new StreamReader(logFile))
+                {
+                    return await reader.ReadToEndAsync() == Vsix.Version;
+                }
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.Write(ex);
+                return false;
+            }
+        }
+
+        private static async Task WriteLogFile(string dest)
+        {
+            string logFile = Path.Combine(dest, Vsix.Name + ".log");
+
+            using (var writer = new StreamWriter(logFile, false))
+            {
+                await writer.WriteAsync(Vsix.Version);
+            }
         }
 
         // from http://stackoverflow.com/questions/1974019/folder-copy-in-c-sharp
