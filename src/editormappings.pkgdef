@@ -1,12 +1,36 @@
 ﻿; HTML editor
-[$RootKey$\Languages\File Extensions\.tpl]
+[$RootKey$\Languages\File Extensions\.j2]
+@="{9bbfd173-9770-47dc-b191-651b7ff493cd}"
+[$RootKey$\Languages\File Extensions\.nunjucks]
+@="{9bbfd173-9770-47dc-b191-651b7ff493cd}"
+[$RootKey$\Languages\File Extensions\.njk]
+@="{9bbfd173-9770-47dc-b191-651b7ff493cd}"
+[$RootKey$\Languages\File Extensions\.nunjs]
+@="{9bbfd173-9770-47dc-b191-651b7ff493cd}"
+[$RootKey$\Languages\File Extensions\.nunj]
+@="{9bbfd173-9770-47dc-b191-651b7ff493cd}"
+[$RootKey$\Languages\File Extensions\.njs]
+@="{9bbfd173-9770-47dc-b191-651b7ff493cd}"
+[$RootKey$\Languages\File Extensions\.nj]
 @="{9bbfd173-9770-47dc-b191-651b7ff493cd}"
 [$RootKey$\Languages\File Extensions\.smarty]
 @="{9bbfd173-9770-47dc-b191-651b7ff493cd}"
-[$RootKey$\Languages\File Extensions\.j2]
+[$RootKey$\Languages\File Extensions\.svg]
+@="{9bbfd173-9770-47dc-b191-651b7ff493cd}"
+[$RootKey$\Languages\File Extensions\.tpl]
+@="{9bbfd173-9770-47dc-b191-651b7ff493cd}"
+[$RootKey$\Languages\File Extensions\.vue]
 @="{9bbfd173-9770-47dc-b191-651b7ff493cd}"
 
 [$RootKey$\Editors\{40d31677-cbc0-4297-a9ef-89d907823a98}\Extensions]
-"tpl"=dword:32
-"smarty"=dword:32
 "j2"=dword:32
+"nj"=dword:32
+"njk"=dword:32
+"njs"=dword:32
+"nunj"=dword:32
+"nunjs"=dword:32
+"nunjucks"=dword:32
+"smarty"=dword:32
+"svg"=dword:32
+"tpl"=dword:32
+"vue"=dword:32
