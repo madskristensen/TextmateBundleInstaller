@@ -67,6 +67,7 @@ languages already.
 - SQL
 - Stylus
 - Swift
+- TOML
 - TypeScript
 - YAML
 
