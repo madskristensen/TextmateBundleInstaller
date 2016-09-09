@@ -2,6 +2,7 @@
 
 - [ ] More languages...
 - [x] Package load completely async
+- [x] Mapping of file extensions to existing editors
 - [x] .pug language support
 
 Features that have a checkmark are complete and available for
