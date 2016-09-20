@@ -6,6 +6,7 @@
 	<array>
 		<string>ini</string>
 		<string>conf</string>
+		<string>gitattributes</string>
 	</array>
 	<key>keyEquivalent</key>
 	<string>^~I</string>
