@@ -38,6 +38,7 @@ languages already.
 - C++ QT
 - Clojure
 - CMake
+- Diff
 - Dockerfile
 - Erlang
 - F#

@@ -3,13 +3,14 @@
 - [ ] More languages...
 - [x] Package load completely async
 - [x] Mapping of file extensions to existing editors
-- [x] Removed PHP support since it can't work as textmate bundle
+- [x] Removed PHP support since it can't work as Textmate bundle
 - [x] .pug language support
 - [x] .toml language support
 - [x] C++ QT language support (.pro, .pri)
 - [x] LaTex language support
 - [x] Ruby on Rails language support (.erb)
 - [x] ICalendar language support (.ics, .ifb)
+- [x] Diff language support (.patch etc)
 
 Features that have a checkmark are complete and available for
 download in the
