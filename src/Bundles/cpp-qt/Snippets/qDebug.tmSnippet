@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>qDebug() &lt;&lt; $1;</string>
+	<key>name</key>
+	<string>qDebug</string>
+	<key>scope</key>
+	<string>source.c++.qt</string>
+	<key>tabTrigger</key>
+	<string>debug</string>
+	<key>uuid</key>
+	<string>DDDE4415-9B12-4F03-81CE-CB9ACA62CFD2</string>
+</dict>
+</plist>

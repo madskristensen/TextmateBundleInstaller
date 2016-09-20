@@ -5,6 +5,7 @@
 - [x] Mapping of file extensions to existing editors
 - [x] .pug language support
 - [x] .toml language support
+- [x] C++ QT language support (.pro, .pri)
 
 Features that have a checkmark are complete and available for
 download in the
