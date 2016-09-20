@@ -46,7 +46,7 @@ namespace TextmateBundleInstaller
             if (string.IsNullOrEmpty(language) || !language.Equals("Plain Text", StringComparison.OrdinalIgnoreCase))
                 return;
 
-            if (!CommandRegistration.IsFileSupported(_dte.ActiveDocument.FullName))
+            if (!ShowMessagePrompt.IsFileSupported(_dte.ActiveDocument.FullName))
                 return;
 
             _ext = Path.GetExtension(_dte.ActiveDocument.FullName);

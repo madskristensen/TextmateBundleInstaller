@@ -13,7 +13,7 @@ namespace TextmateBundleInstaller
     [Export(typeof(IWpfTextViewCreationListener))]
     [ContentType(_contentType)]
     [TextViewRole(PredefinedTextViewRoles.Document)]
-    public class CommandRegistration : IWpfTextViewCreationListener
+    public class ShowMessagePrompt : IWpfTextViewCreationListener
     {
         private const string _contentType = "plaintext";
         private static readonly string[] _ignoredFiles = { ".txt", ".rtf" };

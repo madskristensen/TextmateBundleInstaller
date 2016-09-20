@@ -51,7 +51,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="BundleExtractor.cs" />
-    <Compile Include="Commands\CommandRegistration.cs" />
+    <Compile Include="Commands\CommentRegistration.cs" />
+    <Compile Include="Commands\ShowMessageBox.cs" />
+    <Compile Include="Commands\CommandTargetBase.cs" />
+    <Compile Include="Commands\CommentSelection.cs" />
     <Compile Include="Options.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -214,6 +217,7 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
