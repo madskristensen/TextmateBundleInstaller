@@ -1,6 +1,7 @@
 # Road map
 
 - [ ] More languages...
+- [x] Comment/uncomment support (#17)
 
 Features that have a checkmark are complete and available for
 download in the
