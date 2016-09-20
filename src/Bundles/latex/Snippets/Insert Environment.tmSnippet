@@ -3,19 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>if (${1:condition}) {
-	${2:# code...}
-} else {
-	${3:# code...}
-}
-$0</string>
+	<string>\\begin{${1:env}}
+	${1/(enumerate|itemize|list)|(description)|.*/(?1:\item )(?2:\item)/}$0
+\\end{${1:env}}</string>
 	<key>name</key>
-	<string>if … else …</string>
+	<string>\begin{}…\end{}</string>
 	<key>scope</key>
-	<string>text.html.php</string>
+	<string>text.tex.latex</string>
 	<key>tabTrigger</key>
-	<string>ifelse</string>
+	<string>begin</string>
 	<key>uuid</key>
-	<string>4B72EA1F-8CCE-11D9-B507-000D93C8BE28</string>
+	<string>688FBE87-D5B4-445D-AD02-231F6E99F9C1</string>
 </dict>
 </plist>

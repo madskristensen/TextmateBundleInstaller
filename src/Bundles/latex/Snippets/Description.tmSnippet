@@ -3,22 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>switch (${1:variable}) {
-	case '${2:value}':
-		${3:# code...}
-		break;
-	$0
-	default:
-		${4:# code...}
-		break;
-}</string>
+	<string>\\begin{description}
+	\item[$1] $0
+\\end{description}</string>
 	<key>name</key>
-	<string>switch …</string>
+	<string>Description</string>
 	<key>scope</key>
-	<string>text.html.php</string>
+	<string>text.tex.latex</string>
 	<key>tabTrigger</key>
-	<string>switch</string>
+	<string>desc</string>
 	<key>uuid</key>
-	<string>DA4B6728-8CCE-11D9-B507-000D93C8BE28</string>
+	<string>2F926912-E5E6-4965-8E50-0603765DD0E6</string>
 </dict>
 </plist>

@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>/**
- * $0
- */</string>
+	<string>\\item[${1:description}] ${0:item}</string>
 	<key>name</key>
-	<string>Start Docblock</string>
+	<string>\item[description]</string>
 	<key>scope</key>
-	<string>text.html.php</string>
+	<string>text.tex.latex meta.function.environment.list</string>
 	<key>tabTrigger</key>
-	<string>docb</string>
+	<string>itd</string>
 	<key>uuid</key>
-	<string>775F7FCC-C43C-4C23-B935-9D5F6C25CF1D</string>
+	<string>BC8B98E2-5F16-11D9-B9C3-000D93589AF6</string>
 </dict>
 </plist>

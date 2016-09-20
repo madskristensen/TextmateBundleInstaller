@@ -35,6 +35,7 @@ languages already.
 
 - Apache (.htaccess)
 - Batch
+- C++ QT
 - Clojure
 - CMake
 - Dockerfile
@@ -49,12 +50,12 @@ languages already.
 - JavaDoc
 - JSON
 - Lisp
+- LaTex
 - Lua
 - Make
 - Markdown
 - Objective-C
 - Perl
-- PHP
 - PowerShell
 - R
 - Ruby
@@ -70,6 +71,15 @@ languages already.
 - TOML
 - TypeScript
 - YAML
+
+## Known issues
+You need [Visual Studio 2015 Update 3](https://www.visualstudio.com/en-us/news/releasenotes/vs2015-update3-vs) for the Textmate bundles to work correctly. 
+
+Languages known not to work as Textmate bundles in Visual Studio and
+how to add support through other extensions where possible:
+
+1. PHP - Install [PHP Tools for Visual Studio](https://visualstudiogallery.msdn.microsoft.com/6eb51f05-ef01-4513-ac83-4c5f50c95fb5)
+
 
 ## File Icons
 For the best experience, it is recommended that you also install the

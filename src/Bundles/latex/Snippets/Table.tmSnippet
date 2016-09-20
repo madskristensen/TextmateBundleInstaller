@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>return$1;$0</string>
+	<string>${1:Table}~\ref{${2:tab:}}$0</string>
 	<key>name</key>
-	<string>return</string>
+	<string>Table</string>
 	<key>scope</key>
-	<string>text.html.php</string>
+	<string>text.tex.latex</string>
 	<key>tabTrigger</key>
-	<string>ret</string>
+	<string>table</string>
 	<key>uuid</key>
-	<string>80D861BF-8CD0-11D9-B507-000D93C8BE28</string>
+	<string>84216BD6-F6EB-4325-9485-1665E7364102</string>
 </dict>
 </plist>

@@ -3,9 +3,11 @@
 - [ ] More languages...
 - [x] Package load completely async
 - [x] Mapping of file extensions to existing editors
+- [x] Removed PHP support since it can't work as textmate bundle
 - [x] .pug language support
 - [x] .toml language support
 - [x] C++ QT language support (.pro, .pri)
+- [x] LaTex language support
 
 Features that have a checkmark are complete and available for
 download in the

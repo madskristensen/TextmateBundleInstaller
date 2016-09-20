@@ -3,14 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>require_once '${1:file}';$0</string>
+	<string>\[
+	$TM_SELECTED_TEXT$1
+\]</string>
+	<key>keyEquivalent</key>
+	<string>^M</string>
 	<key>name</key>
-	<string>require_once …</string>
+	<string>Display Math — \[ … \]</string>
 	<key>scope</key>
-	<string>text.html.php</string>
+	<string>text.tex.latex</string>
 	<key>tabTrigger</key>
-	<string>req1</string>
+	<string>$$</string>
 	<key>uuid</key>
-	<string>6E25DCEF-8CCF-11D9-B507-000D93C8BE28</string>
+	<string>F38DDE93-BF77-449D-A4C9-6C525ECAC6FB</string>
 </dict>
 </plist>

@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>return false;$0</string>
+	<string>\\${1:text${2:bf}}{$TM_SELECTED_TEXT}</string>
+	<key>keyEquivalent</key>
+	<string>^E</string>
 	<key>name</key>
-	<string>return false</string>
+	<string>Command — \command{…}</string>
 	<key>scope</key>
-	<string>text.html.php</string>
-	<key>tabTrigger</key>
-	<string>ret0</string>
+	<string>text.tex.latex</string>
 	<key>uuid</key>
-	<string>56873C6E-8CD0-11D9-B507-000D93C8BE28</string>
+	<string>7D3548FA-AE80-11D9-8B45-000D93B6E43C</string>
 </dict>
 </plist>

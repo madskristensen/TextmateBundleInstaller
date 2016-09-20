@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>return true;$0</string>
+	<string>\\[
+	$0
+\\]</string>
+	<key>keyEquivalent</key>
+	<string>^[</string>
 	<key>name</key>
-	<string>return true</string>
+	<string>Unnumbered Equation</string>
 	<key>scope</key>
-	<string>text.html.php</string>
-	<key>tabTrigger</key>
-	<string>ret1</string>
+	<string>text.tex.latex</string>
 	<key>uuid</key>
-	<string>459B8A24-8CD0-11D9-B507-000D93C8BE28</string>
+	<string>7F7578B0-58F3-44B3-9278-1CBEA9C58208</string>
 </dict>
 </plist>

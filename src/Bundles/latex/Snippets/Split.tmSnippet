@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>else {
-	${0:# code...}
-}</string>
+	<string>\begin{split}
+	$0
+\end{split}</string>
 	<key>name</key>
-	<string>else …</string>
+	<string>Split</string>
 	<key>scope</key>
-	<string>text.html.php</string>
+	<string>text.tex.latex</string>
 	<key>tabTrigger</key>
-	<string>else</string>
+	<string>spl</string>
 	<key>uuid</key>
-	<string>609FE8EB-B251-11D9-872D-000D93C8BE28</string>
+	<string>66B38313-2239-430C-8DE9-95023BA583C2</string>
 </dict>
 </plist>

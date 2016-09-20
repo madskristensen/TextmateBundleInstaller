@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>include_once '${1:file}';$0</string>
+	<string>\begin{equation}
+	$0
+\end{equation}</string>
 	<key>name</key>
-	<string>include_once …</string>
+	<string>Equation</string>
 	<key>scope</key>
-	<string>text.html.php</string>
+	<string>text.tex.latex</string>
 	<key>tabTrigger</key>
-	<string>incl1</string>
+	<string>eq</string>
 	<key>uuid</key>
-	<string>4833C612-8CCF-11D9-B507-000D93C8BE28</string>
+	<string>23B04BBB-ACE7-44A7-B313-09DC4874B2C0</string>
 </dict>
 </plist>

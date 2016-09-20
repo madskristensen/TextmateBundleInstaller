@@ -3,14 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>\$${1:arrayName} = array('$2' =&gt; $3${4:,} $0);</string>
+	<string>\begin{cases}
+	${1:equation}, &amp;\text{ if }${2:case}\\\\
+	$0
+\end{cases}</string>
 	<key>name</key>
-	<string>$… = array (…)</string>
+	<string>Cases</string>
 	<key>scope</key>
-	<string>text.html.php</string>
+	<string>text.tex.latex</string>
 	<key>tabTrigger</key>
-	<string>array</string>
+	<string>cas</string>
 	<key>uuid</key>
-	<string>CBF8F204-8CCF-11D9-B507-000D93C8BE28</string>
+	<string>EE7D14B5-9620-4A1B-866B-91E26FB481DB</string>
 </dict>
 </plist>
