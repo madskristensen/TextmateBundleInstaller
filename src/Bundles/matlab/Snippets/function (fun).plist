@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>function ${1:out} = ${2:${TM_FILENAME:?${TM_FILENAME/\.m//}:f}}(${3:in})
+% ${2/.*/\U$0/} ${4:Description}
+%	${1/.*/\U$0/} = ${2/.*/\U$0/}(${6:${3/.*/\U$0/}})
+%
+% ${5:Long description}
+
+$0
+
+`if [[ $TM_CLOSE_FUNCTIONS -ne '0' ]]
+	then
+	if [[ $TM_USE_OCTAVE -ne '0' ]]
+		then echo "endfunction"
+	else
+		echo "end ${TM_COMMENT_START}function" 
+	fi
+fi`
+</string>
+	<key>name</key>
+	<string>function</string>
+	<key>scope</key>
+	<string>source.matlab, source.octave</string>
+	<key>tabTrigger</key>
+	<string>function</string>
+	<key>uuid</key>
+	<string>0EA9BDAD-6EA3-48C4-ADF5-EA549D84CAF0</string>
+</dict>
+</plist>

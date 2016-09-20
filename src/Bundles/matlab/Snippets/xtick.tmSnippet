@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>set(gca,'XTick',${1:[${2}]});</string>
+	<key>name</key>
+	<string>xtick</string>
+	<key>scope</key>
+	<string>source.matlab , source.octave</string>
+	<key>tabTrigger</key>
+	<string>xti</string>
+	<key>uuid</key>
+	<string>A93C4844-87F4-4136-9580-75B697D0CFD7</string>
+</dict>
+</plist>

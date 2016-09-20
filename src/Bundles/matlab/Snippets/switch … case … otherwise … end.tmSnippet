@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>switch ${1:var}
+	case ${2:'${3:string}'}
+		$4
+	otherwise
+		$0
+`if [[ $TM_USE_OCTAVE -ne '0' ]]
+	then echo "endswitch"
+else
+	echo "end"
+fi`</string>
+	<key>name</key>
+	<string>switch … case … otherwise … end</string>
+	<key>scope</key>
+	<string>source.matlab</string>
+	<key>tabTrigger</key>
+	<string>switcho</string>
+	<key>uuid</key>
+	<string>C600A817-A58A-4884-9BDC-F7CB13407CB6</string>
+</dict>
+</plist>

@@ -11,6 +11,7 @@
 - [x] Ruby on Rails language support (.erb)
 - [x] ICalendar language support (.ics, .ifb)
 - [x] Diff language support (.patch etc)
+- [x] Matlab language support
 
 Features that have a checkmark are complete and available for
 download in the

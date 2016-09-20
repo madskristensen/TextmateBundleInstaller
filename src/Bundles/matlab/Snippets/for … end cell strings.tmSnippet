@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>for ${1:s} = transpose(${2:strings}(:)); $1 = $1{1};
+	$0
+`if [[ $TM_USE_OCTAVE -ne '0' ]]
+	then echo "endfor"
+else
+	echo "end"
+fi`; clear $1;</string>
+	<key>name</key>
+	<string>for … end cell strings</string>
+	<key>scope</key>
+	<string>source.matlab, source.octave</string>
+	<key>tabTrigger</key>
+	<string>fors</string>
+	<key>uuid</key>
+	<string>B8E195CE-1606-4311-900D-4A1E1ACE6F94</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>griddata(${1:xx}, ${2:yy}, ${3:zz}, ${4:xi}, ${5:yi}); </string>
+	<key>name</key>
+	<string>griddata</string>
+	<key>scope</key>
+	<string>source.matlab, source.octave</string>
+	<key>tabTrigger</key>
+	<string>griddata</string>
+	<key>uuid</key>
+	<string>8E4BA761-42BB-4CFC-B117-A547228878B8</string>
+</dict>
+</plist>

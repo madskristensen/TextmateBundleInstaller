@@ -54,6 +54,7 @@ languages already.
 - Lisp
 - LaTex
 - Lua
+- Matlab
 - Make
 - Markdown
 - Objective-C

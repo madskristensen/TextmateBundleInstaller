@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>set(gca,'YTick',${1:[${2}]});</string>
+	<key>name</key>
+	<string>ytick</string>
+	<key>scope</key>
+	<string>source.matlab , source.octave</string>
+	<key>tabTrigger</key>
+	<string>yti</string>
+	<key>uuid</key>
+	<string>2FED97FA-0EB0-45E3-B92F-757903E79684</string>
+</dict>
+</plist>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>elseif ${1:condition}
+	$0</string>
+	<key>name</key>
+	<string>elseif</string>
+	<key>scope</key>
+	<string>source.matlab, source.octave</string>
+	<key>tabTrigger</key>
+	<string>elseif</string>
+	<key>uuid</key>
+	<string>EA7BD80E-6346-44E9-A909-CE0703CFB390</string>
+</dict>
+</plist>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>error(nargchk(${1:min}, ${2:max}, ${3:nargin}, `if [[ $TM_USE_OCTAVE -eq '0' ]]; then
+	echo -n "'struct'"
+fi` ));
+</string>
+	<key>name</key>
+	<string>nargchk</string>
+	<key>scope</key>
+	<string>source.matlab, source.octave</string>
+	<key>tabTrigger</key>
+	<string>nargchk</string>
+	<key>uuid</key>
+	<string>8325A3D7-1025-48C4-810F-CF41E7E71DA2</string>
+</dict>
+</plist>

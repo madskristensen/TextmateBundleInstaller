@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>unwind_protect 
+	$1
+unwnd_protect_cleanup 
+	$0
+end_unwind_protect</string>
+	<key>name</key>
+	<string>unwind_protect … cleanup … end</string>
+	<key>scope</key>
+	<string>source.matlab</string>
+	<key>tabTrigger</key>
+	<string>unwind</string>
+	<key>uuid</key>
+	<string>9475371F-F8A7-4C46-BAC9-B42E7E34F2AD</string>
+</dict>
+</plist>

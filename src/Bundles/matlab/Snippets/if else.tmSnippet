@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>if ${1:condition}
+	$2
+else
+	$3
+`if [[ $TM_USE_OCTAVE -ne '0' ]]
+	then echo "endif"
+else
+	echo "end"
+fi`</string>
+	<key>name</key>
+	<string>if … else …end</string>
+	<key>scope</key>
+	<string>source.matlab, source.octave</string>
+	<key>tabTrigger</key>
+	<string>ife</string>
+	<key>uuid</key>
+	<string>4A86BFC8-5C03-45F8-B7D6-597F476E7C93</string>
+</dict>
+</plist>
