@@ -44,6 +44,7 @@ languages already.
 - Go
 - Groovy
 - Haskell
+- ICalendar
 - Ini
 - Jade/Pug
 - Java
@@ -59,6 +60,7 @@ languages already.
 - PowerShell
 - R
 - Ruby
+- Ruby on Rails
 - Rust
 - Scala
 - Scheme

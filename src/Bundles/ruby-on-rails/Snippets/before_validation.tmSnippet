@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>before_validation :${1:field}${2:, :on =&gt; :${3:create|update}${4:${5:, :allow_blank =&gt; true}${6:, :allow_nil =&gt; true}}}$0</string>
+	<key>name</key>
+	<string>before_validation</string>
+	<key>scope</key>
+	<string>meta.rails.model</string>
+	<key>tabTrigger</key>
+	<string>befv</string>
+	<key>uuid</key>
+	<string>A1776279-5396-4FE9-9218-8BF2C88C5271</string>
+</dict>
+</plist>

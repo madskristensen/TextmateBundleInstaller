@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>scope :${1:name}, ${2:joins(:${3:table}).}where(${4:'${5:$3.${6:field}} = ?', ${7:'${8:value}'}})</string>
+	<key>name</key>
+	<string>scope</string>
+	<key>scope</key>
+	<string>meta.rails.model</string>
+	<key>tabTrigger</key>
+	<string>scope</string>
+	<key>uuid</key>
+	<string>8F87F3C7-8ABB-4778-9786-64CF95E99160</string>
+</dict>
+</plist>

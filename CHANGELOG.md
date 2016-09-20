@@ -8,6 +8,8 @@
 - [x] .toml language support
 - [x] C++ QT language support (.pro, .pri)
 - [x] LaTex language support
+- [x] Ruby on Rails language support (.erb)
+- [x] ICalendar language support (.ics, .ifb)
 
 Features that have a checkmark are complete and available for
 download in the
