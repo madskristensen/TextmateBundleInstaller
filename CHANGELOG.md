@@ -1,6 +1,18 @@
 # Road map
 
 - [ ] More languages...
+
+Features that have a checkmark are complete and available for
+download in the
+[CI build](http://vsixgallery.com/extension/4773ce75-6f30-4269-9557-1f7c30a47be2/).
+
+# Change log
+
+These are the changes to each version that has been released
+on the official Visual Studio extension gallery.
+
+## 1.3
+
 - [x] Package load completely async
 - [x] Mapping of file extensions to existing editors
 - [x] Removed PHP support since it can't work as Textmate bundle
@@ -12,15 +24,6 @@
 - [x] ICalendar language support (.ics, .ifb)
 - [x] Diff language support (.patch etc)
 - [x] Matlab language support
-
-Features that have a checkmark are complete and available for
-download in the
-[CI build](http://vsixgallery.com/extension/4773ce75-6f30-4269-9557-1f7c30a47be2/).
-
-# Change log
-
-These are the changes to each version that has been released
-on the official Visual Studio extension gallery.
 
 ## 1.2
 
