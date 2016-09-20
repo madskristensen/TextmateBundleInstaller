@@ -1,7 +1,6 @@
 # Road map
 
 - [ ] More languages...
-- [x] .gitattributes language support
 
 Features that have a checkmark are complete and available for
 download in the
@@ -25,6 +24,7 @@ on the official Visual Studio extension gallery.
 - [x] ICalendar language support (.ics, .ifb)
 - [x] Diff language support (.patch etc)
 - [x] Matlab language support
+- [x] .gitattributes language support
 
 ## 1.2
 
