@@ -71,6 +71,7 @@ namespace TextmateBundleInstaller
                 case "code++.apache":
                 case "code++.cmake cache":
                 case "code++.cmake listfile":
+                case "code++.eyaml":
                 case "code++.ini":
                 case "code++.perl 6":
                 case "code++.perl":

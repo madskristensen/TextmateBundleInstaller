@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
@@ -57,6 +58,11 @@ namespace TextmateBundleInstaller
                 string dest = GetDestinationFolder();
 
                 if (!Directory.Exists(dest))
+                    return false;
+
+                string src = GetSourceFolder();
+
+                if (Directory.GetDirectories(dest).Count() < Directory.GetDirectories(src).Count())
                     return false;
 
                 string logFile = Path.Combine(dest, Vsix.Name + ".log");
