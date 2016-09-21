@@ -14,7 +14,7 @@ namespace TextmateBundleInstaller
 
             try
             {
-                bool success = CleanDirectory(dest) && CopyDirectory(src, dest);
+                bool success = CleanDirectory(dest) & CopyDirectory(src, dest);
 
                 if (success)
                     await WriteLogFile(dest);
@@ -101,7 +101,7 @@ namespace TextmateBundleInstaller
 
                 foreach (FileInfo tempfile in files)
                 {
-                    tempfile.CopyTo(Path.Combine(dest, tempfile.Name));
+                    tempfile.CopyTo(Path.Combine(dest, tempfile.Name), true);
                 }
 
                 DirectoryInfo[] directories = dirInfo.GetDirectories();
