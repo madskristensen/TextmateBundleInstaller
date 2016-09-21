@@ -42,23 +42,41 @@ namespace TextmateBundleInstaller
                 case "code++.groovy":
                 case "code++.jade":
                 case "code++.java":
+                case "code++.makefile":
+                case "code++.objective c":
+                case "code++.rust":
+                case "code++.scala":
+                case "code++.stylus":
+                case "code++.swift":
                 case "code++.typescript":
                     return "//";
 
                 case "code++.clojure":
                 case "code++.lisp":
+                case "code++.scheme":
                     return ";;";
 
                 case "code++.apache":
                 case "code++.cmake cache":
                 case "code++.cmake listfile":
-                case "code++.qmake project file":
                 case "code++.ini":
+                case "code++.perl 6":
+                case "code++.perl":
+                case "code++.powershell":
+                case "code++.qmake project file":
+                case "code++.r":
+                case "code++.ruby":
+                case "code++.shell script (bash)":
+                case "code++.toml":
                 case "code++.yaml":
                     return "#";
 
                 case "code++.lua":
+                case "code++.sql":
                     return "--";
+
+                case "code++.matlab":
+                    return "%";
             }
 
             return null;
