@@ -8,7 +8,7 @@ namespace TextmateBundleInstaller
 {
     [Export(typeof(IWpfTextViewCreationListener))]
     [ContentType("code++")]
-    [TextViewRole(PredefinedTextViewRoles.Document)]
+    [TextViewRole(PredefinedTextViewRoles.PrimaryDocument)]
     public class BaseCommentRegistration : IWpfTextViewCreationListener
     {
         [Import]
@@ -25,8 +25,20 @@ namespace TextmateBundleInstaller
             if (!string.IsNullOrEmpty(symbol))
             {
                 var viewAdapter = EditorAdapterService.GetViewAdapter(textView);
-                textView.Properties.GetOrCreateSingletonProperty(() => new CommentCommandTarget(viewAdapter, textView, symbol));
+                var onlyLineStart = IsOnlyLineStartSupported(contentType);
+                textView.Properties.GetOrCreateSingletonProperty(() => new CommentCommandTarget(viewAdapter, textView, symbol, onlyLineStart));
             }
+        }
+
+        private static bool IsOnlyLineStartSupported(string contentType)
+        {
+            switch (contentType)
+            {
+                case "code++.apache":
+                    return true;
+            }
+
+            return false;
         }
 
         private static string GetSymbol(string contentType)

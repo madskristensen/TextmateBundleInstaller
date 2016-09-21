@@ -10,11 +10,13 @@ namespace TextmateBundleInstaller
     internal class CommentCommandTarget : CommandTargetBase<VSConstants.VSStd2KCmdID>
     {
         private string _symbol;
+        private bool _onlyLineStart;
 
-        public CommentCommandTarget(IVsTextView adapter, IWpfTextView textView, string commentSymbol)
+        public CommentCommandTarget(IVsTextView adapter, IWpfTextView textView, string commentSymbol, bool onlyLineStart)
             : base(adapter, textView, VSConstants.VSStd2KCmdID.COMMENT_BLOCK, VSConstants.VSStd2KCmdID.UNCOMMENT_BLOCK)
         {
             _symbol = commentSymbol;
+            _onlyLineStart = onlyLineStart;
         }
 
         protected override bool Execute(VSConstants.VSStd2KCmdID commandId, uint nCmdexecopt, IntPtr pvaIn, IntPtr pvaOut)
@@ -67,6 +69,9 @@ namespace TextmateBundleInstaller
             try
             {
                 TextView.TextBuffer.Replace(span.Span, text);
+
+                var newSpan = new SnapshotSpan(TextView.TextBuffer.CurrentSnapshot, span.Start, text.Length);
+                TextView.Selection.Select(newSpan, false);
             }
             catch (Exception ex)
             {
@@ -77,10 +82,17 @@ namespace TextmateBundleInstaller
         private SnapshotSpan GetSpan()
         {
             var sel = TextView.Selection.StreamSelectionSpan;
-            var start = new SnapshotPoint(TextView.TextSnapshot, sel.Start.Position).GetContainingLine().Start;
-            var end = new SnapshotPoint(TextView.TextSnapshot, sel.End.Position).GetContainingLine().End;
+            var startLine = new SnapshotPoint(TextView.TextSnapshot, sel.Start.Position).GetContainingLine();
+            var endLine = new SnapshotPoint(TextView.TextSnapshot, sel.End.Position).GetContainingLine();
 
-            return new SnapshotSpan(start, end);
+            if (_onlyLineStart || TextView.Selection.IsEmpty || startLine.LineNumber != endLine.LineNumber)
+            {
+                return new SnapshotSpan(startLine.Start, endLine.End);
+            }
+            else
+            {
+                return new SnapshotSpan(sel.Start.Position, sel.Length);
+            }
         }
 
         protected override bool IsEnabled()
