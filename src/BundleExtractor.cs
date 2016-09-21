@@ -14,9 +14,10 @@ namespace TextmateBundleInstaller
 
             try
             {
-                CleanDirectory(dest);
-                CopyDirectory(src, dest);
-                await WriteLogFile(dest);
+                bool success = CleanDirectory(dest) && CopyDirectory(src, dest);
+
+                if (success)
+                    await WriteLogFile(dest);
             }
             catch (Exception ex)
             {
@@ -27,15 +28,26 @@ namespace TextmateBundleInstaller
             return true;
         }
 
-        private static void CleanDirectory(string directory)
+        private static bool CleanDirectory(string directory)
         {
+            bool success = true;
+
             if (Directory.Exists(directory))
             {
                 foreach (var childDir in Directory.GetDirectories(directory))
                 {
-                    Directory.Delete(childDir, true);
+                    try
+                    {
+                        Directory.Delete(childDir, true);
+                    }
+                    catch (Exception)
+                    {
+                        success = false;
+                    }
                 }
             }
+
+            return success;
         }
 
         public static async Task<bool> IsLogFileCurrent()
@@ -75,26 +87,35 @@ namespace TextmateBundleInstaller
         }
 
         // from http://stackoverflow.com/questions/1974019/folder-copy-in-c-sharp
-        private static void CopyDirectory(string src, string dest)
+        private static bool CopyDirectory(string src, string dest)
         {
-            if (!Directory.Exists(dest))
+            try
             {
-                Directory.CreateDirectory(dest);
+                if (!Directory.Exists(dest))
+                {
+                    Directory.CreateDirectory(dest);
+                }
+
+                DirectoryInfo dirInfo = new DirectoryInfo(src);
+                FileInfo[] files = dirInfo.GetFiles();
+
+                foreach (FileInfo tempfile in files)
+                {
+                    tempfile.CopyTo(Path.Combine(dest, tempfile.Name));
+                }
+
+                DirectoryInfo[] directories = dirInfo.GetDirectories();
+
+                foreach (DirectoryInfo tempdir in directories)
+                {
+                    CopyDirectory(Path.Combine(src, tempdir.Name), Path.Combine(dest, tempdir.Name));
+                }
+
+                return true;
             }
-
-            DirectoryInfo dirInfo = new DirectoryInfo(src);
-            FileInfo[] files = dirInfo.GetFiles();
-
-            foreach (FileInfo tempfile in files)
+            catch (Exception)
             {
-                tempfile.CopyTo(Path.Combine(dest, tempfile.Name));
-            }
-
-            DirectoryInfo[] directories = dirInfo.GetDirectories();
-
-            foreach (DirectoryInfo tempdir in directories)
-            {
-                CopyDirectory(Path.Combine(src, tempdir.Name), Path.Combine(dest, tempdir.Name));
+                return false;
             }
         }
 
