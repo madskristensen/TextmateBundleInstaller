@@ -102,19 +102,19 @@ namespace TextmateBundleInstaller
                     Directory.CreateDirectory(dest);
                 }
 
-                DirectoryInfo dirInfo = new DirectoryInfo(src);
-                FileInfo[] files = dirInfo.GetFiles();
+                DirectoryInfo srcDir = new DirectoryInfo(src);
+                FileInfo[] srcFiles = srcDir.GetFiles();
 
-                foreach (FileInfo tempfile in files)
+                foreach (FileInfo file in srcFiles)
                 {
-                    tempfile.CopyTo(Path.Combine(dest, tempfile.Name), true);
+                    file.CopyTo(Path.Combine(dest, file.Name), true);
                 }
 
-                DirectoryInfo[] directories = dirInfo.GetDirectories();
+                DirectoryInfo[] directories = srcDir.GetDirectories();
 
-                foreach (DirectoryInfo tempdir in directories)
+                foreach (DirectoryInfo childDir in directories)
                 {
-                    CopyDirectory(Path.Combine(src, tempdir.Name), Path.Combine(dest, tempdir.Name));
+                    CopyDirectory(Path.Combine(src, childDir.Name), Path.Combine(dest, childDir.Name));
                 }
 
                 return true;
