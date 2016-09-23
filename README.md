@@ -41,6 +41,7 @@ languages already.
 - Diff
 - Dockerfile
 - Erlang
+- EYAML
 - F#
 - Go
 - Groovy
@@ -52,7 +53,7 @@ languages already.
 - JavaDoc
 - JSON
 - Lisp
-- LaTex
+- LaTeX
 - Lua
 - Matlab
 - Make

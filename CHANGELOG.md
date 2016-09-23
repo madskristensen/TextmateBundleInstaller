@@ -1,8 +1,6 @@
 # Road map
 
 - [ ] More languages...
-- [x] Comment/uncomment support (#17)
-- [x] Added EYAML language support
 
 Features that have a checkmark are complete and available for
 download in the
@@ -12,6 +10,12 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 1.4
+
+- [x] Comment/uncomment support (#17)
+- [x] Added EYAML language support
+- [x] Reliability fixes
 
 ## 1.3
 
