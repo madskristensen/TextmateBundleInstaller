@@ -1,6 +1,11 @@
 # Road map
 
 - [ ] More languages...
+- [x] CSS language support
+- [x] LESS language support
+- [x] JavaScript language support
+- [x] HTML language support
+- [x] JSON language support
 
 Features that have a checkmark are complete and available for
 download in the

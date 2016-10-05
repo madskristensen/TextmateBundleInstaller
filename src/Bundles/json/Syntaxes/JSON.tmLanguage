@@ -5,14 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>json</string>
-		<string>sublime-settings</string>
-		<string>sublime-menu</string>
-		<string>sublime-keymap</string>
-		<string>sublime-mousemap</string>
-		<string>sublime-theme</string>
-		<string>sublime-build</string>
-		<string>sublime-project</string>
-		<string>sublime-completions</string>
+		<string>jsonld</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>(?x)       # turn on extended mode
