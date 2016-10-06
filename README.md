@@ -81,14 +81,13 @@ languages already.
 - TypeScript
 - YAML
 
+## A note about PHP
+The Textmate bundle support in Visual Studio 2015 doesn't support
+PHP. Instead it is recommended to use an extension that is specific
+to PHP such as [PHP Tools for Visual Studio](https://visualstudiogallery.msdn.microsoft.com/6eb51f05-ef01-4513-ac83-4c5f50c95fb5).
+
 ## Known issues
 You need [Visual Studio 2015 Update 3](https://www.visualstudio.com/en-us/news/releasenotes/vs2015-update3-vs) for the Textmate bundles to work correctly. 
-
-Languages known not to work as Textmate bundles in Visual Studio and
-how to add support through other extensions where possible:
-
-1. PHP - Install [PHP Tools for Visual Studio](https://visualstudiogallery.msdn.microsoft.com/6eb51f05-ef01-4513-ac83-4c5f50c95fb5)
-
 
 ## File Icons
 For the best experience, it is recommended that you also install the

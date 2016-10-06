@@ -1,11 +1,6 @@
 # Road map
 
 - [ ] More languages...
-- [x] CSS language support
-- [x] LESS language support
-- [x] JavaScript language support
-- [x] JSON language support
-- [x] Elixir language support
 
 Features that have a checkmark are complete and available for
 download in the
@@ -15,6 +10,14 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 1.5
+
+- [x] CSS language support
+- [x] LESS language support
+- [x] JavaScript language support
+- [x] JSON language support
+- [x] Elixir language support
 
 ## 1.4
 
