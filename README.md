@@ -38,8 +38,10 @@ languages already.
 - C++ QT
 - Clojure
 - CMake
+- CSS
 - Diff
 - Dockerfile
+- Elixir
 - Erlang
 - EYAML
 - F#
@@ -51,10 +53,12 @@ languages already.
 - Jade/Pug
 - Java
 - JavaDoc
+- JavaScript
 - JSON
 - Lisp
 - LaTeX
 - Lua
+- LESS
 - Matlab
 - Make
 - Markdown

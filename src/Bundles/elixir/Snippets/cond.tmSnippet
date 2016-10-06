@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>cond do
+  $1 -&gt;
+    $0
+end</string>
+	<key>name</key>
+	<string>cond</string>
+	<key>scope</key>
+	<string>source.elixir</string>
+	<key>tabTrigger</key>
+	<string>cond</string>
+	<key>uuid</key>
+	<string>8A6D2B29-7780-42B2-BC12-F53BBD4725DD</string>
+</dict>
+</plist>
