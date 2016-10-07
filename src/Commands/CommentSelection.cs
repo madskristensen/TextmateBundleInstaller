@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Text;
 using Microsoft.VisualStudio;
 using Microsoft.VisualStudio.Text;
@@ -23,7 +24,21 @@ namespace TextmateBundleInstaller
         {
             StringBuilder sb = new StringBuilder();
             SnapshotSpan span = GetSpan();
-            string[] lines = span.GetText().Split(new[] { Environment.NewLine }, StringSplitOptions.None);
+
+            var startLine = span.Start.GetContainingLine();
+            var endLine = span.End.GetContainingLine();
+
+            string[] lines;
+
+            if (startLine.LineNumber != endLine.LineNumber)
+            {
+                var rawLines = span.Snapshot.Lines.Where(l => l.LineNumber >= startLine.LineNumber && l.LineNumber <= endLine.LineNumber);
+                lines = rawLines.Select(l => l.GetText()).ToArray();
+            }
+            else
+            {
+                lines = span.GetText().Split(new[] { Environment.NewLine }, StringSplitOptions.None);
+            }
 
             switch (commandId)
             {

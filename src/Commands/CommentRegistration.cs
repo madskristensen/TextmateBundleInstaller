@@ -43,52 +43,57 @@ namespace TextmateBundleInstaller
 
         private static string GetSymbol(string contentType)
         {
-            switch (contentType)
+            switch (contentType.Replace("code++", string.Empty))
             {
-                case "code++.batch file":
+                case ".batch file":
                     return "::";
 
-                case "code++.c#":
-                case "code++.f#":
-                case "code++.go":
-                case "code++.groovy":
-                case "code++.jade":
-                case "code++.java":
-                case "code++.makefile":
-                case "code++.objective c":
-                case "code++.rust":
-                case "code++.scala":
-                case "code++.stylus":
-                case "code++.swift":
-                case "code++.typescript":
+                case ".c#":
+                case ".f#":
+                case ".go":
+                case ".groovy":
+                case ".jade":
+                case ".java":
+                case ".javascript":
+                case ".json":
+                case ".less":
+                case ".makefile":
+                case ".objective c":
+                case ".rust":
+                case ".scala":
+                case ".stylus":
+                case ".swift":
+                case ".typescript":
                     return "//";
 
-                case "code++.clojure":
-                case "code++.lisp":
-                case "code++.scheme":
+                case ".clojure":
+                case ".lisp":
+                case ".scheme":
                     return ";;";
 
-                case "code++.apache":
-                case "code++.cmake cache":
-                case "code++.cmake listfile":
-                case "code++.eyaml":
-                case "code++.ini":
-                case "code++.perl 6":
-                case "code++.perl":
-                case "code++.powershell":
-                case "code++.qmake project file":
-                case "code++.r":
-                case "code++.ruby":
-                case "code++.shell script (bash)":
-                case "code++.toml":
-                case "code++.yaml":
+                case ".apache":
+                case ".cmake cache":
+                case ".cmake listfile":
+                case ".elixir":
+                case ".eyaml":
+                case ".ini":
+                case ".perl 6":
+                case ".perl":
+                case ".powershell":
+                case ".qmake project file":
+                case ".r":
+                case ".ruby":
+                case ".shell script (bash)":
+                case ".toml":
+                case ".yaml":
                     return "#";
 
-                case "code++.lua":
-                case "code++.sql":
+                case ".lua":
+                case ".sql":
                     return "--";
 
-                case "code++.matlab":
+                case ".matlab":
+                case ".latex":
                     return "%";
             }
 
