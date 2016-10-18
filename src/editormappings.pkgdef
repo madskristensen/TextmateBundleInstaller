@@ -21,6 +21,8 @@
 @="{9bbfd173-9770-47dc-b191-651b7ff493cd}"
 [$RootKey$\Languages\File Extensions\.vue]
 @="{9bbfd173-9770-47dc-b191-651b7ff493cd}"
+[$RootKey$\Languages\File Extensions\.vash]
+@="{9bbfd173-9770-47dc-b191-651b7ff493cd}"
 
 [$RootKey$\Editors\{40d31677-cbc0-4297-a9ef-89d907823a98}\Extensions]
 "j2"=dword:32
@@ -34,3 +36,4 @@
 "svg"=dword:32
 "tpl"=dword:32
 "vue"=dword:32
+"vash"=dword:32
