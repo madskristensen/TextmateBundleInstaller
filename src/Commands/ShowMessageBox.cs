@@ -16,7 +16,7 @@ namespace TextmateBundleInstaller
     public class ShowMessagePrompt : IWpfTextViewCreationListener
     {
         private const string _contentType = "plaintext";
-        private static readonly string[] _ignoredFiles = { ".txt", ".rtf" };
+        private static readonly string[] _ignoredFiles = { ".txt", ".rtf", ".log" };
 
         [Import]
         ITextDocumentFactoryService DocumentService { get; set; }

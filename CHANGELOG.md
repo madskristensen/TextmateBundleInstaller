@@ -3,6 +3,7 @@
 - [ ] More languages...
 - [x] Fixed bug in comment/uncomment command
 - [x] Mapped .vash files to HTML editor
+- [x] Mapped GLSL files to C editor
 
 Features that have a checkmark are complete and available for
 download in the
