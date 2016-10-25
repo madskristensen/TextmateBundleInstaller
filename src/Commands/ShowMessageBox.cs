@@ -12,7 +12,7 @@ namespace TextmateBundleInstaller
 {
     [Export(typeof(IWpfTextViewCreationListener))]
     [ContentType(_contentType)]
-    [TextViewRole(PredefinedTextViewRoles.Document)]
+    [TextViewRole(PredefinedTextViewRoles.PrimaryDocument)]
     public class ShowMessagePrompt : IWpfTextViewCreationListener
     {
         private const string _contentType = "plaintext";
