@@ -2,6 +2,7 @@
 
 - [ ] More languages...
 - [x] Mapped .ejs files to the HTML editor (#52)
+- [x] Mapped .erb files to the HTML editor
 
 Features that have a checkmark are complete and available for
 download in the
