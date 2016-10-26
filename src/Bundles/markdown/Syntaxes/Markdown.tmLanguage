@@ -8,6 +8,7 @@
 		<string>mdown</string>
 		<string>markdown</string>
 		<string>markdn</string>
+        <string>readme</string>
 	</array>
 	<key>keyEquivalent</key>
 	<string>^~M</string>
@@ -465,7 +466,7 @@
 																			# Raw
 									  | \\[\\`*_{}\[\]()#.!+\-&gt;]?+			# Escapes
 									  | \[
-										(				
+										(
 										        (?&lt;square&gt;					# Named group
 													[^\[\]\\]				# Match most chars
 										          | \\.						# Escaped chars
@@ -678,7 +679,7 @@
 					<key>match</key>
 					<string>(?x:
 						\!							# Images start with !
-						(\[)((?&lt;square&gt;[^\[\]\\]|\\.|\[\g&lt;square&gt;*+\])*+)(\])	
+						(\[)((?&lt;square&gt;[^\[\]\\]|\\.|\[\g&lt;square&gt;*+\])*+)(\])
 													# Match the link text.
 						([ ])?						# Space not allowed
 						(\()						# Opening paren for url
@@ -746,7 +747,7 @@
 																			# Raw
 									  | \\[\\`*_{}\[\]()#.!+\-&gt;]?+			# Escapes
 									  | \[
-										(				
+										(
 										        (?&lt;square&gt;					# Named group
 													[^\[\]\\]				# Match most chars
 										          | \\.						# Escaped chars
@@ -990,7 +991,7 @@
 					</dict>
 					<key>match</key>
 					<string>(?x:
-						(\[)((?&lt;square&gt;[^\[\]\\]|\\.|\[\g&lt;square&gt;*+\])*+)(\])	
+						(\[)((?&lt;square&gt;[^\[\]\\]|\\.|\[\g&lt;square&gt;*+\])*+)(\])
 													# Match the link text.
 						([ ])?						# Space not allowed
 						(\()						# Opening paren for url

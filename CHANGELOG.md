@@ -4,6 +4,7 @@
 - [x] Mapped .ejs files to the HTML editor (#52)
 - [x] Mapped .erb files to the HTML editor
 - [x] HAML language support (#54)
+- [x] Mapped .readme to Markdown bundle (#55)
 
 Features that have a checkmark are complete and available for
 download in the
