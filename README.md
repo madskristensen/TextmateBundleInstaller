@@ -47,6 +47,7 @@ languages already.
 - F#
 - Go
 - Groovy
+- HAML
 - Haskell
 - ICalendar
 - Ini

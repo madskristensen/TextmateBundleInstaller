@@ -1,11 +1,6 @@
 # Road map
 
 - [ ] More languages...
-- [x] Mapped .ejs files to the HTML editor (#52)
-- [x] Mapped .erb files to the HTML editor
-- [x] HAML language support (#54)
-- [x] Mapped .readme to Markdown bundle (#55)
-- [x] Protocol Buffers language support (#60)
 
 Features that have a checkmark are complete and available for
 download in the
@@ -15,6 +10,14 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 1.7
+
+- [x] Mapped .ejs files to the HTML editor (#52)
+- [x] Mapped .erb files to the HTML editor
+- [x] HAML language support (#54)
+- [x] Mapped .readme to Markdown bundle (#55)
+- [x] Protocol Buffers language support (#60)
 
 ## 1.6
 
