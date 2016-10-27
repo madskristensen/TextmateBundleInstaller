@@ -51,8 +51,11 @@
 @="{B2F072B0-ABC1-11D0-9D62-00C04FD9DFD9}"
 [$RootKey$\Languages\File Extensions\.vert]
 @="{B2F072B0-ABC1-11D0-9D62-00C04FD9DFD9}"
+[$RootKey$\Languages\File Extensions\.i]
+@="{B2F072B0-ABC1-11D0-9D62-00C04FD9DFD9}"
 
 [$RootKey$\Editors\{D0E1A5C6-B359-4e41-9B60-3365922C2A22}\Extensions]
 "frag"=dword:32
 "geom"=dword:32
 "vert"=dword:32
+"i"=dword:32
