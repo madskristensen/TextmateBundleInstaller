@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>rpc ${1:MethodName} (${2:RequestType}) returns (${3:ResponseType});</string>
+	<key>name</key>
+	<string>rpc ... (...) returns (...);</string>
+	<key>scope</key>
+	<string>meta.service-declaration.protobuf</string>
+	<key>tabTrigger</key>
+	<string>rpc</string>
+	<key>uuid</key>
+	<string>BBEFB63C-5ED0-4019-BF8E-E9B3669BAED8</string>
+</dict>
+</plist>

@@ -5,6 +5,7 @@
 - [x] Mapped .erb files to the HTML editor
 - [x] HAML language support (#54)
 - [x] Mapped .readme to Markdown bundle (#55)
+- [x] Protocol Buffers language support (#60)
 
 Features that have a checkmark are complete and available for
 download in the

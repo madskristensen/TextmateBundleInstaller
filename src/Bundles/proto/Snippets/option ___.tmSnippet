@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>option ${1:option_name} = ${2:value};</string>
+	<key>name</key>
+	<string>option ...</string>
+	<key>scope</key>
+	<string>source.protobuf</string>
+	<key>tabTrigger</key>
+	<string>opt</string>
+	<key>uuid</key>
+	<string>B6717D98-6653-47AB-8BC5-56BEB0902D16</string>
+</dict>
+</plist>

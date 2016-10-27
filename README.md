@@ -65,6 +65,7 @@ languages already.
 - Objective-C
 - Perl
 - PowerShell
+- Protocol Buffer
 - R
 - Ruby
 - Ruby on Rails

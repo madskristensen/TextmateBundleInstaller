@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>service ${1:ServiceName} {
+	$2
+}</string>
+	<key>name</key>
+	<string>service ...</string>
+	<key>scope</key>
+	<string>source.protobuf</string>
+	<key>tabTrigger</key>
+	<string>service</string>
+	<key>uuid</key>
+	<string>536422CB-6606-427B-A6C3-61C0A6BBD2FD</string>
+</dict>
+</plist>
