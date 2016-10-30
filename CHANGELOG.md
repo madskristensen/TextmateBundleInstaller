@@ -4,6 +4,7 @@
 - [x] Mapped .i files to the C++ editor (#32)
 - [x] SPARQL query language support
 - [x] Turtle language support
+- [x] Pascal language support
 
 Features that have a checkmark are complete and available for
 download in the

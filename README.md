@@ -64,6 +64,7 @@ languages already.
 - Make
 - Markdown
 - Objective-C
+- Pascal
 - Perl
 - PowerShell
 - Protocol Buffer
