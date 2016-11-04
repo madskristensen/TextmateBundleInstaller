@@ -46,6 +46,7 @@ languages already.
 - EYAML
 - F#
 - Go
+- Gradle
 - Groovy
 - HAML
 - Haskell
