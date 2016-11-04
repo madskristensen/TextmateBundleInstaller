@@ -1,12 +1,6 @@
 # Road map
 
 - [ ] More languages...
-- [x] Mapped .i files to the C++ editor (#32)
-- [x] SPARQL query language support
-- [x] Turtle language support
-- [x] Pascal language support
-- [x] .sqlce language support
-- [x] Gradle language support
 
 Features that have a checkmark are complete and available for
 download in the
@@ -16,6 +10,15 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 1.8
+
+- [x] Mapped .i files to the C++ editor (#32)
+- [x] SPARQL query language support
+- [x] Turtle language support
+- [x] Pascal language support
+- [x] .sqlce language support
+- [x] Gradle language support
 
 ## 1.7
 
