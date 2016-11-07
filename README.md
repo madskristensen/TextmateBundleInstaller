@@ -45,6 +45,7 @@ languages already.
 - Erlang
 - EYAML
 - F#
+- Git configs
 - Go
 - Gradle
 - Groovy
