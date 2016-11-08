@@ -6,6 +6,7 @@
 - [x] Fortran language support
 - [x] Slim language support
 - [x] QML language support
+- [ ] Elm language support
 
 Features that have a checkmark are complete and available for
 download in the

@@ -42,6 +42,7 @@ languages already.
 - Diff
 - Dockerfile
 - Elixir
+- Elm
 - Erlang
 - EYAML
 - F#
