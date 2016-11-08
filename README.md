@@ -79,6 +79,7 @@ languages already.
 - ScriptCS
 - Shaderlab
 - ShellScript (Bash)
+- Slim
 - SPARQL/Turtle
 - SQL
 - Stylus
