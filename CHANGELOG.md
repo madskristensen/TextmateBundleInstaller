@@ -6,7 +6,8 @@
 - [x] Fortran language support
 - [x] Slim language support
 - [x] QML language support
-- [ ] Elm language support
+- [x] Elm language support
+- [x] Mapped .wax and .pubxml files to XML editor
 
 Features that have a checkmark are complete and available for
 download in the

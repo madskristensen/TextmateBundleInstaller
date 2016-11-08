@@ -62,3 +62,13 @@
 "geom"=dword:32
 "vert"=dword:32
 "i"=dword:32
+
+; XML
+[$RootKey$\Languages\File Extensions\.wax]
+@="{f6819a78-a205-47b5-be1c-675b3c7f0b8e}"
+[$RootKey$\Languages\File Extensions\.pubxml]
+@="{f6819a78-a205-47b5-be1c-675b3c7f0b8e}"
+
+[$RootKey$\Editors\{FA3CD31E-987B-443A-9B81-186104E8DAC1}\Extensions]
+"wax"=dword:32
+"pubxml"=dword:32
