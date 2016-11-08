@@ -70,6 +70,7 @@ languages already.
 - Perl
 - PowerShell
 - Protocol Buffer
+- QML
 - R
 - Ruby
 - Ruby on Rails
