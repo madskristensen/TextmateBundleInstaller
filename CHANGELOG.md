@@ -3,6 +3,7 @@
 - [ ] More languages...
 - [x] .gitconfig language support
 - [x] Mapped .liquid files to HTML editor
+- [x] Mapped .lava files to HTML editor
 - [x] Fortran language support
 - [x] Slim language support
 - [x] QML language support
