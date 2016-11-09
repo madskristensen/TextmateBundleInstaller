@@ -8,6 +8,7 @@
 - [x] QML language support
 - [x] Elm language support
 - [x] Mapped .wax and .pubxml files to XML editor
+- [x] Cypher Query Language support
 
 Features that have a checkmark are complete and available for
 download in the

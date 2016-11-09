@@ -39,6 +39,7 @@ languages already.
 - Clojure
 - CMake
 - CSS
+- Cypher Query Language
 - Diff
 - Dockerfile
 - Elixir
