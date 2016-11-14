@@ -1,6 +1,18 @@
 # Road map
 
 - [ ] More languages...
+
+Features that have a checkmark are complete and available for
+download in the
+[CI build](http://vsixgallery.com/extension/4773ce75-6f30-4269-9557-1f7c30a47be2/).
+
+# Change log
+
+These are the changes to each version that has been released
+on the official Visual Studio extension gallery.
+
+## 1.9
+
 - [x] .gitconfig language support
 - [x] Mapped .liquid files to HTML editor
 - [x] Mapped .lava files to HTML editor
@@ -11,15 +23,6 @@
 - [x] Mapped .wax and .pubxml files to XML editor
 - [x] Cypher Query Language support
 - [x] Visual FoxPro language support
-
-Features that have a checkmark are complete and available for
-download in the
-[CI build](http://vsixgallery.com/extension/4773ce75-6f30-4269-9557-1f7c30a47be2/).
-
-# Change log
-
-These are the changes to each version that has been released
-on the official Visual Studio extension gallery.
 
 ## 1.8
 
