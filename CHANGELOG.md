@@ -10,6 +10,7 @@
 - [x] Elm language support
 - [x] Mapped .wax and .pubxml files to XML editor
 - [x] Cypher Query Language support
+- [x] Visual FoxPro language support
 
 Features that have a checkmark are complete and available for
 download in the
