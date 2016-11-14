@@ -1,0 +1,160 @@
+{
+	"=": {
+		"prefix": "=",
+		"body": "${1:name} => '${2:value}',$0",
+		"description": "Parameter",
+		"scope": "source.puppet"
+	},
+	"augeas": {
+		"prefix": "augeas",
+		"body": "augeas { \"${1:name}\":\n\tcontext => \"${2:/files/etc/sysconfig/firstboot}\",\n\tchanges => \"${3:set RUN_FIRSTBOOT YES}\",\n}$0",
+		"description": "augeas"
+	},
+	"case": {
+		"prefix": "case",
+		"body": "case \\$${1:variable} {\n\t'${2:value}': {\n\t\t${3:# code}\n\t}\n\tdefault: {\n\t\t${4:# code}\n\t}\n}$0",
+		"description": "case",
+		"scope": "source.puppet"
+	},
+	"class": {
+		"prefix": "class",
+		"body": "# Class: $1\n#\n#\nclass ${1:name} {\n\t${2:# resources}\n}$0",
+		"description": "class",
+		"scope": "source.puppet"
+	},
+	"cron": {
+		"prefix": "cron",
+		"body": "cron { '${1:name}':\n\t$2\n}$0",
+		"description": "cron",
+		"scope": "source.puppet"
+	},
+	"define": {
+		"prefix": "define",
+		"body": "# Define: $1\n# Parameters:\n# $2\n#\ndefine ${1:name} (${2:arguments}) {\n\t${3:# puppet code}\n}$0",
+		"description": "define",
+		"scope": "source.puppet"
+	},
+	"else": {
+		"prefix": "else",
+		"body": "else {\n\t${1:# enter puppet code}\n}$0",
+		"description": "else",
+		"scope": "source.puppet"
+	},
+	"exec": {
+		"prefix": "exec",
+		"body": "exec { '${1:name}':\n\tcommand => \"${2:/bin/echo}\",\n\t$3\n}$0",
+		"description": "exec",
+		"scope": "source.puppet"
+	},
+  "fail": {
+		"prefix": "fail",
+		"body": "fail('${1:Failed message}')",
+		"description": "fail",
+		"scope": "source.puppet"
+	},
+	"file": {
+		"prefix": "file",
+		"body": "file { '${1:name}':\n\tensure => ${2:file},\n\towner  => ${3:owner},\n\tgroup  => ${4:group},\n\tmode   => ${5:mode},\n\tsource => 'puppet:///modules/${6:class/file.txt}';\n}$0",
+		"description": "file",
+		"scope": "source.puppet"
+	},
+	"file_line": {
+		"prefix": "file_line",
+		"body": "file_line {'${1:name}': \n\tline      => '${2:}',\n\tpath      => '${3:absolute path to the file}',\n\t#after    => ${4:undef},\n\t#ensure   => '${5:present}',\n\t#match    => ${6:undef}, # /.*match/\n\t#multiple => ${7:undef}, # 'true' or 'false'\n\t#name     => ${8:undef},\n\t#replace  => ${9:true}, # 'true' or 'false'\n}$0",
+		"description": "file_line",
+		"scope": "source.puppet"
+	},
+	"group": {
+		"prefix": "group",
+		"body": "group { '${1:name}':\n\tgid => $2,\n}$0",
+		"description": "group",
+		"scope": "source.puppet"
+	},
+	"join": {
+		"prefix": "join",
+		"body": "join([${1:list_of_items}], '')$0",
+		"description": "join",
+		"scope": "source.puppet"
+	},
+	"if": {
+		"prefix": "if",
+		"body": "if ${1:test} {\n\t${2:# enter puppet code}\n}$0",
+		"description": "if",
+		"scope": "source.puppet"
+	},
+	"elsif": {
+		"prefix": "elsif",
+		"body": "elsif ${1:test} {\n\t${2:# enter puppet code}\n}$0",
+		"description": "elsif",
+		"scope": "source.puppet"
+	},
+  "mount": {
+		"prefix": "mount",
+		"body": "	mount { '${1:name}':\n\tensure  => ${2:present},\n\tdevice  => '${3:device}',\n\tfstype  => '${4:fstype}',\n\toptions => '${5:opts}';\n}",
+		"description": "mount",
+		"scope": "source.puppet"
+	},
+	"node": {
+		"prefix": "node",
+		"body": "node \"${1:node}\" {\n  ${2}\n}\n",
+		"description": "node",
+		"scope": "source.puppet"
+	},
+	"notify": {
+		"prefix": "notify",
+		"body": "notify { '${1:notify}': } \n",
+		"description": "notify",
+		"scope": "source.puppet"
+	},
+	"package": {
+		"prefix": "package",
+		"body": "package { '${1:name}':\n\tensure => ${2:installed},\n\t$3\n}$0",
+		"description": "package",
+		"scope": "source.puppet"
+	},
+	"?": {
+		"prefix": "?",
+		"body": "\\$${1:variable} ? {\n\t'${2:key}' => '${3:value}',\n\tdefault => '${4:value}',\n}$0",
+		"description": "selector",
+		"scope": "source.puppet"
+	},
+	"service": {
+		"prefix": "service",
+		"body": "service { \"${1:name}\":\n\tensure     => ${2:running},\n\tenable     => ${3:true},\n\thasrestart => true,\n\thasstatus  => true,\n\t# pattern    => '${1:name}',\n}$0",
+		"description": "service"
+	},
+	"user": {
+		"prefix": "user",
+		"body": "user { '${1:name}':\n\tcomment => '${2:First Last}',\n\thome => '${3:/home/$1}',\n\tensure => ${4:present},\n\t#shell => '/bin/bash',\n\t#uid => '501',\n\t#gid => '20',\n\t$5\n}$0",
+		"description": "user",
+		"scope": "source.puppet"
+	},
+  "unless": {
+		"prefix": "unless",
+		"body": "unless ${1:condition} {\n\t$2\n}",
+		"description": "unless",
+		"scope": "source.puppet"
+	},
+	"yumrepo": {
+		"prefix": "yumrepo",
+		"body": "yumrepo { '${1:name}':\n\tbaseurl => '${2}',\n\tdescr => '${3:The $1 repository}',\n\tenabled => '${4:1}',\n\tgpgcheck => '${5:1}',\n\tgpgkey => '${6:file:///etc/pki/rpm-gpg/RPM-GPG-KEY-$1}',\n\tmirrorlist => '${7}'\n}$0",
+		"description": "yumrepo",
+		"scope": "source.puppet"
+	},
+  "versioncmp": {
+		"prefix": "versioncmp",
+		"body": "versioncmp('${1:version}', '${2:version}')${3}",
+		"description": "versioncmp",
+		"scope": "source.puppet"
+	},
+	"zfs": {
+		"prefix": "zfs",
+		"body": "zfs { \"${1:name}\":\n\tcompression => ${2:on},\n\tmountpoint => \"${3:/path}\",\n\tensure => ${4:present},\n}$0",
+		"description": "zfs"
+	},
+	"zpool": {
+		"prefix": "zpool",
+		"body": "zpool { \"${1:name}\":\n\t${2:mirror} => ${3:disks},\n}$0",
+		"description": "zpool"
+	}
+}

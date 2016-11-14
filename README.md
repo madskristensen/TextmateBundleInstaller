@@ -73,6 +73,7 @@ languages already.
 - Perl
 - PowerShell
 - Protocol Buffer
+- Puppet
 - QML
 - R
 - Ruby
