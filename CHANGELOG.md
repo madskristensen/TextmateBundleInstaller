@@ -1,8 +1,10 @@
 # Road map
 
 - [ ] More languages...
-- [x] Puppet manifest (.pp) language support
 - [x] Mapped .j2 (jinja) files to HTML editor
+- [x] Puppet manifest (.pp) language support
+- [x] Nim language support
+- [x] Terraform language support
 
 Features that have a checkmark are complete and available for
 download in the

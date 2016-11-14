@@ -68,6 +68,7 @@ languages already.
 - Matlab
 - Make
 - Markdown
+- Nim
 - Objective-C
 - Pascal
 - Perl
@@ -89,6 +90,7 @@ languages already.
 - SQL
 - Stylus
 - Swift
+- Terraform
 - TOML
 - TypeScript
 - YAML
