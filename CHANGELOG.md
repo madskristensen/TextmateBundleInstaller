@@ -7,7 +7,7 @@
 - [x] Nim language support
 - [x] Terraform language support
 - [x] Solidity language support
-- [ ] XQuery language support
+- [x] XQuery language support
 
 Features that have a checkmark are complete and available for
 download in the
