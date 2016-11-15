@@ -1,6 +1,7 @@
 # Road map
 
 - [ ] More languages...
+- [x] Update status bar when bundles have been updated
 - [x] Mapped .j2 (jinja) files to HTML editor
 - [x] Puppet manifest (.pp) language support
 - [x] Nim language support

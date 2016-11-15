@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 using System.Threading;
+using EnvDTE;
+using EnvDTE80;
 using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Shell.Interop;
 using task = System.Threading.Tasks.Task;
@@ -46,7 +48,13 @@ namespace TextmateBundleInstaller
 
             if (!await BundleExtractor.IsLogFileCurrent())
             {
-                await BundleExtractor.CopyBundles();
+                bool success = await BundleExtractor.CopyBundles();
+
+                if (success)
+                {
+                    var dte = await GetServiceAsync(typeof(DTE)) as DTE2;
+                    dte.StatusBar.Text = "Textmate bundles updated";
+                }
             }
 
             IsInitialized = true;
