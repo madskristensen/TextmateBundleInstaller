@@ -94,6 +94,7 @@ languages already.
 - Terraform
 - TOML
 - TypeScript
+- XQuery
 - YAML
 
 ## Unsupported langauges

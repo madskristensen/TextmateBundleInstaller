@@ -1,13 +1,6 @@
 # Road map
 
 - [ ] More languages...
-- [x] Update status bar when bundles have been updated
-- [x] Mapped .j2 (jinja) files to HTML editor
-- [x] Puppet manifest (.pp) language support
-- [x] Nim language support
-- [x] Terraform language support
-- [x] Solidity language support
-- [x] XQuery language support
 
 Features that have a checkmark are complete and available for
 download in the
@@ -17,6 +10,16 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 2.0
+
+- [x] Update status bar when bundles have been updated
+- [x] Mapped .j2 (jinja) files to HTML editor
+- [x] Puppet manifest (.pp) language support
+- [x] Nim language support
+- [x] Terraform language support
+- [x] Solidity language support
+- [x] XQuery language support
 
 ## 1.9
 
