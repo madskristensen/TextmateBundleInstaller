@@ -6,6 +6,19 @@
 	<array>
 		<string>json</string>
 		<string>jsonld</string>
+		<string>hjson</string>
+		<string>jshintrc</string>
+		<string>bowerrc</string>
+		<string>npmrc</string>
+		<string>geojson</string>
+		<string>topojson</string>
+		<string>babelrc</string>
+		<string>csslintrc</string>
+		<string>eslintrc</string>
+		<string>jade-lintrc</string>
+		<string>pug-lintrc</string>
+		<string>stylelintrc</string>
+		<string>webmanifest</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>(?x)       # turn on extended mode
