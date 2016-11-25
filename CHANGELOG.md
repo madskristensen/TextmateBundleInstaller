@@ -2,6 +2,7 @@
 
 - [ ] More languages...
 - [x] Additional JSON file extension mappings
+- [x] GLSL language support for .glsl files
 
 Features that have a checkmark are complete and available for
 download in the
