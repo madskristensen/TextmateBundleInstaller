@@ -34,6 +34,7 @@ languages already.
 ## Supported languages and file types
 
 - Apache (.htaccess)
+- Asm
 - Batch
 - C++ QT
 - Clojure

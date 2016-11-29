@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>$1 SUBROUTINE
+	$2
+	rts
+</string>
+	<key>name</key>
+	<string>Subroutine</string>
+	<key>scope</key>
+	<string>source.assembly.6502</string>
+	<key>tabTrigger</key>
+	<string>sub</string>
+	<key>uuid</key>
+	<string>2acc55d4-c59d-4273-8ee5-09ceedf780bc</string>
+</dict>
+</plist>
