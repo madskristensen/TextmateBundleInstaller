@@ -94,6 +94,7 @@ languages already.
 - Stylus
 - Swift
 - Terraform
+- TickScript
 - TOML
 - TypeScript
 - XQuery

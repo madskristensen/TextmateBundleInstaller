@@ -1,0 +1,60 @@
+{
+	"scopeName": "source.tick",
+	"name": "Tickscript",
+	"comment": "Tickscript language",
+	"fileTypes": [
+		"tick"
+	],
+	"patterns": [{
+        "comment": "Additional keywords",
+		"match": "^var\\s|(?<=\\()lambda(?=:\\s)",
+		"name": "keyword.other"
+	},{
+        "comment": "Global Variables",
+		"match": "stream|batch|influxql",
+		"name": "support.variable"
+	},{
+    "comment": "Bools",
+		"match": "TRUE|FALSE",
+		"name": "support.variable"
+	},{
+        "comment": "Operators",
+		"match": "AND|OR",
+		"name": "support.variable"
+	},{
+        "comment": "Global Variables",
+		"match": "TODO.*$|FIXME.*$|XXX.*$|BUG.*$",
+		"name": "punctuation.definition.comment"
+	},{
+        "comment": "Single quoted string",
+		"match": "'[^'].*'",
+		"name": "string.single"
+	},{
+        "comment": "Double quoted string",
+		"match": "\".*\"",
+		"name": "string.double"
+	},{
+        "comment": "Time duration",
+		"match": "\\d+ms|\\d+[uµmshdw]",
+		"name": "constant.numeric"
+	},{
+        "comment": "Float",
+		"match": "\\d+\\.\\d+",
+		"name": "constant.numeric"
+	},{
+        "comment": "Integer",
+		"match": "\\d+",
+		"name": "constant.numeric"
+	},{
+    "comment": "Comments",
+		"match": "//.*$",
+		"name": "comment.line.double-slash"
+	},{
+        "comment": "Special Characters",
+		"match": "\\.\\w+|\\|\\w+|@\\w+",
+		"name": "constant.numeric"
+	}
+    ]
+}
+
+
