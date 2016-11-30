@@ -57,6 +57,7 @@ languages already.
 - HAML
 - Haskell
 - ICalendar
+- Idris
 - Ini
 - Jade/Pug
 - Java
