@@ -33,6 +33,7 @@ languages already.
 
 ## Supported languages and file types
 
+- Antlr
 - Apache (.htaccess)
 - Asm
 - Batch
