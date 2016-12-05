@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>.gitignore</string>
+        <string>.tfignore</string>
+        <string>.bzrignore</string>
+        <string>.cfignore</string>
+        <string>.chefignore</string>
+        <string>.cvsignore</string>
+        <string>.boringignore</string>
+        <string>.dockerignore</string>
+        <string>.eslintignore</string>
+        <string>.flooignore</string>
+        <string>.jpmignore</string>
+        <string>.jshintignore</string>
+        <string>.hgignore</string>
+        <string>.mtn-ignore</string>
+        <string>.nodemonignore</string>
+        <string>.npmignore</string>
+        <string>.p4ignore</string>
+        <string>.svnignore</string>
+        <string>.babelignore</string>
+        <string>.vscodeignore</string>
+	</array>
+	<key>name</key>
+	<string>Gitignore</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>Comments</string>
+			<key>match</key>
+			<string>^#.*</string>
+			<key>name</key>
+			<string>comment.gitignore</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.gitignore</string>
+	<key>uuid</key>
+	<string>f4eb6552-9205-47cf-9d18-6388d5449516</string>
+</dict>
+</plist>
