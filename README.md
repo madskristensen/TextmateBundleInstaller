@@ -37,6 +37,7 @@ languages already.
 - Apache (.htaccess)
 - Asm
 - Batch
+- Bond
 - C++ QT
 - Clojure
 - CMake
