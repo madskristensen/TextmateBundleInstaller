@@ -98,6 +98,7 @@ languages already.
 - Terraform
 - TickScript
 - TOML
+- Thrift
 - TypeScript
 - XQuery
 - YAML

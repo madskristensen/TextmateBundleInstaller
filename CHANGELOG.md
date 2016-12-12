@@ -1,11 +1,6 @@
 # Road map
 
 - [ ] More languages...
-- [x] Idris language support
-- [x] Antlr language support
-- [x] .ignore file language support
-- [x] Mapped .spark files to HTML editor
-- [x] Thrift language support
 
 Features that have a checkmark are complete and available for
 download in the
@@ -15,6 +10,14 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 2.2
+
+- [x] Idris language support
+- [x] Antlr language support
+- [x] .ignore file language support
+- [x] Mapped .spark files to HTML editor
+- [x] Thrift language support
 
 ## 2.1
 
