@@ -2,6 +2,7 @@
 
 - [ ] More languages...
 - [x] Bond language support
+- [x] New Textmate bundle for F#
 
 Features that have a checkmark are complete and available for
 download in the
