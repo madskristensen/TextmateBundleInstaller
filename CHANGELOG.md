@@ -4,6 +4,7 @@
 - [x] Bond language support
 - [x] New Textmate bundle for F#
 - [x] Inno Setup language support
+- [x] Java Properties language support
 
 Features that have a checkmark are complete and available for
 download in the
