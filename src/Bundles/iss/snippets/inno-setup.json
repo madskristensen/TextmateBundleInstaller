@@ -1,0 +1,1738 @@
+{
+  "AllowCancelDuringInstall": {
+    "prefix": "AllowCancelDuringInstall",
+    "body": "AllowCancelDuringInstall=${1:yes|no}"
+  },
+  "AllowCancelDuringInstall=yes (default)": {
+    "prefix": "AllowCancelDuringInstall=yes (default)",
+    "body": "AllowCancelDuringInstall=yes"
+  },
+  "AllowCancelDuringInstall=no": {
+    "prefix": "AllowCancelDuringInstall=no",
+    "body": "AllowCancelDuringInstall=no"
+  },
+  "AllowNetworkDrive": {
+    "prefix": "AllowNetworkDrive",
+    "body": "AllowNetworkDrive=${1:yes|no}"
+  },
+  "AllowNetworkDrive=yes (default)": {
+    "prefix": "AllowNetworkDrive=yes (default)",
+    "body": "AllowNetworkDrive=yes"
+  },
+  "AllowNetworkDrive=no": {
+    "prefix": "AllowNetworkDrive=no",
+    "body": "AllowNetworkDrive=no"
+  },
+  "AllowNoIcons": {
+    "prefix": "AllowNoIcons",
+    "body": "AllowNoIcons=${1:no|yes}"
+  },
+  "AllowNoIcons=no (default)": {
+    "prefix": "AllowNoIcons=no (default)",
+    "body": "AllowNoIcons=no"
+  },
+  "AllowNoIcons=yes": {
+    "prefix": "AllowNoIcons=yes",
+    "body": "AllowNoIcons=yes"
+  },
+  "AllowRootDirectory": {
+    "prefix": "AllowRootDirectory",
+    "body": "AllowRootDirectory=${1:no|yes}"
+  },
+  "AllowRootDirectory=no (default)": {
+    "prefix": "AllowRootDirectory=no (default)",
+    "body": "AllowRootDirectory=no"
+  },
+  "AllowRootDirectory=yes": {
+    "prefix": "AllowRootDirectory=yes",
+    "body": "AllowRootDirectory=yes"
+  },
+  "AllowUNCPath": {
+    "prefix": "AllowUNCPath",
+    "body": "AllowUNCPath=${1:yes|no}"
+  },
+  "AllowUNCPath=yes (default)": {
+    "prefix": "AllowUNCPath=yes (default)",
+    "body": "AllowUNCPath=yes"
+  },
+  "AllowUNCPath=no": {
+    "prefix": "AllowUNCPath=no",
+    "body": "AllowUNCPath=no"
+  },
+  "AlwaysRestart": {
+    "prefix": "AlwaysRestart",
+    "body": "AlwaysRestart=${1:no|yes}"
+  },
+  "AlwaysRestart=no (default)": {
+    "prefix": "AlwaysRestart=no (default)",
+    "body": "AlwaysRestart=no"
+  },
+  "AlwaysRestart=yes": {
+    "prefix": "AlwaysRestart=yes",
+    "body": "AlwaysRestart=yes"
+  },
+  "AlwaysShowComponentsList": {
+    "prefix": "AlwaysShowComponentsList",
+    "body": "AlwaysShowComponentsList=${1:yes|no}"
+  },
+  "AlwaysShowComponentsList=yes (default)": {
+    "prefix": "AlwaysShowComponentsList=yes (default)",
+    "body": "AlwaysShowComponentsList=yes"
+  },
+  "AlwaysShowComponentsList=no": {
+    "prefix": "AlwaysShowComponentsList=no",
+    "body": "AlwaysShowComponentsList=no"
+  },
+  "AlwaysShowDirOnReadyPage": {
+    "prefix": "AlwaysShowDirOnReadyPage",
+    "body": "AlwaysShowDirOnReadyPage=${1:no|yes}"
+  },
+  "AlwaysShowDirOnReadyPage=no (default)": {
+    "prefix": "AlwaysShowDirOnReadyPage=no (default)",
+    "body": "AlwaysShowDirOnReadyPage=no"
+  },
+  "AlwaysShowDirOnReadyPage=yes": {
+    "prefix": "AlwaysShowDirOnReadyPage=yes",
+    "body": "AlwaysShowDirOnReadyPage=yes"
+  },
+  "AlwaysShowGroupOnReadyPage": {
+    "prefix": "AlwaysShowGroupOnReadyPage",
+    "body": "AlwaysShowGroupOnReadyPage=${1:no|yes}"
+  },
+  "AlwaysShowGroupOnReadyPage=no (default)": {
+    "prefix": "AlwaysShowGroupOnReadyPage=no (default)",
+    "body": "AlwaysShowGroupOnReadyPage=no"
+  },
+  "AlwaysShowGroupOnReadyPage=yes": {
+    "prefix": "AlwaysShowGroupOnReadyPage=yes",
+    "body": "AlwaysShowGroupOnReadyPage=yes"
+  },
+  "AlwaysUsePersonalGroup": {
+    "prefix": "AlwaysUsePersonalGroup",
+    "body": "AlwaysUsePersonalGroup=${1:no|yes}"
+  },
+  "AlwaysUsePersonalGroup=no (default)": {
+    "prefix": "AlwaysUsePersonalGroup=no (default)",
+    "body": "AlwaysUsePersonalGroup=no"
+  },
+  "AlwaysUsePersonalGroup=yes": {
+    "prefix": "AlwaysUsePersonalGroup=yes",
+    "body": "AlwaysUsePersonalGroup=yes"
+  },
+  "AppComments": {
+    "prefix": "AppComments",
+    "body": "AppComments=${1}"
+  },
+  "AppContact": {
+    "prefix": "AppContact",
+    "body": "AppContact=${1}"
+  },
+  "AppCopyright": {
+    "prefix": "AppCopyright",
+    "body": "AppCopyright=${1}"
+  },
+  "AppendDefaultDirName": {
+    "prefix": "AppendDefaultDirName",
+    "body": "AppendDefaultDirName=${1:yes|no}"
+  },
+  "AppendDefaultDirName=yes (default)": {
+    "prefix": "AppendDefaultDirName=yes (default)",
+    "body": "AppendDefaultDirName=yes"
+  },
+  "AppendDefaultDirName=no": {
+    "prefix": "AppendDefaultDirName=no",
+    "body": "AppendDefaultDirName=no"
+  },
+  "AppendDefaultGroupName": {
+    "prefix": "AppendDefaultGroupName",
+    "body": "AppendDefaultGroupName=${1:yes|no}"
+  },
+  "AppendDefaultGroupName=yes (default)": {
+    "prefix": "AppendDefaultGroupName=yes (default)",
+    "body": "AppendDefaultGroupName=yes"
+  },
+  "AppendDefaultGroupName=no": {
+    "prefix": "AppendDefaultGroupName=no",
+    "body": "AppendDefaultGroupName=no"
+  },
+  "AppId": {
+    "prefix": "AppId",
+    "body": "AppId=${1}"
+  },
+  "AppModifyPath": {
+    "prefix": "AppModifyPath",
+    "body": "AppModifyPath=${1}"
+  },
+  "AppMutex": {
+    "prefix": "AppMutex",
+    "body": "AppMutex=${1}"
+  },
+  "AppName": {
+    "prefix": "AppName",
+    "body": "AppName=${1}"
+  },
+  "AppPublisher": {
+    "prefix": "AppPublisher",
+    "body": "AppPublisher=${1}"
+  },
+  "AppPublisherURL": {
+    "prefix": "AppPublisherURL",
+    "body": "AppPublisherURL=${1}"
+  },
+  "AppReadmeFile": {
+    "prefix": "AppReadmeFile",
+    "body": "AppReadmeFile=${1}"
+  },
+  "AppSupportPhone": {
+    "prefix": "AppSupportPhone",
+    "body": "AppSupportPhone=${1}"
+  },
+  "AppSupportURL": {
+    "prefix": "AppSupportURL",
+    "body": "AppSupportURL=${1}"
+  },
+  "AppUpdatesURL": {
+    "prefix": "AppUpdatesURL",
+    "body": "AppUpdatesURL=${1}"
+  },
+  "AppVerName": {
+    "prefix": "AppVerName",
+    "body": "AppVerName=${1}"
+  },
+  "AppVersion": {
+    "prefix": "AppVersion",
+    "body": "AppVersion=${1}"
+  },
+  "ArchitecturesAllowed": {
+    "prefix": "ArchitecturesAllowed",
+    "body": "ArchitecturesAllowed=${1:${2:x86}${3: x64}${4: ia64}}"
+  },
+  "ArchitecturesInstallIn64BitMode": {
+    "prefix": "ArchitecturesInstallIn64BitMode",
+    "body": "ArchitecturesInstallIn64BitMode=${1:${2:x86}${3: x64}${4: ia64}}"
+  },
+  "BackColor": {
+    "prefix": "BackColor",
+    "body": "BackColor=${1:\\$${2:BB}${3:GG}${4:RR}}"
+  },
+  "BackColor2": {
+    "prefix": "BackColor2",
+    "body": "BackColor2=${1:\\$${2:BB}${3:GG}${4:RR}}"
+  },
+  "BackColorDirection": {
+    "prefix": "BackColorDirection",
+    "body": "BackColorDirection=${1:toptobottom|lefttoright}"
+  },
+  "BackSolid": {
+    "prefix": "BackSolid",
+    "body": "BackSolid=${1:no|yes}"
+  },
+  "ChangesAssociations": {
+    "prefix": "ChangesAssociations",
+    "body": "ChangesAssociations=${1:no|yes}"
+  },
+  "ChangesAssociations=no (default)": {
+    "prefix": "ChangesAssociations=no (default)",
+    "body": "ChangesAssociations=no"
+  },
+  "ChangesAssociations=yes": {
+    "prefix": "ChangesAssociations=yes",
+    "body": "ChangesAssociations=yes"
+  },
+  "ChangesEnvironment": {
+    "prefix": "ChangesEnvironment",
+    "body": "ChangesEnvironment=${1:no|yes}"
+  },
+  "ChangesEnvironment=no (default)": {
+    "prefix": "ChangesEnvironment=no (default)",
+    "body": "ChangesEnvironment=no"
+  },
+  "ChangesEnvironment=yes": {
+    "prefix": "ChangesEnvironment=yes",
+    "body": "ChangesEnvironment=yes"
+  },
+  "CloseApplications": {
+    "prefix": "CloseApplications",
+    "body": "CloseApplications=${1:yes|no}"
+  },
+  "CloseApplications=yes (default)": {
+    "prefix": "CloseApplications=yes (default)",
+    "body": "CloseApplications=yes"
+  },
+  "CloseApplications=no": {
+    "prefix": "CloseApplications=no",
+    "body": "CloseApplications=no"
+  },
+  "CloseApplicationsFilter": {
+    "prefix": "CloseApplicationsFilter",
+    "body": "CloseApplicationsFilter=${1:${2:*.exe}${3:,*.dll}${4:,*.chm}}"
+  },
+  "Compression": {
+    "prefix": "Compression",
+    "body": "Compression=${1:lzma2/max}"
+  },
+  "CompressionThreads": {
+    "prefix": "CompressionThreads",
+    "body": "CompressionThreads=${1:auto}"
+  },
+  "CreateAppDir": {
+    "prefix": "CreateAppDir",
+    "body": "CreateAppDir=${1:yes|no}"
+  },
+  "CreateAppDir=yes (default)": {
+    "prefix": "CreateAppDir=yes (default)",
+    "body": "CreateAppDir=yes"
+  },
+  "CreateAppDir=no": {
+    "prefix": "CreateAppDir=no",
+    "body": "CreateAppDir=no"
+  },
+  "CreateUninstallRegKey": {
+    "prefix": "CreateUninstallRegKey",
+    "body": "CreateUninstallRegKey=${1:yes|no}"
+  },
+  "CreateUninstallRegKey=yes (default)": {
+    "prefix": "CreateUninstallRegKey=yes (default)",
+    "body": "CreateUninstallRegKey=yes"
+  },
+  "CreateUninstallRegKey=no": {
+    "prefix": "CreateUninstallRegKey=no",
+    "body": "CreateUninstallRegKey=no"
+  },
+  "DefaultDialogFontName": {
+    "prefix": "DefaultDialogFontName",
+    "body": "DefaultDialogFontName=${1:Tahoma}"
+  },
+  "DefaultDirName": {
+    "prefix": "DefaultDirName",
+    "body": "DefaultDirName=${1}"
+  },
+  "DefaultGroupName": {
+    "prefix": "DefaultGroupName",
+    "body": "DefaultGroupName=${1}"
+  },
+  "DefaultUserInfoName": {
+    "prefix": "DefaultUserInfoName",
+    "body": "DefaultUserInfoName=${1:{sysuserinfoname}}"
+  },
+  "DefaultUserInfoOrg": {
+    "prefix": "DefaultUserInfoOrg",
+    "body": "DefaultUserInfoOrg=${1:{sysuserinfoorg}}"
+  },
+  "DefaultUserInfoSerial": {
+    "prefix": "DefaultUserInfoSerial",
+    "body": "DefaultUserInfoSerial=${1}"
+  },
+  "DirExistsWarning": {
+    "prefix": "DirExistsWarning",
+    "body": "DirExistsWarning=${1:auto|yes|no}"
+  },
+  "DirExistsWarning=auto (default)": {
+    "prefix": "DirExistsWarning=auto (default)",
+    "body": "DirExistsWarning=auto"
+  },
+  "DirExistsWarning=yes": {
+    "prefix": "DirExistsWarning=yes",
+    "body": "DirExistsWarning=yes"
+  },
+  "DirExistsWarning=no": {
+    "prefix": "DirExistsWarning=no",
+    "body": "DirExistsWarning=no"
+  },
+  "DisableDirPage": {
+    "prefix": "DisableDirPage",
+    "body": "DisableDirPage=${1:no|auto|yes}"
+  },
+  "DisableDirPage=no (default)": {
+    "prefix": "DisableDirPage=no (default)",
+    "body": "DisableDirPage=no"
+  },
+  "DisableDirPage=auto": {
+    "prefix": "DisableDirPage=auto",
+    "body": "DisableDirPage=yes"
+  },
+  "DisableFinishedPage": {
+    "prefix": "DisableFinishedPage",
+    "body": "DisableFinishedPage=${1:no|yes}"
+  },
+  "DisableFinishedPage=no (default)": {
+    "prefix": "DisableFinishedPage=no (default)",
+    "body": "DisableFinishedPage=no"
+  },
+  "DisableFinishedPage=yes": {
+    "prefix": "DisableFinishedPage=yes",
+    "body": "DisableFinishedPage=yes"
+  },
+  "DisableProgramGroupPage": {
+    "prefix": "DisableProgramGroupPage",
+    "body": "DisableProgramGroupPage=${1:no|auto|yes}"
+  },
+  "DisableProgramGroupPage=no (default)": {
+    "prefix": "DisableProgramGroupPage=no (default)",
+    "body": "DisableProgramGroupPage=no"
+  },
+  "DisableProgramGroupPage=auto": {
+    "prefix": "DisableProgramGroupPage=auto",
+    "body": "DisableProgramGroupPage=auto"
+  },
+  "DisableProgramGroupPage=yes": {
+    "prefix": "DisableProgramGroupPage=yes",
+    "body": "DisableProgramGroupPage=yes"
+  },
+  "DisableReadyMemo": {
+    "prefix": "DisableReadyMemo",
+    "body": "DisableReadyMemo=${1:no|yes}"
+  },
+  "DisableReadyMemo=no (default)": {
+    "prefix": "DisableReadyMemo=no (default)",
+    "body": "DisableReadyMemo=no"
+  },
+  "DisableReadyMemo=yes": {
+    "prefix": "DisableReadyMemo=yes",
+    "body": "DisableReadyMemo=yes"
+  },
+  "DisableReadyPage": {
+    "prefix": "DisableReadyPage",
+    "body": "DisableReadyPage=${1:no|yes}"
+  },
+  "DisableReadyPage=no (default)": {
+    "prefix": "DisableReadyPage=no (default)",
+    "body": "DisableReadyPage=no"
+  },
+  "DisableReadyPage=yes": {
+    "prefix": "DisableReadyPage=yes",
+    "body": "DisableReadyPage=yes"
+  },
+  "DisableStartupPrompt": {
+    "prefix": "DisableStartupPrompt",
+    "body": "DisableStartupPrompt=${1:yes|no}"
+  },
+  "DisableStartupPrompt=yes (default)": {
+    "prefix": "DisableStartupPrompt=yes (default)",
+    "body": "DisableStartupPrompt=yes"
+  },
+  "DisableStartupPrompt=no": {
+    "prefix": "DisableStartupPrompt=no",
+    "body": "DisableStartupPrompt=no"
+  },
+  "DisableWelcomePage": {
+    "prefix": "DisableWelcomePage",
+    "body": "DisableWelcomePage=${1:yes|no}"
+  },
+  "DisableWelcomePage=yes (default)": {
+    "prefix": "DisableWelcomePage=yes (default)",
+    "body": "DisableWelcomePage=yes"
+  },
+  "DisableWelcomePage=no": {
+    "prefix": "DisableWelcomePage=no",
+    "body": "DisableWelcomePage=no"
+  },
+  "DiskClusterSize": {
+    "prefix": "DiskClusterSize",
+    "body": "DiskClusterSize=${1:512}"
+  },
+  "DiskSliceSize": {
+    "prefix": "DiskSliceSize",
+    "body": "DiskSliceSize=${1:max}"
+  },
+  "DiskSpanning": {
+    "prefix": "DiskSpanning",
+    "body": "DiskSpanning=${1:no|yes}"
+  },
+  "DiskSpanning=no (default)": {
+    "prefix": "DiskSpanning=no (default)",
+    "body": "DiskSpanning=no"
+  },
+  "DiskSpanning=yes": {
+    "prefix": "DiskSpanning=yes",
+    "body": "DiskSpanning=yes"
+  },
+  "EnableDirDoesntExistWarning": {
+    "prefix": "EnableDirDoesntExistWarning",
+    "body": "EnableDirDoesntExistWarning=${1:no|yes}"
+  },
+  "EnableDirDoesntExistWarning=no (default)": {
+    "prefix": "EnableDirDoesntExistWarning=no (default)",
+    "body": "EnableDirDoesntExistWarning=no"
+  },
+  "EnableDirDoesntExistWarning=yes": {
+    "prefix": "EnableDirDoesntExistWarning=yes",
+    "body": "EnableDirDoesntExistWarning=yes"
+  },
+  "Encryption": {
+    "prefix": "Encryption",
+    "body": "Encryption=${1:no|yes}"
+  },
+  "ExtraDiskSpaceRequired": {
+    "prefix": "ExtraDiskSpaceRequired",
+    "body": "ExtraDiskSpaceRequired=${1:0}"
+  },
+  "FlatComponentsList": {
+    "prefix": "FlatComponentsList",
+    "body": "FlatComponentsList=${1:yes|no}"
+  },
+  "FlatComponentsList=yes (default)": {
+    "prefix": "FlatComponentsList=yes (default)",
+    "body": "FlatComponentsList=yes"
+  },
+  "FlatComponentsList=no": {
+    "prefix": "FlatComponentsList=no",
+    "body": "FlatComponentsList=no"
+  },
+  "InfoAfterFile": {
+    "prefix": "InfoAfterFile",
+    "body": "InfoAfterFile=${1}"
+  },
+  "InfoBeforeFile": {
+    "prefix": "InfoBeforeFile",
+    "body": "InfoBeforeFile=${1}"
+  },
+  "InternalCompressLevel": {
+    "prefix": "InternalCompressLevel",
+    "body": "InternalCompressLevel=${1:normal}"
+  },
+  "LanguageDetectionMethod": {
+    "prefix": "LanguageDetectionMethod",
+    "body": "LanguageDetectionMethod=${1:uilanguage|locale|none}"
+  },
+  "LanguageDetectionMethod=uilanguage (default)": {
+    "prefix": "LanguageDetectionMethod=uilanguage (default)",
+    "body": "LanguageDetectionMethod=uilanguage"
+  },
+  "LanguageDetectionMethod=locale": {
+    "prefix": "LanguageDetectionMethod=locale",
+    "body": "LanguageDetectionMethod=locale"
+  },
+  "LanguageDetectionMethod=none": {
+    "prefix": "LanguageDetectionMethod=none",
+    "body": "LanguageDetectionMethod=none"
+  },
+  "LicenseFile": {
+    "prefix": "LicenseFile",
+    "body": "LicenseFile=${1}"
+  },
+  "LZMAAlgorithm": {
+    "prefix": "LZMAAlgorithm",
+    "body": "LZMAAlgorithm=${1:0|1}"
+  },
+  "LZMAAlgorithm=0 (default)": {
+    "prefix": "LZMAAlgorithm=0 (default)",
+    "body": "LZMAAlgorithm=0"
+  },
+  "LZMAAlgorithm=1": {
+    "prefix": "LZMAAlgorithm=1",
+    "body": "LZMAAlgorithm=1"
+  },
+  "LZMABlockSize": {
+    "prefix": "LZMABlockSize",
+    "body": "LZMABlockSize=${1:}"
+  },
+  "LZMADictionarySize": {
+    "prefix": "LZMADictionarySize",
+    "body": "LZMADictionarySize=${1}"
+  },
+  "LZMAMatchFinder": {
+    "prefix": "LZMAMatchFinder",
+    "body": "LZMAMatchFinder=${1:HC|BT}"
+  },
+  "LZMAMatchFinder=HC": {
+    "prefix": "LZMAMatchFinder=HC",
+    "body": "LZMAMatchFinder=HC"
+  },
+  "LZMAMatchFinder=BT": {
+    "prefix": "LZMAMatchFinder=BT",
+    "body": "LZMAMatchFinder=BT"
+  },
+  "LZMANumBlockThreads": {
+    "prefix": "LZMANumBlockThreads",
+    "body": "LZMANumBlockThreads=${1:1}"
+  },
+  "LZMANumFastBytes": {
+    "prefix": "LZMANumFastBytes",
+    "body": "LZMANumFastBytes=${1}"
+  },
+  "LZMAUseSeparateProcess": {
+    "prefix": "LZMAUseSeparateProcess",
+    "body": "LZMAUseSeparateProcess=${1:no|yes|x86}"
+  },
+  "LZMAUseSeparateProcess=no (default)": {
+    "prefix": "LZMAUseSeparateProcess=no (default)",
+    "body": "LZMAUseSeparateProcess=no"
+  },
+  "LZMAUseSeparateProcess=yes": {
+    "prefix": "LZMAUseSeparateProcess=yes",
+    "body": "LZMAUseSeparateProcess=yes"
+  },
+  "LZMAUseSeparateProcess=x86": {
+    "prefix": "LZMAUseSeparateProcess=x86",
+    "body": "LZMAUseSeparateProcess=x86"
+  },
+  "MergeDuplicateFiles": {
+    "prefix": "MergeDuplicateFiles",
+    "body": "MergeDuplicateFiles=${1:yes|no}"
+  },
+  "MergeDuplicateFiles=yes (default)": {
+    "prefix": "MergeDuplicateFiles=yes (default)",
+    "body": "MergeDuplicateFiles=yes"
+  },
+  "MergeDuplicateFiles=no": {
+    "prefix": "MergeDuplicateFiles=no",
+    "body": "MergeDuplicateFiles=no"
+  },
+  "MinVersion": {
+    "prefix": "MinVersion",
+    "body": "MinVersion=${1:5}.${2:0}"
+  },
+  "OnlyBelowVersion": {
+    "prefix": "OnlyBelowVersion",
+    "body": "OnlyBelowVersion=${1:0}"
+  },
+  "Output": {
+    "prefix": "Output",
+    "body": "Output=${1:yes|no}"
+  },
+  "Output=no": {
+    "prefix": "Output=no",
+    "body": "Output=no"
+  },
+  "Output=yes": {
+    "prefix": "Output=yes",
+    "body": "Output=yes"
+  },
+  "OutputBaseFilename": {
+    "prefix": "OutputBaseFilename",
+    "body": "OutputBaseFilename=${1:setup}"
+  },
+  "OutputDir": {
+    "prefix": "OutputDir",
+    "body": "OutputDir=${1}"
+  },
+  "OutputManifestFile": {
+    "prefix": "OutputManifestFile",
+    "body": "OutputManifestFile=${1}"
+  },
+  "Password": {
+    "prefix": "Password",
+    "body": "Password=${1}"
+  },
+  "PrivilegesRequired": {
+    "prefix": "PrivilegesRequired",
+    "body": "PrivilegesRequired=${1:admin|none|poweruser|lowest}"
+  },
+  "PrivilegesRequired=admin (default)": {
+    "prefix": "PrivilegesRequired=admin (default)",
+    "body": "PrivilegesRequired=admin"
+  },
+  "PrivilegesRequired=none": {
+    "prefix": "PrivilegesRequired=none",
+    "body": "PrivilegesRequired=none"
+  },
+  "PrivilegesRequired=poweruser": {
+    "prefix": "PrivilegesRequired=poweruser",
+    "body": "PrivilegesRequired=poweruser"
+  },
+  "PrivilegesRequired=lowest": {
+    "prefix": "PrivilegesRequired=lowest",
+    "body": "PrivilegesRequired=lowest"
+  },
+  "ReserveBytes": {
+    "prefix": "ReserveBytes",
+    "body": "ReserveBytes=${1:0}"
+  },
+  "RestartApplications": {
+    "prefix": "RestartApplications",
+    "body": "RestartApplications=${1:yes|no}"
+  },
+  "RestartApplications=yes (default)": {
+    "prefix": "RestartApplications=yes (default)",
+    "body": "RestartApplications=yes"
+  },
+  "RestartApplications=no": {
+    "prefix": "RestartApplications=no",
+    "body": "RestartApplications=no"
+  },
+  "RestartIfNeededByRun": {
+    "prefix": "RestartIfNeededByRun",
+    "body": "RestartIfNeededByRun=${1:yes|no}"
+  },
+  "RestartIfNeededByRun=yes (default)": {
+    "prefix": "RestartIfNeededByRun=yes (default)",
+    "body": "RestartIfNeededByRun=yes"
+  },
+  "RestartIfNeededByRun=no": {
+    "prefix": "RestartIfNeededByRun=no",
+    "body": "RestartIfNeededByRun=no"
+  },
+  "SetupIconFile": {
+    "prefix": "SetupIconFile",
+    "body": "SetupIconFile=${1}"
+  },
+  "SetupLogging": {
+    "prefix": "SetupLogging",
+    "body": "SetupLogging=${1:no|yes}"
+  },
+  "SetupLogging=no (default)": {
+    "prefix": "SetupLogging=no (default)",
+    "body": "SetupLogging=no"
+  },
+  "SetupLogging=yes": {
+    "prefix": "SetupLogging=yes",
+    "body": "SetupLogging=yes"
+  },
+  "ShowComponentSizes": {
+    "prefix": "ShowComponentSizes",
+    "body": "ShowComponentSizes=${1:yes|no}"
+  },
+  "ShowComponentSizes=yes (default)": {
+    "prefix": "ShowComponentSizes=yes (default)",
+    "body": "ShowComponentSizes=yes"
+  },
+  "ShowComponentSizes=no": {
+    "prefix": "ShowComponentSizes=no",
+    "body": "ShowComponentSizes=no"
+  },
+  "ShowLanguageDialog": {
+    "prefix": "ShowLanguageDialog",
+    "body": "ShowLanguageDialog=${1:yes|no|auto}"
+  },
+  "ShowLanguageDialog=yes (default)": {
+    "prefix": "ShowLanguageDialog=yes (default)",
+    "body": "ShowLanguageDialog=yes"
+  },
+  "ShowLanguageDialog=no": {
+    "prefix": "ShowLanguageDialog=no",
+    "body": "ShowLanguageDialog=no"
+  },
+  "ShowLanguageDialog=auto": {
+    "prefix": "ShowLanguageDialog=auto",
+    "body": "ShowLanguageDialog=auto"
+  },
+  "ShowTasksTreeLines": {
+    "prefix": "ShowTasksTreeLines",
+    "body": "ShowTasksTreeLines=${1:no|yes}"
+  },
+  "ShowUndisplayableLanguages": {
+    "prefix": "ShowUndisplayableLanguages",
+    "body": "ShowUndisplayableLanguages=${1:no|yes}"
+  },
+  "ShowUndisplayableLanguages=no (default)": {
+    "prefix": "ShowUndisplayableLanguages=no (default)",
+    "body": "ShowUndisplayableLanguages=no"
+  },
+  "ShowUndisplayableLanguages=yes": {
+    "prefix": "ShowUndisplayableLanguages=yes",
+    "body": "ShowUndisplayableLanguages=yes"
+  },
+  "SignedUninstaller": {
+    "prefix": "SignedUninstaller",
+    "body": "SignedUninstaller=${1:yes|no}"
+  },
+  "SignedUninstaller=no": {
+    "prefix": "SignedUninstaller=no",
+    "body": "SignedUninstaller=no"
+  },
+  "SignedUninstaller=yes (default)": {
+    "prefix": "SignedUninstaller=yes (default)",
+    "body": "SignedUninstaller=yes"
+  },
+  "SignedUninstallerDir": {
+    "prefix": "SignedUninstallerDir",
+    "body": "SignedUninstallerDir=${1}"
+  },
+  "SignTool": {
+    "prefix": "SignTool",
+    "body": "SignTool=${1}"
+  },
+  "SignToolRetryCount": {
+    "prefix": "SignToolRetryCount",
+    "body": "SignToolRetryCount=${1:2}"
+  },
+  "SlicesPerDisk": {
+    "prefix": "SlicesPerDisk",
+    "body": "SlicesPerDisk=${1:1}"
+  },
+  "SolidCompression": {
+    "prefix": "SolidCompression",
+    "body": "SolidCompression=${1:no|yes}"
+  },
+  "SolidCompression=no (default)": {
+    "prefix": "SolidCompression=no (default)",
+    "body": "SolidCompression=no"
+  },
+  "SolidCompression=yes": {
+    "prefix": "SolidCompression=yes",
+    "body": "SolidCompression=yes"
+  },
+  "SourceDir": {
+    "prefix": "SourceDir",
+    "body": "SourceDir=${1}"
+  },
+  "TerminalServicesAware": {
+    "prefix": "TerminalServicesAware",
+    "body": "TerminalServicesAware=${1:yes|no}"
+  },
+  "TerminalServicesAware=yes (default)": {
+    "prefix": "TerminalServicesAware=yes (default)",
+    "body": "TerminalServicesAware=yes"
+  },
+  "TerminalServicesAware=no": {
+    "prefix": "TerminalServicesAware=no",
+    "body": "TerminalServicesAware=no"
+  },
+  "TimeStampRounding": {
+    "prefix": "TimeStampRounding",
+    "body": "TimeStampRounding=${1:2}"
+  },
+  "TimeStampsInUTC": {
+    "prefix": "TimeStampsInUTC",
+    "body": "TimeStampsInUTC=${1:no|yes}"
+  },
+  "TimeStampsInUTC=no (default)": {
+    "prefix": "TimeStampsInUTC=no (default)",
+    "body": "TimeStampsInUTC=no"
+  },
+  "TimeStampsInUTC=yes": {
+    "prefix": "TimeStampsInUTC=yes",
+    "body": "TimeStampsInUTC=yes"
+  },
+  "TouchDate": {
+    "prefix": "TouchDate",
+    "body": "TouchDate=${1:current|none|YYYY-MM-DD}"
+  },
+  "TouchTime": {
+    "prefix": "TouchTime",
+    "body": "TouchTime=${1:current|none|HH:MM|HH:MM:SS}"
+  },
+  "Uninstallable": {
+    "prefix": "Uninstallable",
+    "body": "Uninstallable=${1:yes|no}"
+  },
+  "UninstallDisplayIcon": {
+    "prefix": "UninstallDisplayIcon",
+    "body": "UninstallDisplayIcon=${1}"
+  },
+  "UninstallDisplayName": {
+    "prefix": "UninstallDisplayName",
+    "body": "UninstallDisplayName=${1}"
+  },
+  "UninstallDisplaySize": {
+    "prefix": "UninstallDisplaySize",
+    "body": "UninstallDisplaySize=${1}"
+  },
+  "UninstallFilesDir": {
+    "prefix": "UninstallFilesDir",
+    "body": "UninstallFilesDir=${1:{app}}"
+  },
+  "UninstallLogMode": {
+    "prefix": "UninstallLogMode",
+    "body": "UninstallLogMode=${1:append|new|overwrite}"
+  },
+  "UninstallLogMode=append (default)": {
+    "prefix": "UninstallLogMode=append (default)",
+    "body": "UninstallLogMode=append"
+  },
+  "UninstallLogMode=new": {
+    "prefix": "UninstallLogMode=new",
+    "body": "UninstallLogMode=new"
+  },
+  "UninstallLogMode=overwrite": {
+    "prefix": "UninstallLogMode=overwrite",
+    "body": "UninstallLogMode=overwrite"
+  },
+  "UninstallRestartComputer": {
+    "prefix": "UninstallRestartComputer",
+    "body": "UninstallRestartComputer=${1:no|yes}"
+  },
+  "UninstallRestartComputer=no (default)": {
+    "prefix": "UninstallRestartComputer=no (default)",
+    "body": "UninstallRestartComputer=no"
+  },
+  "UninstallRestartComputer=yes": {
+    "prefix": "UninstallRestartComputer=yes",
+    "body": "UninstallRestartComputer=yes"
+  },
+  "UpdateUninstallLogAppName": {
+    "prefix": "UpdateUninstallLogAppName",
+    "body": "UpdateUninstallLogAppName=${1:yes|no}"
+  },
+  "UpdateUninstallLogAppName=yes (default)": {
+    "prefix": "UpdateUninstallLogAppName=yes (default)",
+    "body": "UpdateUninstallLogAppName=yes"
+  },
+  "UpdateUninstallLogAppName=no": {
+    "prefix": "UpdateUninstallLogAppName=no",
+    "body": "UpdateUninstallLogAppName=no"
+  },
+  "UsePreviousAppDir": {
+    "prefix": "UsePreviousAppDir",
+    "body": "UsePreviousAppDir=${1:yes|no}"
+  },
+  "UsePreviousAppDir=yes (default)": {
+    "prefix": "UsePreviousAppDir=yes (default)",
+    "body": "UsePreviousAppDir=yes"
+  },
+  "UsePreviousAppDir=no": {
+    "prefix": "UsePreviousAppDir=no",
+    "body": "UsePreviousAppDir=no"
+  },
+  "UsePreviousGroup": {
+    "prefix": "UsePreviousGroup",
+    "body": "UsePreviousGroup=${1:yes|no}"
+  },
+  "UsePreviousGroup=yes (default)": {
+    "prefix": "UsePreviousGroup=yes (default)",
+    "body": "UsePreviousGroup=yes"
+  },
+  "UsePreviousGroup=no": {
+    "prefix": "UsePreviousGroup=no",
+    "body": "UsePreviousGroup=no"
+  },
+  "UsePreviousLanguage": {
+    "prefix": "UsePreviousLanguage",
+    "body": "UsePreviousLanguage=${1:yes|no}"
+  },
+  "UsePreviousLanguage=yes (default)": {
+    "prefix": "UsePreviousLanguage=yes (default)",
+    "body": "UsePreviousLanguage=yes"
+  },
+  "UsePreviousLanguage=no": {
+    "prefix": "UsePreviousLanguage=no",
+    "body": "UsePreviousLanguage=no"
+  },
+  "UsePreviousSetupType": {
+    "prefix": "UsePreviousSetupType",
+    "body": "UsePreviousSetupType=${1:yes|no}"
+  },
+  "UsePreviousSetupType=yes (default)": {
+    "prefix": "UsePreviousSetupType=yes (default)",
+    "body": "UsePreviousSetupType=yes"
+  },
+  "UsePreviousSetupType=no": {
+    "prefix": "UsePreviousSetupType=no",
+    "body": "UsePreviousSetupType=no"
+  },
+  "UsePreviousTasks": {
+    "prefix": "UsePreviousTasks",
+    "body": "UsePreviousTasks=${1:yes|no}"
+  },
+  "UsePreviousTasks=yes (default)": {
+    "prefix": "UsePreviousTasks=yes (default)",
+    "body": "UsePreviousTasks=yes"
+  },
+  "UsePreviousTasks=no": {
+    "prefix": "UsePreviousTasks=no",
+    "body": "UsePreviousTasks=no"
+  },
+  "UsePreviousUserInfo": {
+    "prefix": "UsePreviousUserInfo",
+    "body": "UsePreviousUserInfo=${1:yes|no}"
+  },
+  "UsePreviousUserInfo=yes (default)": {
+    "prefix": "UsePreviousUserInfo=yes (default)",
+    "body": "UsePreviousUserInfo=yes"
+  },
+  "UsePreviousUserInfo=no": {
+    "prefix": "UsePreviousUserInfo=no",
+    "body": "UsePreviousUserInfo=no"
+  },
+  "UserInfoPage": {
+    "prefix": "UserInfoPage",
+    "body": "UserInfoPage=${1:no|yes}"
+  },
+  "UserInfoPage=no (default)": {
+    "prefix": "UserInfoPage=no (default)",
+    "body": "UserInfoPage=no"
+  },
+  "UserInfoPage=yes": {
+    "prefix": "UserInfoPage=yes",
+    "body": "UserInfoPage=yes"
+  },
+  "UseSetupLdr": {
+    "prefix": "UseSetupLdr",
+    "body": "UseSetupLdr=${1:yes|no}"
+  },
+  "UseSetupLdr=yes (default)": {
+    "prefix": "UseSetupLdr=yes (default)",
+    "body": "UseSetupLdr=yes"
+  },
+  "UseSetupLdr=no": {
+    "prefix": "UseSetupLdr=no",
+    "body": "UseSetupLdr=no"
+  },
+  "VersionInfoCompany": {
+    "prefix": "VersionInfoCompany",
+    "body": "VersionInfoCompany=${1:AppPublisher}"
+  },
+  "VersionInfoCopyright": {
+    "prefix": "VersionInfoCopyright",
+    "body": "VersionInfoCopyright=${1:AppCopyright}"
+  },
+  "VersionInfoDescription": {
+    "prefix": "VersionInfoDescription",
+    "body": "VersionInfoDescription=${1:AppName Setup}"
+  },
+  "VersionInfoProductName": {
+    "prefix": "VersionInfoProductName",
+    "body": "VersionInfoProductName=${1:AppName}"
+  },
+  "VersionInfoProductTextVersion": {
+    "prefix": "VersionInfoProductTextVersion",
+    "body": "VersionInfoProductTextVersion=${1:VersionInfoProductVersion}"
+  },
+  "VersionInfoProductVersion": {
+    "prefix": "VersionInfoProductVersion",
+    "body": "VersionInfoProductVersion=${1:VersionInfoVersion}"
+  },
+  "VersionInfoTextVersion": {
+    "prefix": "VersionInfoTextVersion",
+    "body": "VersionInfoTextVersion=${1:VersionInfoVersion}"
+  },
+  "VersionInfoVersion": {
+    "prefix": "VersionInfoVersion",
+    "body": "VersionInfoVersion=${1:0}.${2:0}.${3:0}.${4:0}"
+  },
+  "WindowResizable": {
+    "prefix": "WindowResizable",
+    "body": "WindowResizable=${1:yes|no}"
+  },
+  "WindowResizable=yes (default)": {
+    "prefix": "WindowResizable=yes (default)",
+    "body": "WindowResizable=yes"
+  },
+  "WindowResizable=no": {
+    "prefix": "WindowResizable=no",
+    "body": "WindowResizable=no"
+  },
+  "WindowShowCaption": {
+    "prefix": "WindowShowCaption",
+    "body": "WindowShowCaption=${1:yes|no}"
+  },
+  "WindowShowCaption=yes (default)": {
+    "prefix": "WindowShowCaption=yes (default)",
+    "body": "WindowShowCaption=yes"
+  },
+  "WindowShowCaption=no": {
+    "prefix": "WindowShowCaption=no",
+    "body": "WindowShowCaption=no"
+  },
+  "WindowStartMaximized": {
+    "prefix": "WindowStartMaximized",
+    "body": "WindowStartMaximized=${1:yes|no}"
+  },
+  "WindowStartMaximized=yes (default)": {
+    "prefix": "WindowStartMaximized=yes (default)",
+    "body": "WindowStartMaximized=yes"
+  },
+  "WindowStartMaximized=no": {
+    "prefix": "WindowStartMaximized=no",
+    "body": "WindowStartMaximized=no"
+  },
+  "WindowVisible": {
+    "prefix": "WindowVisible",
+    "body": "WindowVisible=${1:no|yes}"
+  },
+  "WindowVisible=no (default)": {
+    "prefix": "WindowVisible=no (default)",
+    "body": "WindowVisible=no"
+  },
+  "WindowVisible=yes": {
+    "prefix": "WindowVisible=yes",
+    "body": "WindowVisible=yes"
+  },
+  "WizardImageBackColor": {
+    "prefix": "WizardImageBackColor",
+    "body": "WizardImageBackColor=${1:\\$${2:BB}${3:GG}${4:RR}}"
+  },
+  "WizardImageFile": {
+    "prefix": "WizardImageFile",
+    "body": "WizardImageFile=${1:compiler:WIZMODERNIMAGE.BMP}"
+  },
+  "WizardImageStretch": {
+    "prefix": "WizardImageStretch",
+    "body": "WizardImageStretch=${1:yes|no}"
+  },
+  "WizardImageStretch=yes (default)": {
+    "prefix": "WizardImageStretch=yes (default)",
+    "body": "WizardImageStretch=yes"
+  },
+  "WizardImageStretch=no": {
+    "prefix": "WizardImageStretch=no",
+    "body": "WizardImageStretch=no"
+  },
+  "WizardSmallImageFile": {
+    "prefix": "WizardSmallImageFile",
+    "body": "WizardSmallImageFile=${1:compiler:WIZMODERNSMALLIMAGE.BMP}"
+  },
+  "AfterInstall": {
+    "prefix": "AfterInstall",
+    "body": "AfterInstall: ${1}"
+  },
+  "AfterMyProgInstall": {
+    "prefix": "AfterMyProgInstall",
+    "body": "AfterMyProgInstall: ${1}"
+  },
+  "BeforeInstall": {
+    "prefix": "BeforeInstall",
+    "body": "BeforeInstall: ${1}"
+  },
+  "BeforeMyProgInstall": {
+    "prefix": "BeforeMyProgInstall",
+    "body": "BeforeMyProgInstall: ${1}"
+  },
+  "Check": {
+    "prefix": "Check",
+    "body": "Check: ${1}"
+  },
+  "Components": {
+    "prefix": "Components",
+    "body": "Components: ${1}"
+  },
+  "Description": {
+    "prefix": "Description",
+    "body": "Description: ${1}"
+  },
+  "DestDir": {
+    "prefix": "DestDir",
+    "body": "DestDir: ${1}"
+  },
+  "DestName": {
+    "prefix": "DestName",
+    "body": "DestName: ${1}"
+  },
+  "Filename": {
+    "prefix": "Filename",
+    "body": "Filename: ${1}"
+  },
+  "Flags": {
+    "prefix": "Flags",
+    "body": "Flags: ${1}"
+  },
+  "Languages": {
+    "prefix": "Languages",
+    "body": "Languages: ${1}"
+  },
+  "Name": {
+    "prefix": "Name",
+    "body": "Name: ${1}"
+  },
+  "Parameters": {
+    "prefix": "Parameters",
+    "body": "Parameters: ${1}"
+  },
+  "Root": {
+    "prefix": "Root",
+    "body": "Root: ${1}"
+  },
+  "Source": {
+    "prefix": "Source",
+    "body": "Source: ${1}"
+  },
+  "StatusMsg": {
+    "prefix": "StatusMsg",
+    "body": "StatusMsg: ${1}"
+  },
+  "Subkey": {
+    "prefix": "Subkey",
+    "body": "Subkey: ${1}"
+  },
+  "Type": {
+    "prefix": "Type",
+    "body": "Type: ${1}"
+  },
+  "Types": {
+    "prefix": "Types",
+    "body": "Types: ${1}"
+  },
+  "ValueData": {
+    "prefix": "ValueData",
+    "body": "ValueData: ${1}"
+  },
+  "ValueName": {
+    "prefix": "ValueName",
+    "body": "ValueName: ${1}"
+  },
+  "ValueType": {
+    "prefix": "ValueType",
+    "body": "ValueType: ${1}"
+  },
+  "WorkingDir": {
+    "prefix": "WorkingDir",
+    "body": "WorkingDir: ${1}"
+  },
+  "32bit": {
+    "prefix": "32bit",
+    "body": "32bit"
+  },
+  "64bit": {
+    "prefix": "64bit",
+    "body": "64bit"
+  },
+  "admin": {
+    "prefix": "admin",
+    "body": "admin"
+  },
+  "allowunsafefiles": {
+    "prefix": "allowunsafefiles",
+    "body": "allowunsafefiles"
+  },
+  "append": {
+    "prefix": "append",
+    "body": "append"
+  },
+  "auto": {
+    "prefix": "auto",
+    "body": "auto"
+  },
+  "binary": {
+    "prefix": "binary",
+    "body": "binary"
+  },
+  "bzip": {
+    "prefix": "bzip",
+    "body": "bzip"
+  },
+  "checkablealone": {
+    "prefix": "checkablealone",
+    "body": "checkablealone"
+  },
+  "checkedonce": {
+    "prefix": "checkedonce",
+    "body": "checkedonce"
+  },
+  "clAqua": {
+    "prefix": "clAqua",
+    "body": "clAqua"
+  },
+  "clBlack": {
+    "prefix": "clBlack",
+    "body": "clBlack"
+  },
+  "clBlue": {
+    "prefix": "clBlue",
+    "body": "clBlue"
+  },
+  "clFuchsia": {
+    "prefix": "clFuchsia",
+    "body": "clFuchsia"
+  },
+  "clGray": {
+    "prefix": "clGray",
+    "body": "clGray"
+  },
+  "clGreen": {
+    "prefix": "clGreen",
+    "body": "clGreen"
+  },
+  "clLime": {
+    "prefix": "clLime",
+    "body": "clLime"
+  },
+  "clMaroon": {
+    "prefix": "clMaroon",
+    "body": "clMaroon"
+  },
+  "clNavy": {
+    "prefix": "clNavy",
+    "body": "clNavy"
+  },
+  "clOlive": {
+    "prefix": "clOlive",
+    "body": "clOlive"
+  },
+  "closeonexit": {
+    "prefix": "closeonexit",
+    "body": "closeonexit"
+  },
+  "clPurple": {
+    "prefix": "clPurple",
+    "body": "clPurple"
+  },
+  "clRed": {
+    "prefix": "clRed",
+    "body": "clRed"
+  },
+  "clSilver": {
+    "prefix": "clSilver",
+    "body": "clSilver"
+  },
+  "clTeal": {
+    "prefix": "clTeal",
+    "body": "clTeal"
+  },
+  "clWhite": {
+    "prefix": "clWhite",
+    "body": "clWhite"
+  },
+  "clYellow": {
+    "prefix": "clYellow",
+    "body": "clYellow"
+  },
+  "compact": {
+    "prefix": "compact",
+    "body": "compact"
+  },
+  "comparetimestamp": {
+    "prefix": "comparetimestamp",
+    "body": "comparetimestamp"
+  },
+  "compiler": {
+    "prefix": "compiler",
+    "body": "compiler"
+  },
+  "confirmoverwrite": {
+    "prefix": "confirmoverwrite",
+    "body": "confirmoverwrite"
+  },
+  "createallsubdirs": {
+    "prefix": "createallsubdirs",
+    "body": "createallsubdirs"
+  },
+  "createkeyifdoesntexist": {
+    "prefix": "createkeyifdoesntexist",
+    "body": "createkeyifdoesntexist"
+  },
+  "createonlyiffileexists": {
+    "prefix": "createonlyiffileexists",
+    "body": "createonlyiffileexists"
+  },
+  "createvalueifdoesntexist": {
+    "prefix": "createvalueifdoesntexist",
+    "body": "createvalueifdoesntexist"
+  },
+  "current": {
+    "prefix": "current",
+    "body": "current"
+  },
+  "custom": {
+    "prefix": "custom",
+    "body": "custom"
+  },
+  "deleteafterinstall": {
+    "prefix": "deleteafterinstall",
+    "body": "deleteafterinstall"
+  },
+  "deletekey": {
+    "prefix": "deletekey",
+    "body": "deletekey"
+  },
+  "deletevalue": {
+    "prefix": "deletevalue",
+    "body": "deletevalue"
+  },
+  "desktopicon": {
+    "prefix": "desktopicon",
+    "body": "desktopicon"
+  },
+  "dirifempty": {
+    "prefix": "dirifempty",
+    "body": "dirifempty"
+  },
+  "disablenouninstallwarning": {
+    "prefix": "disablenouninstallwarning",
+    "body": "disablenouninstallwarning"
+  },
+  "dontcloseonexit": {
+    "prefix": "dontcloseonexit",
+    "body": "dontcloseonexit"
+  },
+  "dontcopy": {
+    "prefix": "dontcopy",
+    "body": "dontcopy"
+  },
+  "dontcreatekey": {
+    "prefix": "dontcreatekey",
+    "body": "dontcreatekey"
+  },
+  "dontinheritcheck": {
+    "prefix": "dontinheritcheck",
+    "body": "dontinheritcheck"
+  },
+  "dontverifychecksum": {
+    "prefix": "dontverifychecksum",
+    "body": "dontverifychecksum"
+  },
+  "dword": {
+    "prefix": "dword",
+    "body": "dword"
+  },
+  "excludefromshowinnewinstall": {
+    "prefix": "excludefromshowinnewinstall",
+    "body": "excludefromshowinnewinstall"
+  },
+  "exclusive": {
+    "prefix": "exclusive",
+    "body": "exclusive"
+  },
+  "expandsz": {
+    "prefix": "expandsz",
+    "body": "expandsz"
+  },
+  "external": {
+    "prefix": "external",
+    "body": "external"
+  },
+  "fast": {
+    "prefix": "fast",
+    "body": "fast"
+  },
+  "files": {
+    "prefix": "files",
+    "body": "files"
+  },
+  "filesandordirs": {
+    "prefix": "filesandordirs",
+    "body": "filesandordirs"
+  },
+  "fixed": {
+    "prefix": "fixed",
+    "body": "fixed"
+  },
+  "foldershortcut": {
+    "prefix": "foldershortcut",
+    "body": "foldershortcut"
+  },
+  "fontisnttruetype": {
+    "prefix": "fontisnttruetype",
+    "body": "fontisnttruetype"
+  },
+  "full": {
+    "prefix": "full",
+    "body": "full"
+  },
+  "gacinstall": {
+    "prefix": "gacinstall",
+    "body": "gacinstall"
+  },
+  "help": {
+    "prefix": "help",
+    "body": "help"
+  },
+  "hidewizard": {
+    "prefix": "hidewizard",
+    "body": "hidewizard"
+  },
+  "ia64": {
+    "prefix": "ia64",
+    "body": "ia64"
+  },
+  "ignoreversion": {
+    "prefix": "ignoreversion",
+    "body": "ignoreversion"
+  },
+  "iscustom": {
+    "prefix": "iscustom",
+    "body": "iscustom"
+  },
+  "isreadme": {
+    "prefix": "isreadme",
+    "body": "isreadme"
+  },
+  "lefttoright": {
+    "prefix": "lefttoright",
+    "body": "lefttoright"
+  },
+  "locale": {
+    "prefix": "locale",
+    "body": "locale"
+  },
+  "lowest": {
+    "prefix": "lowest",
+    "body": "lowest"
+  },
+  "lzma": {
+    "prefix": "lzma",
+    "body": "lzma"
+  },
+  "lzma2": {
+    "prefix": "lzma2",
+    "body": "lzma2"
+  },
+  "main": {
+    "prefix": "main",
+    "body": "main"
+  },
+  "max": {
+    "prefix": "max",
+    "body": "max"
+  },
+  "modify": {
+    "prefix": "modify",
+    "body": "modify"
+  },
+  "multisz": {
+    "prefix": "multisz",
+    "body": "multisz"
+  },
+  "new": {
+    "prefix": "new",
+    "body": "new"
+  },
+  "no": {
+    "prefix": "no",
+    "body": "no"
+  },
+  "nocompression": {
+    "prefix": "nocompression",
+    "body": "nocompression"
+  },
+  "noencryption": {
+    "prefix": "noencryption",
+    "body": "noencryption"
+  },
+  "noerror": {
+    "prefix": "noerror",
+    "body": "noerror"
+  },
+  "none": {
+    "prefix": "none",
+    "body": "none"
+  },
+  "noregerror": {
+    "prefix": "noregerror",
+    "body": "noregerror"
+  },
+  "normal": {
+    "prefix": "normal",
+    "body": "normal"
+  },
+  "nowait": {
+    "prefix": "nowait",
+    "body": "nowait"
+  },
+  "onlyifdoesntexist": {
+    "prefix": "onlyifdoesntexist",
+    "body": "onlyifdoesntexist"
+  },
+  "overwrite": {
+    "prefix": "overwrite",
+    "body": "overwrite"
+  },
+  "overwritereadonly": {
+    "prefix": "overwritereadonly",
+    "body": "overwritereadonly"
+  },
+  "postinstall": {
+    "prefix": "postinstall",
+    "body": "postinstall"
+  },
+  "poweruser": {
+    "prefix": "poweruser",
+    "body": "poweruser"
+  },
+  "preservestringtype": {
+    "prefix": "preservestringtype",
+    "body": "preservestringtype"
+  },
+  "preventpinning": {
+    "prefix": "preventpinning",
+    "body": "preventpinning"
+  },
+  "program": {
+    "prefix": "program",
+    "body": "program"
+  },
+  "promptifolder": {
+    "prefix": "promptifolder",
+    "body": "promptifolder"
+  },
+  "qword": {
+    "prefix": "qword",
+    "body": "qword"
+  },
+  "read": {
+    "prefix": "read",
+    "body": "read"
+  },
+  "readexec": {
+    "prefix": "readexec",
+    "body": "readexec"
+  },
+  "readme": {
+    "prefix": "readme",
+    "body": "readme"
+  },
+  "recursesubdirs": {
+    "prefix": "recursesubdirs",
+    "body": "recursesubdirs"
+  },
+  "regserver": {
+    "prefix": "regserver",
+    "body": "regserver"
+  },
+  "regtypelib": {
+    "prefix": "regtypelib",
+    "body": "regtypelib"
+  },
+  "replacesameversion": {
+    "prefix": "replacesameversion",
+    "body": "replacesameversion"
+  },
+  "restart": {
+    "prefix": "restart",
+    "body": "restart"
+  },
+  "restartreplace": {
+    "prefix": "restartreplace",
+    "body": "restartreplace"
+  },
+  "runascurrentuser": {
+    "prefix": "runascurrentuser",
+    "body": "runascurrentuser"
+  },
+  "runasoriginaluser": {
+    "prefix": "runasoriginaluser",
+    "body": "runasoriginaluser"
+  },
+  "runhidden": {
+    "prefix": "runhidden",
+    "body": "runhidden"
+  },
+  "runminimized": {
+    "prefix": "runminimized",
+    "body": "runminimized"
+  },
+  "setntfscompression": {
+    "prefix": "setntfscompression",
+    "body": "setntfscompression"
+  },
+  "sharedfile": {
+    "prefix": "sharedfile",
+    "body": "sharedfile"
+  },
+  "shellexec": {
+    "prefix": "shellexec",
+    "body": "shellexec"
+  },
+  "skipifdoesntexist": {
+    "prefix": "skipifdoesntexist",
+    "body": "skipifdoesntexist"
+  },
+  "skipifnotsilent": {
+    "prefix": "skipifnotsilent",
+    "body": "skipifnotsilent"
+  },
+  "skipifsilent": {
+    "prefix": "skipifsilent",
+    "body": "skipifsilent"
+  },
+  "skipifsourcedoesntexist": {
+    "prefix": "skipifsourcedoesntexist",
+    "body": "skipifsourcedoesntexist"
+  },
+  "solidbreak": {
+    "prefix": "solidbreak",
+    "body": "solidbreak"
+  },
+  "sortfilesbyextension": {
+    "prefix": "sortfilesbyextension",
+    "body": "sortfilesbyextension"
+  },
+  "sortfilesbyname": {
+    "prefix": "sortfilesbyname",
+    "body": "sortfilesbyname"
+  },
+  "string": {
+    "prefix": "string",
+    "body": "string"
+  },
+  "toptobottom": {
+    "prefix": "toptobottom",
+    "body": "toptobottom"
+  },
+  "touch": {
+    "prefix": "touch",
+    "body": "touch"
+  },
+  "uilanguage": {
+    "prefix": "uilanguage",
+    "body": "uilanguage"
+  },
+  "ultra": {
+    "prefix": "ultra",
+    "body": "ultra"
+  },
+  "unchecked": {
+    "prefix": "unchecked",
+    "body": "unchecked"
+  },
+  "uninsalwaysuninstall": {
+    "prefix": "uninsalwaysuninstall",
+    "body": "uninsalwaysuninstall"
+  },
+  "uninsclearvalue": {
+    "prefix": "uninsclearvalue",
+    "body": "uninsclearvalue"
+  },
+  "uninsdeleteentry": {
+    "prefix": "uninsdeleteentry",
+    "body": "uninsdeleteentry"
+  },
+  "uninsdeletekey": {
+    "prefix": "uninsdeletekey",
+    "body": "uninsdeletekey"
+  },
+  "uninsdeletekeyifempty": {
+    "prefix": "uninsdeletekeyifempty",
+    "body": "uninsdeletekeyifempty"
+  },
+  "uninsdeletesection": {
+    "prefix": "uninsdeletesection",
+    "body": "uninsdeletesection"
+  },
+  "uninsdeletesectionifempty": {
+    "prefix": "uninsdeletesectionifempty",
+    "body": "uninsdeletesectionifempty"
+  },
+  "uninsdeletevalue": {
+    "prefix": "uninsdeletevalue",
+    "body": "uninsdeletevalue"
+  },
+  "uninsneveruninstall": {
+    "prefix": "uninsneveruninstall",
+    "body": "uninsneveruninstall"
+  },
+  "uninsnosharedfileprompt": {
+    "prefix": "uninsnosharedfileprompt",
+    "body": "uninsnosharedfileprompt"
+  },
+  "uninsremovereadonly": {
+    "prefix": "uninsremovereadonly",
+    "body": "uninsremovereadonly"
+  },
+  "uninsrestartdelete": {
+    "prefix": "uninsrestartdelete",
+    "body": "uninsrestartdelete"
+  },
+  "unsetntfscompression": {
+    "prefix": "unsetntfscompression",
+    "body": "unsetntfscompression"
+  },
+  "useapppaths": {
+    "prefix": "useapppaths",
+    "body": "useapppaths"
+  },
+  "waituntilidle": {
+    "prefix": "waituntilidle",
+    "body": "waituntilidle"
+  },
+  "waituntilterminated": {
+    "prefix": "waituntilterminated",
+    "body": "waituntilterminated"
+  },
+  "x64": {
+    "prefix": "x64",
+    "body": "x64"
+  },
+  "x86": {
+    "prefix": "x86",
+    "body": "x86"
+  },
+  "yes": {
+    "prefix": "yes",
+    "body": "yes"
+  },
+  "zip": {
+    "prefix": "zip",
+    "body": "zip"
+  }
+}

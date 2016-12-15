@@ -61,6 +61,7 @@ languages already.
 - ICalendar
 - Idris
 - Ini
+- Inno Setup
 - Jade/Pug
 - Java
 - JavaDoc

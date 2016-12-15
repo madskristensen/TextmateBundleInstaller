@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>name</key>
+    <string>Inno Pascal</string>
+    <key>comment</key>
+    <string>https://github.com/idleberg/sublime-innosetup</string>
+
+    <key>patterns</key>
+    <array>
+        <dict>
+            <key>include</key>
+            <string>source.pascal</string>
+        </dict>
+
+        <dict>
+            <key>match</key>
+            <string>\b(AddBackslash|AddPeriod|AddQuotes|AnsiLowercase|AnsiUppercase|BrowseForFolder|ChangeFileExt|CharLength|CharToOemBuff|CheckForMutexes|Chr|CompareStr|CompareText|ConvertPercentStr|Copy|CreateComObject|CreateCustomPage|CreateDir|CreateInputDirPage|CreateInputFilePage|CreateInputOptionPage|CreateInputQueryPage|CreateMutex|CreateOleObject|CreateOutputMsgMemoPage|CreateOutputMsgPage|CreateOutputProgressPage|CreateShellLink|CustomMessage|DecrementSharedCount|DelayDeleteFile|Delete|DeleteFile|DeleteIniEntry|DeleteIniSection|DelTree|DirExists|DLLGetLastError|EnableFsRedirection|Exec|ExecAsOriginalUser|ExpandConstant|ExpandConstantEx|ExpandFileName|ExpandUNCFileName|ExtractFileDir|ExtractFileDrive|ExtractFileExt|ExtractFileName|ExtractFilePath|ExtractRelativePath|ExtractTemporaryFile|ExtractTemporaryFiles|FileCopy|FileExists|FileOrDirExists|FileSearch|FileSize|FindClose|FindFirst|FindNext|FindWindowByClassName|FindWindowByWindowName|FloatToStr|FmtMessage|FontExists|ForceDirectories|Format|GenerateUniqueName|GetActiveOleObject|GetArrayLength|GetDateTimeString|GetEnv|GetIniBool|GetIniInt|GetIniString|GetMD5OfFile|GetMD5OfString|GetMD5OfUnicodeString|GetOpenFileName|GetOpenFileNameMulti|GetPreviousData|GetSaveFileName|GetSHA1OfFile|GetSHA1OfString|GetSHA1OfUnicodeString|GetShellFolder|GetShellFolderByCSIDL|GetShortName|GetSpaceOnDisk|GetSpaceOnDisk64|GetVersionNumbers|GetVersionNumbersString|GetWindowsVersionEx|IDispatchInvoke|IncrementSharedCount|IniKeyExists|Insert|InstallOnThisVersion|IntToStr|IsComponentSelected|IsIniSectionEmpty|IsProtectedSystemFile|IsTaskSelected|Length|LoadStringFromFile|LoadStringsFromFile|Log|Lowercase|MinimizePathName|ModifyPifFile|MsgBox|OemToCharBuff|OleCheck|Ord|PageFromID|PageIndexFromID|ParamStr|Pos|PostBroadcastMessage|PostMessage|RaiseException|Random|RegDeleteKeyIfEmpty|RegDeleteKeyIncludingSubkeys|RegDeleteValue|RegGetSubkeyNames|RegGetValueNames|RegisterExtraCloseApplicationsResource|RegisterServer|RegisterTypeLibrary|RegisterWindowMessage|RegKeyExists|RegQueryBinaryValue|RegQueryDWordValue|RegQueryMultiStringValue|RegQueryStringValue|RegValueExists|RegWriteBinaryValue|RegWriteDWordValue|RegWriteExpandStringValue|RegWriteMultiStringValue|RegWriteStringValue|RemoveBackslash|RemoveBackslashUnlessRoot|RemoveDir|RemoveQuotes|RenameFile|RestartReplace|SaveStringsToFile|SaveStringsToUTF8File|SaveStringToFile|ScaleX|ScaleY|SelectDisk|SendBroadcastMessage|SendBroadcastNotifyMessage|SendMessage|SendNotifyMessage|SetArrayLength|SetCurrentDir|SetIniBool|SetIniInt|SetIniString|SetLength|SetNTFSCompression|SetPreviousData|SetupMessage|ShellExec|ShellExecAsOriginalUser|Sleep|StringChange|StringChangeEx|StringOfChar|StringToGUID|StrToFloat|StrToInt|StrToInt64|StrToInt64Def|StrToIntDef|SuppressibleMsgBox|SysErrorMessage|Trim|TrimLeft|TrimRight|UnloadDLL|UnpinShellLink|UnregisterFont|UnregisterServer|UnregisterTypeLibrary|Uppercase|VarIsClear|VarIsEmpty|VarIsNull|VarType|WizardSelectedComponents|WizardSelectedTasks|WizardSetupType)*(\s*\()</string>
+            <key>name</key>
+            <string>entity.name.function.pascal</string>
+        </dict>
+
+        <dict>
+            <key>match</key>
+            <string>\b(CallDLLProc|CastIntegerToString|CastStringToInteger|FreeDLL|LoadDLL)*(\s*\()</string>
+            <key>name</key>
+            <string>invalid.deprecated.pascal</string>
+        </dict>
+
+        <dict>
+            <key>match</key>
+            <string>\b(GetCmdTail|ParamCount|ActiveLanguage|WizardDirValue|WizardGroupValue|WizardNoIcons|WizardSilent|IsUninstaller|UninstallSilent|CurrentFilename|CurrentSourceFilename|Terminated|RmSessionStarted|Abort|GetExceptionMessage|ShowExceptionMessage|IsAdminLoggedOn|IsPowerUserLoggedOn|GetWindowsVersion|GetWindowsVersionString|IsWin64|Is64BitInstallMode|ProcessorArchitecture|GetUserNameString|GetComputerNameString|GetUILanguage|MakePendingFileRenameOperationsChecksum|Null|Unassigned|GetCurrentDir|GetWinDir|GetSystemDir|GetSysWow64Dir|GetTempDir|CreateCustomForm|ExitSetupMsgBox|CoFreeUnusedLibraries|Beep|BringToFrontAndRestore)\b</string>
+            <key>name</key>
+            <string>constant.language.pascal</string>
+        </dict>
+
+        <dict>
+            <key>match</key>
+            <string>\b(HKCC32|HKCC64|HKCC|HKCR32|HKCR64|HKCR|HKCU32|HKCU64|HKCU|HKEY_CLASSES_ROOT_32|HKEY_CLASSES_ROOT_64|HKEY_CLASSES_ROOT|HKEY_CURRENT_CONFIG_32|HKEY_CURRENT_CONFIG_64|HKEY_CURRENT_CONFIG|HKEY_CURRENT_USER_32|HKEY_CURRENT_USER_64|HKEY_CURRENT_USER|HKEY_DYN_DATA|HKEY_LOCAL_MACHINE_32|HKEY_LOCAL_MACHINE_64|HKEY_LOCAL_MACHINE|HKEY_PERFORMANCE_DATA|HKEY_USERS_32|HKEY_USERS_64|HKEY_USERS|HKLM32|HKLM64|HKLM|HKU32|HKU64|HKU|IDABORT|IDCANCEL|IDIGNORE|IDNO|IDOK|IDRETRY|IDYES|MB_ABORTRETRYIGNORE|MB_DEFBUTTON1|MB_DEFBUTTON2|MB_DEFBUTTON3|MB_OKCANCEL|MB_OK|MB_RETRYCANCEL|MB_SETFOREGROUND|MB_YESNOCANCEL|MB_YESNO|mbConfirmation|mbCriticalError|mbError|mbInformation|sfAppData|sfDesktop|sfDocs|sfFavorites|sfFonts|sfLocalAppData|sfPrograms|sfSendTo|sfStartMenu|sfStartup|sfTemplates|srNo|srUnknown|srYes|ssDone|ssInstall|ssPostInstall|SW_HIDE|SW_SHOWMAXIMIZED|SW_SHOWMINIMIZED|SW_SHOWMINNOACTIVE|SW_SHOWNORMAL|SW_SHOW|wpFinished|wpInfoAfter|wpInfoBefore|wpInstalling|wpLicense|wpPassword|wpPreparing|wpReady|wpSelectComponents|wpSelectDir|wpSelectProgramGroup|wpSelectTasks|wpUserInfo|wpWelcome)\b</string>
+            <key>name</key>
+            <string>constant.language.pascal</string>
+        </dict>
+    </array>
+
+    <key>scopeName</key>
+    <string>source.pascal.inno</string>
+
+    <key>uuid</key>
+    <string>fc3750f1-c489-4980-9c0b-e7048de97760</string>
+</dict>
+</plist>

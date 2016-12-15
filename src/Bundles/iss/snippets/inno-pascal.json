@@ -1,0 +1,1212 @@
+{
+  "Abort": {
+    "body": "procedure Abort$0",
+    "description": "Exception",
+    "prefix": "Abort"
+  },
+  "ActiveLanguage": {
+    "body": "function ActiveLanguage$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "ActiveLanguage"
+  },
+  "AddBackslash": {
+    "body": "function AddBackslash(${1:const S: String})$0",
+    "description": "String",
+    "prefix": "AddBackslash"
+  },
+  "AddPeriod": {
+    "body": "function AddPeriod(${1:const S: String})$0",
+    "description": "String",
+    "prefix": "AddPeriod"
+  },
+  "AddQuotes": {
+    "body": "function AddQuotes(${1:const S: String})$0",
+    "description": "String",
+    "prefix": "AddQuotes"
+  },
+  "AnsiLowercase": {
+    "body": "function AnsiLowercase(${1:S: String})$0",
+    "description": "String",
+    "prefix": "AnsiLowercase"
+  },
+  "AnsiUppercase": {
+    "body": "function AnsiUppercase(${1:S: String})$0",
+    "description": "String",
+    "prefix": "AnsiUppercase"
+  },
+  "Beep": {
+    "body": "procedure Beep$0",
+    "description": "Other",
+    "prefix": "Beep"
+  },
+  "BringToFrontAndRestore": {
+    "body": "procedure BringToFrontAndRestore$0",
+    "description": "Other",
+    "prefix": "BringToFrontAndRestore"
+  },
+  "BrowseForFolder": {
+    "body": "function BrowseForFolder(${1:const Prompt: String}, ${2:var Directory: String}, ${3:const NewFolderButton: Boolean})$0",
+    "description": "Dialog",
+    "prefix": "BrowseForFolder"
+  },
+  "CallDLLProc": {
+    "body": "function CallDLLProc(${1:const DLLHandle: Longint}, ${2:const ProcName: String}, ${3:const Param1}, ${4:Param2: Longint}, ${5:var Result: Longint})$0",
+    "description": "Deprecated",
+    "prefix": "CallDLLProc"
+  },
+  "CastIntegerToString": {
+    "body": "function CastIntegerToString(${1:const L: Longint})$0",
+    "description": "Deprecated",
+    "prefix": "CastIntegerToString"
+  },
+  "CastStringToInteger": {
+    "body": "function CastStringToInteger(${1:var S: String})$0",
+    "description": "Deprecated",
+    "prefix": "CastStringToInteger"
+  },
+  "ChangeFileExt": {
+    "body": "function ChangeFileExt(${1:const FileName}, ${2:Extension: string})$0",
+    "description": "String",
+    "prefix": "ChangeFileExt"
+  },
+  "CharLength": {
+    "body": "function CharLength(${1:const S: String}, const Index: Integer})$0",
+    "description": "String",
+    "prefix": "CharLength"
+  },
+  "CharToOemBuff": {
+    "body": "procedure CharToOemBuff(${1:var S: AnsiString})$0",
+    "description": "String",
+    "prefix": "CharToOemBuff"
+  },
+  "CheckForMutexes": {
+    "body": "function CheckForMutexes(${1:Mutexes: String})$0",
+    "description": "System",
+    "prefix": "CheckForMutexes"
+  },
+  "Chr": {
+    "body": "function Chr(${1:B: Byte})$0",
+    "description": "String",
+    "prefix": "Chr"
+  },
+  "CoFreeUnusedLibraries": {
+    "body": "procedure CoFreeUnusedLibraries$0",
+    "description": "COM Automation objects support",
+    "prefix": "CoFreeUnusedLibraries"
+  },
+  "CompareStr": {
+    "body": "function CompareStr(${1:const S1}, S2: string})$0",
+    "description": "String",
+    "prefix": "CompareStr"
+  },
+  "CompareText": {
+    "body": "function CompareText(${1:const S1}, S2: string})$0",
+    "description": "String",
+    "prefix": "CompareText"
+  },
+  "ConvertPercentStr": {
+    "body": "function ConvertPercentStr(${1:var S: String})$0",
+    "description": "String",
+    "prefix": "ConvertPercentStr"
+  },
+  "Copy": {
+    "body": "function Copy(${1:S: String} Index}, ${2:Count: Integer})$0",
+    "description": "String",
+    "prefix": "Copy"
+  },
+  "CreateComObject": {
+    "body": "function CreateComObject(${1:const ClassID: TGUID})$0",
+    "description": "COM Automation objects support",
+    "prefix": "CreateComObject"
+  },
+  "CreateCustomForm": {
+    "body": "function CreateCustomForm$0",
+    "description": "Custom Setup Wizard Page",
+    "prefix": "CreateCustomForm"
+  },
+  "CreateCustomPage": {
+    "body": "function CreateCustomPage(${1:const AfterID: Integer}, ${2:const ACaption}, ${3:ADescription: String})$0",
+    "description": "Custom Setup Wizard Page",
+    "prefix": "CreateCustomPage"
+  },
+  "CreateDir": {
+    "body": "function CreateDir(${1:const Dir: string})$0",
+    "description": "File",
+    "prefix": "CreateDir"
+  },
+  "CreateInputDirPage": {
+    "body": "function CreateInputDirPage(${1:const AfterID: Integer}, ${2:const ACaption}, ${3:ADescription}, ${4:ASubCaption: String}, ${5:AAppendDir: Boolean}, ${6:ANewFolderName: String})$0",
+    "description": "Custom Setup Wizard Page",
+    "prefix": "CreateInputDirPage"
+  },
+  "CreateInputFilePage": {
+    "body": "function CreateInputFilePage(${1:const AfterID: Integer}, ${2:const ACaption}, ${3:ADescription}, ${4:ASubCaption: String})$0",
+    "description": "Custom Setup Wizard Page",
+    "prefix": "CreateInputFilePage"
+  },
+  "CreateInputOptionPage": {
+    "body": "function CreateInputOptionPage(${1:const AfterID: Integer}, ${2:const ACaption}, ${3:ADescription}, ${4:ASubCaption: String}, ${5:Exclusive}, ${6:ListBox: Boolean})$0",
+    "description": "Custom Setup Wizard Page",
+    "prefix": "CreateInputOptionPage"
+  },
+  "CreateInputQueryPage": {
+    "body": "function CreateInputQueryPage(${1:const AfterID: Integer}, ${2:const ACaption}, ${3:ADescription}, ${4:ASubCaption: String})$0",
+    "description": "Custom Setup Wizard Page",
+    "prefix": "CreateInputQueryPage"
+  },
+  "CreateMutex": {
+    "body": "procedure CreateMutex(${1:const Name: String})$0",
+    "description": "System",
+    "prefix": "CreateMutex"
+  },
+  "CreateOleObject": {
+    "body": "function CreateOleObject(${1:const ClassName: string})$0",
+    "description": "COM Automation objects support",
+    "prefix": "CreateOleObject"
+  },
+  "CreateOutputMsgMemoPage": {
+    "body": "function CreateOutputMsgMemoPage(${1:const AfterID: Integer}, ${2:const ACaption}, ${3:ADescription}, ${4:ASubCaption: String}, ${5:const AMsg: AnsiString})$0",
+    "description": "Custom Setup Wizard Page",
+    "prefix": "CreateOutputMsgMemoPage"
+  },
+  "CreateOutputMsgPage": {
+    "body": "function CreateOutputMsgPage(${1:const AfterID: Integer}, ${2:const ACaption}, ${3:ADescription}, ${4:AMsg: String})$0",
+    "description": "Custom Setup Wizard Page",
+    "prefix": "CreateOutputMsgPage"
+  },
+  "CreateOutputProgressPage": {
+    "body": "function CreateOutputProgressPage(${1:const ACaption}, ${2:ADescription: String})$0",
+    "description": "Custom Setup Wizard Page",
+    "prefix": "CreateOutputProgressPage"
+  },
+  "CreateShellLink": {
+    "body": "function CreateShellLink(${1:const Filename}, ${2:Description}, ${3:ShortcutTo}, ${4:Parameters}, ${5:WorkingDir}, ${6:IconFilename: String}, ${7:const IconIndex}, ${8:ShowCmd: Integer})$0",
+    "description": "File",
+    "prefix": "CreateShellLink"
+  },
+  "CurrentFilename": {
+    "body": "function CurrentFilename$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "CurrentFilename"
+  },
+  "CurrentSourceFilename": {
+    "body": "function CurrentSourceFilename$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "CurrentSourceFilename"
+  },
+  "CustomMessage": {
+    "body": "function CustomMessage(${1:const MsgName: String})$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "CustomMessage"
+  },
+  "DLLGetLastError": {
+    "body": "function DLLGetLastError()$0",
+    "description": "System",
+    "prefix": "DLLGetLastError"
+  },
+  "DecrementSharedCount": {
+    "body": "function DecrementSharedCount(${1:const Is64Bit: Boolean}, ${2:const Filename: String})$0",
+    "description": "File",
+    "prefix": "DecrementSharedCount"
+  },
+  "DelTree": {
+    "body": "function DelTree(${1:const Path: String}, ${2:const IsDir}, ${3:DeleteFiles}, ${4:DeleteSubdirsAlso: Boolean})$0",
+    "description": "File",
+    "prefix": "DelTree"
+  },
+  "DelayDeleteFile": {
+    "body": "procedure DelayDeleteFile(${1:const Filename: String}, ${2:const Tries: Integer})$0",
+    "description": "File",
+    "prefix": "DelayDeleteFile"
+  },
+  "Delete": {
+    "body": "procedure Delete(${1:var S: String}, ${2:DeleteIndex}, ${3:Count: Integer})$0",
+    "description": "String",
+    "prefix": "Delete"
+  },
+  "DeleteFile": {
+    "body": "function DeleteFile(${1:const FileName: string})$0",
+    "description": "File",
+    "prefix": "DeleteFile"
+  },
+  "DeleteIniEntry": {
+    "body": "procedure DeleteIniEntry(${1:const Section}, ${2:Key}, ${3:Filename: String})$0",
+    "description": "INI File",
+    "prefix": "DeleteIniEntry"
+  },
+  "DeleteIniSection": {
+    "body": "procedure DeleteIniSection(${1:const Section}, ${2:Filename: String})$0",
+    "description": "INI File",
+    "prefix": "DeleteIniSection"
+  },
+  "DirExists": {
+    "body": "function DirExists(${1:const Name: String})$0",
+    "description": "File System",
+    "prefix": "DirExists"
+  },
+  "EnableFsRedirection": {
+    "body": "function EnableFsRedirection(${1:const Enable: Boolean})$0",
+    "description": "File System",
+    "prefix": "EnableFsRedirection"
+  },
+  "Exec": {
+    "body": "function Exec(${1:const Filename}, Params}, ${2:WorkingDir: String}, ${2:const ShowCmd: Integer}, ${3:const Wait: TExecWait}, ${4:var ResultCode: Integer})$0",
+    "description": "File",
+    "prefix": "Exec"
+  },
+  "ExecAsOriginalUser": {
+    "body": "function ExecAsOriginalUser(${1:const Filename}, ${2:Params}, ${3:WorkingDir: String}, ${4:const ShowCmd: Integer}, ${5:const Wait: TExecWait}, ${6:var ResultCode: Integer})$0",
+    "description": "File",
+    "prefix": "ExecAsOriginalUser"
+  },
+  "ExitSetupMsgBox": {
+    "body": "function ExitSetupMsgBox$0",
+    "description": "Dialog",
+    "prefix": "ExitSetupMsgBox"
+  },
+  "ExpandConstant": {
+    "body": "function ExpandConstant(${1:const S: String})$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "ExpandConstant"
+  },
+  "ExpandConstantEx": {
+    "body": "function ExpandConstantEx(${1:const S: String}, ${2:const CustomConst}, ${3:CustomValue: String})$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "ExpandConstantEx"
+  },
+  "ExpandFileName": {
+    "body": "function ExpandFileName(${1:const FileName: string})$0",
+    "description": "String",
+    "prefix": "ExpandFileName"
+  },
+  "ExpandUNCFileName": {
+    "body": "function ExpandUNCFileName(${1:const FileName: string})$0",
+    "description": "String",
+    "prefix": "ExpandUNCFileName"
+  },
+  "ExtractFileDir": {
+    "body": "function ExtractFileDir(${1:const FileName: string})$0",
+    "description": "String",
+    "prefix": "ExtractFileDir"
+  },
+  "ExtractFileDrive": {
+    "body": "function ExtractFileDrive(${1:const FileName: string})$0",
+    "description": "String",
+    "prefix": "ExtractFileDrive"
+  },
+  "ExtractFileExt": {
+    "body": "function ExtractFileExt(${1:const FileName: string})$0",
+    "description": "String",
+    "prefix": "ExtractFileExt"
+  },
+  "ExtractFileName": {
+    "body": "function ExtractFileName(${1:const FileName: string})$0",
+    "description": "String",
+    "prefix": "ExtractFileName"
+  },
+  "ExtractFilePath": {
+    "body": "function ExtractFilePath(${1:const FileName: string})$0",
+    "description": "String",
+    "prefix": "ExtractFilePath"
+  },
+  "ExtractRelativePath": {
+    "body": "function ExtractRelativePath(${1:const BaseName}, ${2:DestName: String})$0",
+    "description": "String",
+    "prefix": "ExtractRelativePath"
+  },
+  "ExtractTemporaryFile": {
+    "body": "procedure ExtractTemporaryFile(${1:const FileName: String})$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "ExtractTemporaryFile"
+  },
+  "ExtractTemporaryFiles": {
+    "body": "function ExtractTemporaryFiles(${1:const Pattern: String})$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "ExtractTemporaryFiles"
+  },
+  "FileCopy": {
+    "body": "function FileCopy(${1:const ExistingFile}, ${2:NewFile: String}, ${3:const FailIfExists: Boolean})$0",
+    "description": "File",
+    "prefix": "FileCopy"
+  },
+  "FileExists": {
+    "body": "function FileExists(${1:const Name: String})$0",
+    "description": "File System",
+    "prefix": "FileExists"
+  },
+  "FileOrDirExists": {
+    "body": "function FileOrDirExists(${1:const Name: String})$0",
+    "description": "File System",
+    "prefix": "FileOrDirExists"
+  },
+  "FileSearch": {
+    "body": "function FileSearch(${1:const Name}, ${2:DirList: string})$0",
+    "description": "File System",
+    "prefix": "FileSearch"
+  },
+  "FileSize": {
+    "body": "function FileSize(${1:const Name: String}, ${2:var Size: Integer})$0",
+    "description": "File System",
+    "prefix": "FileSize"
+  },
+  "FindClose": {
+    "body": "procedure FindClose(${1:var FindRec: TFindRec})$0",
+    "description": "File System",
+    "prefix": "FindClose"
+  },
+  "FindFirst": {
+    "body": "function FindFirst(${1:const FileName: String}, ${2:var FindRec: TFindRec})$0",
+    "description": "File System",
+    "prefix": "FindFirst"
+  },
+  "FindNext": {
+    "body": "function FindNext(${1:var FindRec: TFindRec})$0",
+    "description": "File System",
+    "prefix": "FindNext"
+  },
+  "FindWindowByClassName": {
+    "body": "function FindWindowByClassName(${1:const ClassName: String})$0",
+    "description": "System",
+    "prefix": "FindWindowByClassName"
+  },
+  "FindWindowByWindowName": {
+    "body": "function FindWindowByWindowName(${1:const WindowName: String})$0",
+    "description": "System",
+    "prefix": "FindWindowByWindowName"
+  },
+  "FloatToStr": {
+    "body": "function FloatToStr(${1:e: extended})$0",
+    "description": "String",
+    "prefix": "FloatToStr"
+  },
+  "FmtMessage": {
+    "body": "function FmtMessage(${1:const S: String}, ${2:const Args: array of String})$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "FmtMessage"
+  },
+  "FontExists": {
+    "body": "function FontExists(${1:const FaceName: String})$0",
+    "description": "System",
+    "prefix": "FontExists"
+  },
+  "ForceDirectories": {
+    "body": "function ForceDirectories(${Dir: string})$0",
+    "description": "File",
+    "prefix": "ForceDirectories"
+  },
+  "Format": {
+    "body": "function Format(${1:const Format: string}, const Args: array of const})$0",
+    "description": "String",
+    "prefix": "Format"
+  },
+  "FreeDLL": {
+    "body": "function FreeDLL(${1:const DLLHandle: Longint})$0",
+    "description": "Deprecated",
+    "prefix": "FreeDLL"
+  },
+  "GenerateUniqueName": {
+    "body": "function GenerateUniqueName(${Path: String}, ${2:const Extension: String})$0",
+    "description": "File System",
+    "prefix": "GenerateUniqueName"
+  },
+  "GetActiveOleObject": {
+    "body": "function GetActiveOleObject(${1:const ClassName: string})$0",
+    "description": "COM Automation objects support",
+    "prefix": "GetActiveOleObject"
+  },
+  "GetArrayLength": {
+    "body": "function GetArrayLength(${1:var Arr: Array})$0",
+    "description": "Array",
+    "prefix": "GetArrayLength"
+  },
+  "GetCmdTail": {
+    "body": "function GetCmdTail$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "GetCmdTail"
+  },
+  "GetComputerNameString": {
+    "body": "function GetComputerNameString$0",
+    "description": "System",
+    "prefix": "GetComputerNameString"
+  },
+  "GetCurrentDir": {
+    "body": "function GetCurrentDir$0",
+    "description": "File System",
+    "prefix": "GetCurrentDir"
+  },
+  "GetDateTimeString": {
+    "body": "function GetDateTimeString(${1:const DateTimeFormat: String}, ${2:const DateSeparator}, ${3:TimeSeparator: Char})$0",
+    "description": "String",
+    "prefix": "GetDateTimeString"
+  },
+  "GetEnv": {
+    "body": "function GetEnv(${1:const EnvVar: String})$0",
+    "description": "System",
+    "prefix": "GetEnv"
+  },
+  "GetExceptionMessage": {
+    "body": "function GetExceptionMessage$0",
+    "description": "Exception",
+    "prefix": "GetExceptionMessage"
+  },
+  "GetIniBool": {
+    "body": "function GetIniBool(${1:const Section}, ${2:Key: String}, ${3:const Default: Boolean}, ${4:const Filename: String})$0",
+    "description": "INI File",
+    "prefix": "GetIniBool"
+  },
+  "GetIniInt": {
+    "body": "function GetIniInt(${1:const Section}, ${2:Key: String}, ${3:const Default}, ${4:Min}, ${5:Max: Longint}, ${6:const Filename: String})$0",
+    "description": "INI File",
+    "prefix": "GetIniInt"
+  },
+  "GetIniString": {
+    "body": "function GetIniString(${1:const Section}, ${2:Key}, Default}, ${3:Filename: String})$0",
+    "description": "INI File",
+    "prefix": "GetIniString"
+  },
+  "GetMD5OfFile": {
+    "body": "function GetMD5OfFile(${1:const Filename: String})$0",
+    "description": "File System",
+    "prefix": "GetMD5OfFile"
+  },
+  "GetMD5OfString": {
+    "body": "function GetMD5OfString(${1:const S: AnsiString})$0",
+    "description": "String",
+    "prefix": "GetMD5OfString"
+  },
+  "GetMD5OfUnicodeString": {
+    "body": "function GetMD5OfUnicodeString(${1:const S: String})$0",
+    "description": "String",
+    "prefix": "GetMD5OfUnicodeString"
+  },
+  "GetOpenFileName": {
+    "body": "function GetOpenFileName(${1:const Prompt: String}, ${2:var FileName: String}, ${3:const InitialDirectory}, ${4:Filter}, ${5:DefaultExtension: String})$0",
+    "description": "Dialog",
+    "prefix": "GetOpenFileName"
+  },
+  "GetOpenFileNameMulti": {
+    "body": "function GetOpenFileNameMulti(${1:const Prompt: String}, ${2:var FileNameList: TStrings}, ${3:const InitialDirectory}, ${4:Filter}, ${5:DefaultExtension: String})$0",
+    "description": "Dialog",
+    "prefix": "GetOpenFileNameMulti"
+  },
+  "GetPreviousData": {
+    "body": "function GetPreviousData(${1:const ValueName}, DefaultValueData: String})$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "GetPreviousData"
+  },
+  "GetSHA1OfFile": {
+    "body": "function GetSHA1OfFile(${1:const Filename: String})$0",
+    "description": "File System",
+    "prefix": "GetSHA1OfFile"
+  },
+  "GetSHA1OfString": {
+    "body": "function GetSHA1OfString(${1:const S: AnsiString})$0",
+    "description": "String",
+    "prefix": "GetSHA1OfString"
+  },
+  "GetSHA1OfUnicodeString": {
+    "body": "function GetSHA1OfUnicodeString(${1:const S: String})$0",
+    "description": "String",
+    "prefix": "GetSHA1OfUnicodeString"
+  },
+  "GetSaveFileName": {
+    "body": "function GetSaveFileName(${1:const Prompt: String}, ${2:var FileName: String}, ${3:const InitialDirectory}, ${4:Filter}, ${5:DefaultExtension: String})$0",
+    "description": "Dialog",
+    "prefix": "GetSaveFileName"
+  },
+  "GetShellFolder": {
+    "body": "function GetShellFolder(${Common: Boolean}, ${2:const ID: TShellFolderID})$0",
+    "description": "File System",
+    "prefix": "GetShellFolder"
+  },
+  "GetShellFolderByCSIDL": {
+    "body": "function GetShellFolderByCSIDL(${1:const Folder: Integer}, ${2:const Create: Boolean})$0",
+    "description": "File System",
+    "prefix": "GetShellFolderByCSIDL"
+  },
+  "GetShortName": {
+    "body": "function GetShortName(${1:const LongName: String})$0",
+    "description": "File System",
+    "prefix": "GetShortName"
+  },
+  "GetSpaceOnDisk": {
+    "body": "function GetSpaceOnDisk(${1:const Path: String}, ${2:const InMegabytes: Boolean}, ${3:var Free}, ${4:Total: Cardinal})$0",
+    "description": "File System",
+    "prefix": "GetSpaceOnDisk"
+  },
+  "GetSpaceOnDisk64": {
+    "body": "function GetSpaceOnDisk64(${1:const Path: String}, ${2:var Free}, ${3:Total: Int64})$0",
+    "description": "File System",
+    "prefix": "GetSpaceOnDisk64"
+  },
+  "GetSysWow64Dir": {
+    "body": "function GetSysWow64Dir$0",
+    "description": "File System",
+    "prefix": "GetSysWow64Dir"
+  },
+  "GetSystemDir": {
+    "body": "function GetSystemDir$0",
+    "description": "File System",
+    "prefix": "GetSystemDir"
+  },
+  "GetTempDir": {
+    "body": "function GetTempDir$0",
+    "description": "File System",
+    "prefix": "GetTempDir"
+  },
+  "GetUILanguage": {
+    "body": "function GetUILanguage$0",
+    "description": "System",
+    "prefix": "GetUILanguage"
+  },
+  "GetUserNameString": {
+    "body": "function GetUserNameString$0",
+    "description": "System",
+    "prefix": "GetUserNameString"
+  },
+  "GetVersionNumbers": {
+    "body": "function GetVersionNumbers(${1:const Filename: String}, ${2:var VersionMS}, ${3:VersionLS: Cardinal})$0",
+    "description": "File System",
+    "prefix": "GetVersionNumbers"
+  },
+  "GetVersionNumbersString": {
+    "body": "function GetVersionNumbersString(${1:const Filename: String}, ${2:var Version: String})$0",
+    "description": "File System",
+    "prefix": "GetVersionNumbersString"
+  },
+  "GetWinDir": {
+    "body": "function GetWinDir$0",
+    "description": "File System",
+    "prefix": "GetWinDir"
+  },
+  "GetWindowsVersion": {
+    "body": "function GetWindowsVersion$0",
+    "description": "System",
+    "prefix": "GetWindowsVersion"
+  },
+  "GetWindowsVersionEx": {
+    "body": "procedure GetWindowsVersionEx(${1:var Version: TWindowsVersion})$0",
+    "description": "System",
+    "prefix": "GetWindowsVersionEx"
+  },
+  "GetWindowsVersionString": {
+    "body": "function GetWindowsVersionString$0",
+    "description": "System",
+    "prefix": "GetWindowsVersionString"
+  },
+  "IDispatchInvoke": {
+    "body": "function IDispatchInvoke(${Self: IDispatch} PropertySet: Boolean}, ${2:const Name: String}, ${3:Par: array of Variant})$0",
+    "description": "COM Automation objects support",
+    "prefix": "IDispatchInvoke"
+  },
+  "IncrementSharedCount": {
+    "body": "procedure IncrementSharedCount(${1:const Is64Bit: Boolean}, ${2:const Filename: String}, ${3:const AlreadyExisted: Boolean})$0",
+    "description": "File",
+    "prefix": "IncrementSharedCount"
+  },
+  "IniKeyExists": {
+    "body": "function IniKeyExists(${1:const Section}, ${2:Key}, ${3:Filename: String})$0",
+    "description": "INI File",
+    "prefix": "IniKeyExists"
+  },
+  "Insert": {
+    "body": "procedure Insert(${1:Source: String}, ${2:var Dest: String}, ${3:Index: Integer})$0",
+    "description": "String",
+    "prefix": "Insert"
+  },
+  "InstallOnThisVersion": {
+    "body": "function InstallOnThisVersion(${1:const MinVersion}, ${2:OnlyBelowVersion: String})$0",
+    "description": "System",
+    "prefix": "InstallOnThisVersion"
+  },
+  "IntToStr": {
+    "body": "function IntToStr(${1:i: Int64})$0",
+    "description": "String",
+    "prefix": "IntToStr"
+  },
+  "Is64BitInstallMode": {
+    "body": "function Is64BitInstallMode$0",
+    "description": "System",
+    "prefix": "Is64BitInstallMode"
+  },
+  "IsAdminLoggedOn": {
+    "body": "function IsAdminLoggedOn$0",
+    "description": "System",
+    "prefix": "IsAdminLoggedOn"
+  },
+  "IsComponentSelected": {
+    "body": "function IsComponentSelected(${1:const Components: String})$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "IsComponentSelected"
+  },
+  "IsIniSectionEmpty": {
+    "body": "function IsIniSectionEmpty(${1:const Section}, ${2:Filename: String})$0",
+    "description": "INI File",
+    "prefix": "IsIniSectionEmpty"
+  },
+  "IsPowerUserLoggedOn": {
+    "body": "function IsPowerUserLoggedOn$0",
+    "description": "System",
+    "prefix": "IsPowerUserLoggedOn"
+  },
+  "IsProtectedSystemFile": {
+    "body": "function IsProtectedSystemFile(${1:const Filename: String})$0",
+    "description": "File System",
+    "prefix": "IsProtectedSystemFile"
+  },
+  "IsTaskSelected": {
+    "body": "function IsTaskSelected(${1:const Tasks: String})$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "IsTaskSelected"
+  },
+  "IsUninstaller": {
+    "body": "function IsUninstaller$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "IsUninstaller"
+  },
+  "IsWin64": {
+    "body": "function IsWin64$0",
+    "description": "System",
+    "prefix": "IsWin64"
+  },
+  "Length": {
+    "body": "function Length(${1:s: String})$0",
+    "description": "String",
+    "prefix": "Length"
+  },
+  "LoadDLL": {
+    "body": "function LoadDLL(${1:const DLLName: String}, ${2:var ErrorCode: Integer})$0",
+    "description": "Deprecated",
+    "prefix": "LoadDLL"
+  },
+  "LoadStringFromFile": {
+    "body": "function LoadStringFromFile(${1:const FileName: String}, ${2:var S: AnsiString})$0",
+    "description": "File",
+    "prefix": "LoadStringFromFile"
+  },
+  "LoadStringsFromFile": {
+    "body": "function LoadStringsFromFile(${1:const FileName: String}, ${2:var S: TArrayOfString})$0",
+    "description": "File",
+    "prefix": "LoadStringsFromFile"
+  },
+  "Log": {
+    "body": "procedure Log(${1:const S: String})$0",
+    "description": "Setup Logging",
+    "prefix": "Log"
+  },
+  "Lowercase": {
+    "body": "function Lowercase(${1:S: String})$0",
+    "description": "String",
+    "prefix": "Lowercase"
+  },
+  "MakePendingFileRenameOperationsChecksum": {
+    "body": "procedure MakePendingFileRenameOperationsChecksum$0",
+    "description": "System",
+    "prefix": "MakePendingFileRenameOperationsChecksum"
+  },
+  "MinimizePathName": {
+    "body": "function MinimizePathName(${1:const Filename: String}, ${2:const Font: TFont}, ${3:MaxLen: Integer})$0",
+    "description": "String",
+    "prefix": "MinimizePathName"
+  },
+  "ModifyPifFile": {
+    "body": "function ModifyPifFile(${1:const Filename: String}, ${2:const CloseOnExit: Boolean})$0",
+    "description": "File",
+    "prefix": "ModifyPifFile"
+  },
+  "MsgBox": {
+    "body": "function MsgBox(${1:const Text: String}, ${2:const Typ: TMsgBoxType}, ${3:const Buttons: Integer})$0",
+    "description": "Dialog",
+    "prefix": "MsgBox"
+  },
+  "Null": {
+    "body": "function Null$0",
+    "description": "Variant",
+    "prefix": "Null"
+  },
+  "OemToCharBuff": {
+    "body": "procedure OemToCharBuff(${1:var S: AnsiString})$0",
+    "description": "String",
+    "prefix": "OemToCharBuff"
+  },
+  "OleCheck": {
+    "body": "procedure OleCheck(${Result: HResult})$0",
+    "description": "COM Automation objects support",
+    "prefix": "OleCheck"
+  },
+  "Ord": {
+    "body": "function Ord(${1:C: Char})$0",
+    "description": "String",
+    "prefix": "Ord"
+  },
+  "PageFromID": {
+    "body": "function PageFromID(${1:const ID: Integer})$0",
+    "description": "Custom Setup Wizard Page",
+    "prefix": "PageFromID"
+  },
+  "PageIndexFromID": {
+    "body": "function PageIndexFromID(${1:const ID: Integer})$0",
+    "description": "Custom Setup Wizard Page",
+    "prefix": "PageIndexFromID"
+  },
+  "ParamCount": {
+    "body": "function ParamCount$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "ParamCount"
+  },
+  "ParamStr": {
+    "body": "function ParamStr(${1:Index: Integer})$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "ParamStr"
+  },
+  "Pos": {
+    "body": "function Pos(${1:SubStr}, ${2:S: String})$0",
+    "description": "String",
+    "prefix": "Pos"
+  },
+  "PostBroadcastMessage": {
+    "body": "function PostBroadcastMessage(${1:const Msg}, ${2:WParam}, ${3:LParam: Longint})$0",
+    "description": "System",
+    "prefix": "PostBroadcastMessage"
+  },
+  "PostMessage": {
+    "body": "function PostMessage(${1:const Wnd: HWND}, ${2:const Msg}, ${3:WParam}, ${4:LParam: Longint})$0",
+    "description": "System",
+    "prefix": "PostMessage"
+  },
+  "ProcessorArchitecture": {
+    "body": "function ProcessorArchitecture$0",
+    "description": "System",
+    "prefix": "ProcessorArchitecture"
+  },
+  "RaiseException": {
+    "body": "procedure RaiseException(${1:const Msg: String})$0",
+    "description": "Exception",
+    "prefix": "RaiseException"
+  },
+  "Random": {
+    "body": "function Random(${1:const Range: Integer})$0",
+    "description": "Other",
+    "prefix": "Random"
+  },
+  "RegDeleteKeyIfEmpty": {
+    "body": "function RegDeleteKeyIfEmpty(${1:const RootKey: Integer}, ${2:const SubkeyName: String})$0",
+    "description": "Registry",
+    "prefix": "RegDeleteKeyIfEmpty"
+  },
+  "RegDeleteKeyIncludingSubkeys": {
+    "body": "function RegDeleteKeyIncludingSubkeys(${1:const RootKey: Integer}, ${2:const SubkeyName: String})$0",
+    "description": "Registry",
+    "prefix": "RegDeleteKeyIncludingSubkeys"
+  },
+  "RegDeleteValue": {
+    "body": "function RegDeleteValue(${1:const RootKey: Integer}, ${2:const SubKeyName}, ${3:ValueName: String})$0",
+    "description": "Registry",
+    "prefix": "RegDeleteValue"
+  },
+  "RegGetSubkeyNames": {
+    "body": "function RegGetSubkeyNames(${1:const RootKey: Integer}, ${2:const SubKeyName: String}, ${3:var Names: TArrayOfString})$0",
+    "description": "Registry",
+    "prefix": "RegGetSubkeyNames"
+  },
+  "RegGetValueNames": {
+    "body": "function RegGetValueNames(${1:const RootKey: Integer}, ${2:const SubKeyName: String}, ${3:var Names: TArrayOfString})$0",
+    "description": "Registry",
+    "prefix": "RegGetValueNames"
+  },
+  "RegKeyExists": {
+    "body": "function RegKeyExists(${1:const RootKey: Integer}, ${2:const SubKeyName: String})$0",
+    "description": "Registry",
+    "prefix": "RegKeyExists"
+  },
+  "RegQueryBinaryValue": {
+    "body": "function RegQueryBinaryValue(${1:const RootKey: Integer}, ${2:const SubKeyName}, ${3:ValueName: String}, ${4:var ResultStr: AnsiString})$0",
+    "description": "Registry",
+    "prefix": "RegQueryBinaryValue"
+  },
+  "RegQueryDWordValue": {
+    "body": "function RegQueryDWordValue(${1:const RootKey: Integer}, ${2:const SubKeyName}, ${3:ValueName: String}, ${4:var ResultDWord: Cardinal})$0",
+    "description": "Registry",
+    "prefix": "RegQueryDWordValue"
+  },
+  "RegQueryMultiStringValue": {
+    "body": "function RegQueryMultiStringValue(${1:const RootKey: Integer}, ${2:const SubKeyName}, ${3:ValueName: String}, ${4:var ResultStr: String})$0",
+    "description": "Registry",
+    "prefix": "RegQueryMultiStringValue"
+  },
+  "RegQueryStringValue": {
+    "body": "function RegQueryStringValue(${1:const RootKey: Integer}, ${2:const SubKeyName}, ${3:ValueName: String}, ${4:var ResultStr: String})$0",
+    "description": "Registry",
+    "prefix": "RegQueryStringValue"
+  },
+  "RegValueExists": {
+    "body": "function RegValueExists(${1:const RootKey: Integer}, ${2:const SubKeyName}, ${3:ValueName: String})$0",
+    "description": "Registry",
+    "prefix": "RegValueExists"
+  },
+  "RegWriteBinaryValue": {
+    "body": "function RegWriteBinaryValue(${1:const RootKey: Integer}, ${2:const SubKeyName}, ${3:ValueName: String}, ${4:const Data: AnsiString})$0",
+    "description": "Registry",
+    "prefix": "RegWriteBinaryValue"
+  },
+  "RegWriteDWordValue": {
+    "body": "function RegWriteDWordValue(${1:const RootKey: Integer}, ${2:const SubKeyName}, ${3:ValueName: String}, ${4:const Data: Cardinal})$0",
+    "description": "Registry",
+    "prefix": "RegWriteDWordValue"
+  },
+  "RegWriteExpandStringValue": {
+    "body": "function RegWriteExpandStringValue(${1:const RootKey: Integer}, ${2:const SubKeyName}, ${3:ValueName}, ${4:Data: String})$0",
+    "description": "Registry",
+    "prefix": "RegWriteExpandStringValue"
+  },
+  "RegWriteMultiStringValue": {
+    "body": "function RegWriteMultiStringValue(${1:const RootKey: Integer}, ${2:const SubKeyName}, ${3:ValueName}, ${4:Data: String})$0",
+    "description": "Registry",
+    "prefix": "RegWriteMultiStringValue"
+  },
+  "RegWriteStringValue": {
+    "body": "function RegWriteStringValue(${1:const RootKey: Integer}, ${2:const SubKeyName}, ${3:ValueName}, ${4:Data: String})$0",
+    "description": "Registry",
+    "prefix": "RegWriteStringValue"
+  },
+  "RegisterExtraCloseApplicationsResource": {
+    "body": "function RegisterExtraCloseApplicationsResource(${1:const DisableFsRedir: Boolean}, ${2:const AFilename: String})$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "RegisterExtraCloseApplicationsResource"
+  },
+  "RegisterServer": {
+    "body": "procedure RegisterServer(${1:const Is64Bit: Boolean}, ${2:const Filename: String}, ${3:const FailCriticalErrors: Boolean})$0",
+    "description": "File",
+    "prefix": "RegisterServer"
+  },
+  "RegisterTypeLibrary": {
+    "body": "procedure RegisterTypeLibrary(${1:const Is64Bit: Boolean}, ${2:const Filename: String})$0",
+    "description": "File",
+    "prefix": "RegisterTypeLibrary"
+  },
+  "RegisterWindowMessage": {
+    "body": "function RegisterWindowMessage(${1:const Name: String})$0",
+    "description": "System",
+    "prefix": "RegisterWindowMessage"
+  },
+  "RemoveBackslash": {
+    "body": "function RemoveBackslash(${1:const S: String})$0",
+    "description": "String",
+    "prefix": "RemoveBackslash"
+  },
+  "RemoveBackslashUnlessRoot": {
+    "body": "function RemoveBackslashUnlessRoot(${1:const S: String})$0",
+    "description": "String",
+    "prefix": "RemoveBackslashUnlessRoot"
+  },
+  "RemoveDir": {
+    "body": "function RemoveDir(${1:const Dir: string})$0",
+    "description": "File",
+    "prefix": "RemoveDir"
+  },
+  "RemoveQuotes": {
+    "body": "function RemoveQuotes(${1:const S: String})$0",
+    "description": "String",
+    "prefix": "RemoveQuotes"
+  },
+  "RenameFile": {
+    "body": "function RenameFile(${1:const OldName}, ${2:NewName: string})$0",
+    "description": "File",
+    "prefix": "RenameFile"
+  },
+  "RestartReplace": {
+    "body": "procedure RestartReplace(${1:const TempFile}, ${2:DestFile: String})$0",
+    "description": "File",
+    "prefix": "RestartReplace"
+  },
+  "RmSessionStarted": {
+    "body": "function RmSessionStarted$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "RmSessionStarted"
+  },
+  "SaveStringToFile": {
+    "body": "function SaveStringToFile(${1:const FileName: String}, ${2:const S: AnsiString}, ${3:const Append: Boolean})$0",
+    "description": "File",
+    "prefix": "SaveStringToFile"
+  },
+  "SaveStringsToFile": {
+    "body": "function SaveStringsToFile(${1:const FileName: String}, ${2:const S: TArrayOfString}, ${3:const Append: Boolean})$0",
+    "description": "File",
+    "prefix": "SaveStringsToFile"
+  },
+  "SaveStringsToUTF8File": {
+    "body": "function SaveStringsToUTF8File(${1:const FileName: String}, ${2:const S: TArrayOfString}, ${3:const Append: Boolean})$0",
+    "description": "File",
+    "prefix": "SaveStringsToUTF8File"
+  },
+  "ScaleX": {
+    "body": "function ScaleX(${X: Integer})$0",
+    "description": "Custom Setup Wizard Page",
+    "prefix": "ScaleX"
+  },
+  "ScaleY": {
+    "body": "function ScaleY(${Y: Integer})$0",
+    "description": "Custom Setup Wizard Page",
+    "prefix": "ScaleY"
+  },
+  "SelectDisk": {
+    "body": "function SelectDisk(${1:const DiskNumber: Integer}, ${2:const AFilename: String}, ${3:var Path: String})$0",
+    "description": "Dialog",
+    "prefix": "SelectDisk"
+  },
+  "SendBroadcastMessage": {
+    "body": "function SendBroadcastMessage(${1:const Msg}, ${2:WParam}, ${3:LParam: Longint})$0",
+    "description": "System",
+    "prefix": "SendBroadcastMessage"
+  },
+  "SendBroadcastNotifyMessage": {
+    "body": "function SendBroadcastNotifyMessage(${1:const Msg}, ${2:WParam}, ${3:LParam: Longint})$0",
+    "description": "System",
+    "prefix": "SendBroadcastNotifyMessage"
+  },
+  "SendMessage": {
+    "body": "function SendMessage(${1:const Wnd: HWND}, ${2:const Msg}, ${3:WParam}, ${4:LParam: Longint})$0",
+    "description": "System",
+    "prefix": "SendMessage"
+  },
+  "SendNotifyMessage": {
+    "body": "function SendNotifyMessage(${1:const Wnd: HWND}, ${2:const Msg}, WParam}, ${3:LParam: Longint})$0",
+    "description": "System",
+    "prefix": "SendNotifyMessage"
+  },
+  "SetArrayLength": {
+    "body": "procedure SetArrayLength(${1:var Arr: Array}, ${3:I: Longint})$0",
+    "description": "Array",
+    "prefix": "SetArrayLength"
+  },
+  "SetCurrentDir": {
+    "body": "function SetCurrentDir(${1:const Dir: string})$0",
+    "description": "File System",
+    "prefix": "SetCurrentDir"
+  },
+  "SetIniBool": {
+    "body": "function SetIniBool(${1:const Section}, ${2:Key: String}, ${3:const Value: Boolean}, ${4:const Filename: String})$0",
+    "description": "INI File",
+    "prefix": "SetIniBool"
+  },
+  "SetIniInt": {
+    "body": "function SetIniInt(${1:const Section}, ${2:Key: String}, ${3:const Value: Longint}, ${4:const Filename: String})$0",
+    "description": "INI File",
+    "prefix": "SetIniInt"
+  },
+  "SetIniString": {
+    "body": "function SetIniString(${1:const Section}, ${2:Key}, ${3:Value}, ${4:Filename: String})$0",
+    "description": "INI File",
+    "prefix": "SetIniString"
+  },
+  "SetLength": {
+    "body": "procedure SetLength(${1:var S: String}, ${2:L: Longint})$0",
+    "description": "String",
+    "prefix": "SetLength"
+  },
+  "SetNTFSCompression": {
+    "body": "function SetNTFSCompression(${1:const FileOrDir: String}, ${2:Compress: Boolean})$0",
+    "description": "File",
+    "prefix": "SetNTFSCompression"
+  },
+  "SetPreviousData": {
+    "body": "function SetPreviousData(${1:const PreviousDataKey: Integer}, ${2:const ValueName}, ${3:ValueData: String})$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "SetPreviousData"
+  },
+  "SetupMessage": {
+    "body": "function SetupMessage(${1:const ID: TSetupMessageID})$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "SetupMessage"
+  },
+  "ShellExec": {
+    "body": "function ShellExec(${1:const Verb}, ${2:Filename}, ${3:Params}, ${4:WorkingDir: String}, ${5:const ShowCmd: Integer}, ${6:const Wait: TExecWait}, ${7:var ErrorCode: Integer})$0",
+    "description": "File",
+    "prefix": "ShellExec"
+  },
+  "ShellExecAsOriginalUser": {
+    "body": "function ShellExecAsOriginalUser(${1:const Verb}, ${2:Filename}, ${3:Params}, ${4:WorkingDir: String}, ${5:const ShowCmd: Integer}, ${6:const Wait: TExecWait}, ${7:var ErrorCode: Integer})$0",
+    "description": "File",
+    "prefix": "ShellExecAsOriginalUser"
+  },
+  "ShowExceptionMessage": {
+    "body": "procedure ShowExceptionMessage$0",
+    "description": "Exception",
+    "prefix": "ShowExceptionMessage"
+  },
+  "Sleep": {
+    "body": "procedure Sleep(${1:const Milliseconds: LongInt})$0",
+    "description": "Other",
+    "prefix": "Sleep"
+  },
+  "StrToFloat": {
+    "body": "function StrToFloat(${1:s: string})$0",
+    "description": "String",
+    "prefix": "StrToFloat"
+  },
+  "StrToInt": {
+    "body": "function StrToInt(${1:s: string})$0",
+    "description": "String",
+    "prefix": "StrToInt"
+  },
+  "StrToInt64": {
+    "body": "function StrToInt64(${1:s: string})$0",
+    "description": "String",
+    "prefix": "StrToInt64"
+  },
+  "StrToInt64Def": {
+    "body": "function StrToInt64Def(${1:s: string} def: Int64})$0",
+    "description": "String",
+    "prefix": "StrToInt64Def"
+  },
+  "StrToIntDef": {
+    "body": "function StrToIntDef(${1:s: string} def: Longint})$0",
+    "description": "String",
+    "prefix": "StrToIntDef"
+  },
+  "StringChange": {
+    "body": "function StringChange(${1:var S: String}, const FromStr}, ToStr: String})$0",
+    "description": "String",
+    "prefix": "StringChange"
+  },
+  "StringChangeEx": {
+    "body": "function StringChangeEx(${1:var S: String}, ${2:const FromStr}, ${3:ToStr: String}, ${5:const SupportDBCS: Boolean})$0",
+    "description": "String",
+    "prefix": "StringChangeEx"
+  },
+  "StringOfChar": {
+    "body": "function StringOfChar(${1:c: Char}, ${2:I: Longint})$0",
+    "description": "String",
+    "prefix": "StringOfChar"
+  },
+  "StringToGUID": {
+    "body": "function StringToGUID(${1:const S: String})$0",
+    "description": "COM Automation objects support",
+    "prefix": "StringToGUID"
+  },
+  "SuppressibleMsgBox": {
+    "body": "function SuppressibleMsgBox(${1:const Text: String}, ${2:const Typ: TMsgBoxType}, ${3:const Buttons}, ${5:Default: Integer})$0",
+    "description": "Dialog",
+    "prefix": "SuppressibleMsgBox"
+  },
+  "SysErrorMessage": {
+    "body": "function SysErrorMessage(${ErrorCode: Integer})$0",
+    "description": "String",
+    "prefix": "SysErrorMessage"
+  },
+  "Terminated": {
+    "body": "function Terminated$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "Terminated"
+  },
+  "Trim": {
+    "body": "function Trim(${1:const S: string})$0",
+    "description": "String",
+    "prefix": "Trim"
+  },
+  "TrimLeft": {
+    "body": "function TrimLeft(${1:const S: string})$0",
+    "description": "String",
+    "prefix": "TrimLeft"
+  },
+  "TrimRight": {
+    "body": "function TrimRight(${1:const S: string})$0",
+    "description": "String",
+    "prefix": "TrimRight"
+  },
+  "Unassigned": {
+    "body": "function Unassigned$0",
+    "description": "Variant",
+    "prefix": "Unassigned"
+  },
+  "UninstallSilent": {
+    "body": "function UninstallSilent$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "UninstallSilent"
+  },
+  "UnloadDLL": {
+    "body": "procedure UnloadDLL(${1:Filename: String})$0",
+    "description": "System",
+    "prefix": "UnloadDLL"
+  },
+  "UnpinShellLink": {
+    "body": "function UnpinShellLink(${1:const Filename: String})$0",
+    "description": "File",
+    "prefix": "UnpinShellLink"
+  },
+  "UnregisterFont": {
+    "body": "procedure UnregisterFont(${1:const FontName}, ${2:FontFilename: String})$0",
+    "description": "File",
+    "prefix": "UnregisterFont"
+  },
+  "UnregisterServer": {
+    "body": "function UnregisterServer(${1:const Is64Bit: Boolean}, ${2:const Filename: String}, ${3:const FailCriticalErrors: Boolean})$0",
+    "description": "File",
+    "prefix": "UnregisterServer"
+  },
+  "UnregisterTypeLibrary": {
+    "body": "function UnregisterTypeLibrary(${1:const Is64Bit: Boolean}, ${2:const Filename: String})$0",
+    "description": "File",
+    "prefix": "UnregisterTypeLibrary"
+  },
+  "Uppercase": {
+    "body": "function Uppercase(${1:S: String})$0",
+    "description": "String",
+    "prefix": "Uppercase"
+  },
+  "VarIsClear": {
+    "body": "function VarIsClear(${1:const V: Variant})$0",
+    "description": "Variant",
+    "prefix": "VarIsClear"
+  },
+  "VarIsEmpty": {
+    "body": "function VarIsEmpty(${1:const V: Variant})$0",
+    "description": "Variant",
+    "prefix": "VarIsEmpty"
+  },
+  "VarIsNull": {
+    "body": "function VarIsNull(${1:const V: Variant})$0",
+    "description": "Variant",
+    "prefix": "VarIsNull"
+  },
+  "VarType": {
+    "body": "function VarType(${1:const V: Variant})$0",
+    "description": "Variant",
+    "prefix": "VarType"
+  },
+  "WizardDirValue": {
+    "body": "function WizardDirValue$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "WizardDirValue"
+  },
+  "WizardGroupValue": {
+    "body": "function WizardGroupValue$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "WizardGroupValue"
+  },
+  "WizardNoIcons": {
+    "body": "function WizardNoIcons$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "WizardNoIcons"
+  },
+  "WizardSelectedComponents": {
+    "body": "function WizardSelectedComponents(${1:const Descriptions: Boolean})$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "WizardSelectedComponents"
+  },
+  "WizardSelectedTasks": {
+    "body": "function WizardSelectedTasks(${1:const Descriptions: Boolean})$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "WizardSelectedTasks"
+  },
+  "WizardSetupType": {
+    "body": "function WizardSetupType(${1:const Description: Boolean})$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "WizardSetupType"
+  },
+  "WizardSilent": {
+    "body": "function WizardSilent$0",
+    "description": "Setup or Uninstall Info",
+    "prefix": "WizardSilent"
+  }
+}

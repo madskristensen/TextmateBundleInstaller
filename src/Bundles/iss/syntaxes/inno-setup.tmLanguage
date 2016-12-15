@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>fileTypes</key>
+    <array>
+        <string>iss</string>
+        <string>isl</string>
+    </array>
+
+    <key>name</key>
+    <string>Inno Setup</string>
+    <key>comment</key>
+    <string>https://github.com/idleberg/sublime-innosetup</string>
+
+    <key>patterns</key>
+    <array>
+
+        <!-- Inno Pascal section -->
+        <dict>
+            <key>begin</key>
+            <string>^(\[Code\])$</string>
+            <key>beginCaptures</key>
+            <dict>
+                <key>1</key>
+                <dict>
+                    <key>name</key>
+                    <string>entity.name.section.inno</string>
+                </dict>
+            </dict>
+            <key>end</key>
+            <string>^(\[(Code|Components|CustomMessages|Dirs|Files|Icons|INI|InstallDelete|LangOptions|Languages|Messages|Registry|Run|Setup|Tasks|Types|UninstallDelete|UninstallRun)\])$</string>
+            <key>endCaptures</key>
+            <dict>
+                <key>1</key>
+                <dict>
+                    <key>name</key>
+                    <string>entity.name.section.inno</string>
+                </dict>
+            </dict>
+            <key>name</key>
+            <string>source.pascal.embedded.inno</string>
+            <key>patterns</key>
+            <array>
+                <dict>
+                    <key>include</key>
+                    <string>source.pascal</string>
+                </dict>
+            </array>
+        </dict>
+
+        <!-- Inno Setup -->
+        <dict>
+            <key>match</key>
+            <string>^\s*(AllowCancelDuringInstall|AllowNetworkDrive|AllowNoIcons|AllowRootDirectory|AllowUNCPath|AlwaysCreateUninstallIcon|AlwaysRestart|AlwaysShowComponentsList|AlwaysShowDirOnReadyPage|AlwaysShowGroupOnReadyPage|AlwaysUsePersonalGroup|AppComments|AppContact|AppCopyright|AppendDefaultDirName|AppendDefaultGroupName|AppId|AppModifyPath|AppMutex|AppName|AppPublisher|AppPublisherURL|AppReadmeFile|AppSupportPhone|AppSupportURL|AppUpdatesURL|AppVerName|AppVersion|ArchitecturesAllowed|ArchitecturesInstallIn64BitMode|BackColor|BackColor2|BackColorDirection|BackSolid|ChangesAssociations|ChangesEnvironment|CloseApplications|CloseApplicationsFilter|Compression|CompressionThreads|CopyrightFontName|CopyrightFontSize|CreateAppDir|CreateUninstallRegKey|DefaultDialogFontName|DefaultDirName|DefaultGroupName|DefaultUserInfoName|DefaultUserInfoOrg|DefaultUserInfoSerial|DialogFontName|DialogFontSize|DirExistsWarning|DisableDirPage|DisableFinishedPage|DisableProgramGroupPage|DisableReadyMemo|DisableReadyPage|DisableStartupPrompt|DisableWelcomePage|DiskClusterSize|DiskSliceSize|DiskSpanning|EnableDirDoesntExistWarning|Encryption|ExtraDiskSpaceRequired|FlatComponentsList|InfoAfterFile|InfoBeforeFile|InternalCompressLevel|LanguageCodePage|LanguageDetectionMethod|LanguageID|LanguageName|LicenseFile|LZMAAlgorithm|LZMABlockSize|LZMADictionarySize|LZMAMatchFinder|LZMANumBlockThreads|LZMANumFastBytes|LZMAUseSeparateProcess|MergeDuplicateFiles|MinVersion|OnlyBelowVersion|Output|OutputBaseFilename|OutputDir|OutputManifestFile|Password|PrivilegesRequired|ReserveBytes|RestartApplications|RestartIfNeededByRun|RightToLeft|SetupIconFile|SetupLogging|ShowComponentSizes|ShowLanguageDialog|ShowTasksTreeLines|ShowUndisplayableLanguages|SignedUninstaller|SignedUninstallerDir|SignTool|SignToolRetryCount|SlicesPerDisk|SolidCompression|SourceDir|TerminalServicesAware|TimeStampRounding|TimeStampsInUTC|TitleFontName|TitleFontSize|TouchDate|TouchTime|Uninstallable|UninstallDisplayIcon|UninstallDisplayName|UninstallDisplaySize|UninstallFilesDir|UninstallLogMode|UninstallRestartComputer|UpdateUninstallLogAppName|UsePreviousAppDir|UsePreviousGroup|UsePreviousLanguage|UsePreviousSetupType|UsePreviousTasks|UsePreviousUserInfo|UserInfoPage|UseSetupLdr|VersionInfoCompany|VersionInfoCopyright|VersionInfoDescription|VersionInfoProductName|VersionInfoProductTextVersion|VersionInfoProductVersion|VersionInfoTextVersion|VersionInfoVersion|WelcomeFontName|WelcomeFontSize|WindowResizable|WindowShowCaption|WindowStartMaximized|WindowVisible|WizardImageBackColor|WizardImageFile|WizardImageStretch|WizardSmallImageFile)\b</string>
+            <key>name</key>
+            <string>keyword.inno</string>
+        </dict>
+
+        <dict>
+            <key>match</key>
+            <string>^\s*#(append|define|dim|elif|else|emit|endif|endsub|error|expr|file|for|if|ifn?def|ifn?exist|include|insert|pragma|preproc|redim|sub|undef)\b</string>
+            <key>name</key>
+            <string>keyword.other.inno</string>
+        </dict>
+
+        <dict>
+            <key>match</key>
+            <string>\b(AfterInstall|AfterMyProgInstall|BeforeInstall|BeforeMyProgInstall|Check|Components|Description|DestDir|DestName|Filename|Flags|Languages|Name|Parameters|Root|Source|StatusMsg|Subkey|Type|Types|ValueData|ValueName|ValueType|WorkingDir)\b</string>
+            <key>name</key>
+            <string>keyword.other.inno</string>
+        </dict>
+
+        <dict>
+            <key>match</key>
+            <string>\b(BeveledLabel|MyAppName|MyAppVerName|MyDescription)\b</string>
+            <key>name</key>
+            <string>keyword.other.inno</string>
+        </dict>
+
+        <dict>
+            <key>match</key>
+            <string>^\[(Code|Components|CustomMessages|Dirs|Files|Icons|INI|InstallDelete|LangOptions|Languages|Messages|Registry|Run|Setup|Tasks|Types|UninstallDelete|UninstallRun)\]$</string>
+            <key>name</key>
+            <string>entity.name.section.inno</string>
+        </dict>
+
+        <dict>
+            <key>match</key>
+            <string>\b(DisableAppendDir|DontMergeDuplicateFiles|MessagesFile|UninstallIconFile|UninstallIconName|UninstallStyle|WizardSmallImageBackColor|WizardStyle)\b</string>
+            <key>name</key>
+            <string>constant.language.inno</string>
+        </dict>
+
+        <dict>
+            <key>match</key>
+            <string>=</string>
+            <key>name</key>
+            <string>keyword.operator.comparison.inno</string>
+        </dict>
+
+        <dict>
+            <key>match</key>
+            <string>\b((0(x|X)[0-9a-fA-F]+)|([0-9]+(\.[0-9]+)?))\b</string>
+            <key>name</key>
+            <string>constant.numeric.inno</string>
+        </dict>
+
+        <dict>
+            <key>match</key>
+            <string>\b(32bit|64bit|admin|allowunsafefiles|append|auto|binary|bzip|checkablealone|checkedonce|clAqua|clBlack|clBlue|clFuchsia|clGray|clGreen|clLime|clMaroon|clNavy|clOlive|closeonexit|clPurple|clRed|clSilver|clTeal|clWhite|clYellow|compact|comparetimestamp|compiler|confirmoverwrite|createallsubdirs|createkeyifdoesntexist|createonlyiffileexists|createvalueifdoesntexist|current|custom|deleteafterinstall|deletekey|deletevalue|desktopicon|dirifempty|disablenouninstallwarning|dontcloseonexit|dontcopy|dontcreatekey|dontinheritcheck|dontverifychecksum|dword|excludefromshowinnewinstall|exclusive|expandsz|external|fast|files|filesandordirs|fixed|foldershortcut|fontisnttruetype|full|gacinstall|help|hidewizard|ia64|ignoreversion|iscustom|isreadme|lefttoright|locale|lowest|lzma|lzma2|main|max|modify|multisz|new|no|nocompression|noencryption|noerror|none|noregerror|normal|nowait|onlyifdoesntexist|overwrite|overwritereadonly|postinstall|poweruser|preservestringtype|preventpinning|program|promptifolder|qword|read|readexec|readme|recursesubdirs|regserver|regtypelib|replacesameversion|restart|restartreplace|runascurrentuser|runasoriginaluser|runhidden|runminimized|setntfscompression|sharedfile|shellexec|skipifdoesntexist|skipifnotsilent|skipifsilent|skipifsourcedoesntexist|solidbreak|sortfilesbyextension|sortfilesbyname|string|toptobottom|touch|uilanguage|ultra|unchecked|uninsalwaysuninstall|uninsclearvalue|uninsdeleteentry|uninsdeletekey|uninsdeletekeyifempty|uninsdeletesection|uninsdeletesectionifempty|uninsdeletevalue|uninsneveruninstall|uninsnosharedfileprompt|uninsremovereadonly|uninsrestartdelete|unsetntfscompression|useapppaths|waituntilidle|waituntilterminated|x64|x86|yes|zip)\b</string>
+            <key>name</key>
+            <string>constant.language.inno</string>
+        </dict>
+
+        <dict>
+            <key>match</key>
+            <string>\b(aa|ab|ae|af|ak|am|an|ar|as|av|ay|az|ba|be|bg|bh|bi|bm|bn|bo|br|bs|ca|ce|ch|co|cr|cs|cu|cv|cy|da|de|dv|dz|ee|el|en|eo|es|et|eu|fa|ff|fi|fj|fo|fr|fy|ga|gd|gl|gn|gu|gv|ha|he|hi|ho|hr|ht|hu|hy|hz|ia|id|ie|ig|ii|ik|io|is|it|iu|ja|jv|ka|kg|ki|kj|kk|kl|km|kn|ko|kr|ks|ku|kv|kw|ky|la|lb|lg|li|ln|lo|lt|lu|lv|mg|mh|mi|mk|mk|ml|mn|mr|ms|mt|my|na|nb|nd|ne|ng|nl|nn|no|nr|nv|ny|oc|oj|om|or|os|pa|pi|pl|ps|pt|qt|qu|rg|rm|rn|ro|ru|rw|sa|sc|sd|se|sg|si|sk|sl|sm|sn|so|sq|sr|ss|st|su|sv|sw|ta|te|tg|th|ti|tk|tl|tn|to|tr|ts|tt|tw|ty|ug|uk|ur|uz|ve|vi|vo|wa|wo|xh|yi|yo|zh)(?:\.\w)?\b</string>
+            <key>name</key>
+            <string>constant.language.inno</string>
+        </dict>
+
+        <dict>
+            <key>match</key>
+            <string>{(#)?[\w]+}</string>
+            <key>name</key>
+            <string>constant.other.inno</string>
+        </dict>
+
+        <dict>
+            <key>match</key>
+            <string>%\w+</string>
+            <key>name</key>
+            <string>variable.other.inno</string>
+        </dict>
+
+        <!-- Strings -->
+        <dict>
+            <key>begin</key>
+            <string>"</string>
+            <key>beginCaptures</key>
+            <dict>
+                <key>0</key>
+                <dict>
+                    <key>name</key>
+                    <string>punctuation.definition.string.begin.inno</string>
+                </dict>
+            </dict>
+            <key>end</key>
+            <string>"</string>
+            <key>endCaptures</key>
+            <dict>
+                <key>0</key>
+                <dict>
+                    <key>name</key>
+                    <string>punctuation.definition.string.end.inno</string>
+                </dict>
+            </dict>
+            <key>name</key>
+            <string>string.quoted.back.inno</string>
+            <key>patterns</key>
+            <array>
+                <dict>
+                    <key>match</key>
+                    <string>{(#)?[\w]+}</string>
+                    <key>name</key>
+                    <string>constant.other.inno</string>
+                </dict>
+                <dict>
+                    <key>match</key>
+                    <string>%\w+</string>
+                    <key>name</key>
+                    <string>variable.other.inno</string>
+                </dict>
+            </array>
+        </dict>
+
+        <dict>
+            <key>begin</key>
+            <string>'</string>
+            <key>beginCaptures</key>
+            <dict>
+                <key>0</key>
+                <dict>
+                    <key>name</key>
+                    <string>punctuation.definition.string.begin.inno</string>
+                </dict>
+            </dict>
+            <key>end</key>
+            <string>'</string>
+            <key>endCaptures</key>
+            <dict>
+                <key>0</key>
+                <dict>
+                    <key>name</key>
+                    <string>punctuation.definition.string.end.inno</string>
+                </dict>
+            </dict>
+            <key>name</key>
+            <string>string.quoted.back.inno</string>
+            <key>patterns</key>
+            <array>
+                <dict>
+                    <key>match</key>
+                    <string>{(#)?[\w]+}</string>
+                    <key>name</key>
+                    <string>constant.other.inno</string>
+                </dict>
+                <dict>
+                    <key>match</key>
+                    <string>%\w+</string>
+                    <key>name</key>
+                    <string>variable.other.inno</string>
+                </dict>
+            </array>
+        </dict>
+
+        <dict>
+            <key>begin</key>
+            <string>`</string>
+            <key>beginCaptures</key>
+            <dict>
+                <key>0</key>
+                <dict>
+                    <key>name</key>
+                    <string>punctuation.definition.string.begin.inno</string>
+                </dict>
+            </dict>
+            <key>end</key>
+            <string>`</string>
+            <key>endCaptures</key>
+            <dict>
+                <key>0</key>
+                <dict>
+                    <key>name</key>
+                    <string>punctuation.definition.string.end.inno</string>
+                </dict>
+            </dict>
+            <key>name</key>
+            <string>string.quoted.back.inno</string>
+            <key>patterns</key>
+            <array>
+                <dict>
+                    <key>match</key>
+                    <string>{(#)?[\w]+}</string>
+                    <key>name</key>
+                    <string>constant.other.inno</string>
+                </dict>
+                <dict>
+                    <key>match</key>
+                    <string>%\w+</string>
+                    <key>name</key>
+                    <string>variable.other.inno</string>
+                </dict>
+            </array>
+        </dict>
+
+        <!-- Line Comment -->
+        <dict>
+            <key>captures</key>
+            <dict>
+                <key>1</key>
+                <dict>
+                    <key>name</key>
+                    <string>punctuation.definition.comment.inno</string>
+                </dict>
+            </dict>
+            <key>match</key>
+            <string>^\s*;.*$</string>
+            <key>name</key>
+            <string>comment.line.semicolon.inno</string>
+        </dict>
+    </array>
+    
+    <key>scopeName</key>
+    <string>source.inno</string>
+
+    <key>uuid</key>
+    <string>a1865c73-7618-482a-aabc-d3c1f216ea15</string>
+</dict>
+</plist>
