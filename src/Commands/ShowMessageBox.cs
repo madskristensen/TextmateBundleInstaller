@@ -53,7 +53,7 @@ namespace TextmateBundleInstaller
             ThreadHelper.Generic.BeginInvoke(() =>
             {
                 string ext = Path.GetExtension(doc.FilePath);
-                string message = $"You can report missing language support for {ext} and other files not currently supported by Visual studio by right-clicking inside the editor";
+                string message = $"You can report missing language support for {ext} and other files not currently supported by Visual studio by right-clicking inside the editor.\r\n\r\nIf the language is listed as supported already, then try to restart Visual Studio since it sometimes takes a while to update the language cache.";
                 VsShellUtilities.ShowMessageBox(ServiceProvider, message, Vsix.Name, OLEMSGICON.OLEMSGICON_INFO, OLEMSGBUTTON.OLEMSGBUTTON_OK, OLEMSGDEFBUTTON.OLEMSGDEFBUTTON_FIRST);
 
                 TextmateBundlerInstallerPackage.Instance.Options.ShowPromptOnPlaintextFiles = false;

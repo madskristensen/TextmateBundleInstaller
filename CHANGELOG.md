@@ -1,10 +1,6 @@
 # Road map
 
 - [ ] More languages...
-- [x] Bond language support
-- [x] New Textmate bundle for F#
-- [x] Inno Setup language support
-- [x] Java Properties language support
 
 Features that have a checkmark are complete and available for
 download in the
@@ -14,6 +10,13 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 2.3
+
+- [x] Bond language support
+- [x] New Textmate bundle for F#
+- [x] Inno Setup language support
+- [x] Java Properties language support
 
 ## 2.2
 
