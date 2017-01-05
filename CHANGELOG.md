@@ -2,6 +2,7 @@
 
 - [ ] More languages...
 - [x] Mapped .qwc files to XML editor
+- [x] ASP language support
 
 Features that have a checkmark are complete and available for
 download in the
