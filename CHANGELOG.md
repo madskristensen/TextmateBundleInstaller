@@ -2,6 +2,7 @@
 
 - [ ] More languages...
 - [x] Mapped .qwc files to XML editor
+- [x] Mapped ColdFusion files to HTML editor
 - [x] ASP language support
 
 Features that have a checkmark are complete and available for
