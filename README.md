@@ -103,6 +103,7 @@ languages already.
 - TOML
 - Thrift
 - TypeScript
+- VHDL
 - XQuery
 - YAML
 
