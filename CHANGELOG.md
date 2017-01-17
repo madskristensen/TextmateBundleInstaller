@@ -3,6 +3,7 @@
 - [ ] More languages...
 - [x] Mapped .qwc files to XML editor
 - [x] Mapped ColdFusion files to HTML editor
+- [x] Mapped .vdproj files to XML editor
 - [x] ASP language support
 - [x] VHDL language support
 - [x] Cake language support
