@@ -5,6 +5,7 @@
 - [x] Mapped ColdFusion files to HTML editor
 - [x] ASP language support
 - [x] VHDL language support
+- [x] Cake language support
 
 Features that have a checkmark are complete and available for
 download in the

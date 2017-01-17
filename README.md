@@ -40,6 +40,7 @@ languages already.
 - Batch
 - Bond
 - C++ QT
+- Cake
 - Clojure
 - CMake
 - CSS

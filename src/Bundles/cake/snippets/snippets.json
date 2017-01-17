@@ -1,0 +1,20 @@
+{
+    "Cake Task": {
+            "prefix": "task",
+            "body": [
+                "Task(\"${name}\");"
+            ],
+            "description": "Cake task"
+        },
+    "Cake Task With Action": {
+            "prefix": "task",
+            "body": [
+                "Task(\"${name}\")",
+                "\t.Does(() =>",
+                "{",
+                "\t$0",
+                "});"
+            ],
+            "description": "Cake task (with action)"
+        }
+}
