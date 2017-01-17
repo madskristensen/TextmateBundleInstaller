@@ -103,6 +103,7 @@ languages already.
 - TickScript
 - TOML
 - Thrift
+- TTCN-3
 - TypeScript
 - VHDL
 - XQuery
