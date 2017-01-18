@@ -36,6 +36,7 @@ languages already.
 - Antlr
 - Apache (.htaccess)
 - Asm
+- ASN
 - ASP
 - Batch
 - Bond
