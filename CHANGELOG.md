@@ -1,13 +1,6 @@
 # Road map
 
 - [ ] More languages...
-- [x] Mapped .qwc files to XML editor
-- [x] Mapped ColdFusion files to HTML editor
-- [x] Mapped .vdproj files to XML editor
-- [x] ASP language support
-- [x] VHDL language support
-- [x] Cake language support
-- [x] TTCN-3 languages support
 
 Features that have a checkmark are complete and available for
 download in the
@@ -17,6 +10,16 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 2.4
+
+- [x] Mapped .qwc files to XML editor
+- [x] Mapped ColdFusion files to HTML editor
+- [x] Mapped .vdproj files to XML editor
+- [x] ASP language support
+- [x] VHDL language support
+- [x] Cake language support
+- [x] TTCN-3 languages support
 
 ## 2.3
 
