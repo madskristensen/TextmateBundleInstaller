@@ -55,6 +55,7 @@ languages already.
 - EYAML
 - F#
 - FoxPro
+- Gettext
 - Git configs
 - Go
 - Gradle
