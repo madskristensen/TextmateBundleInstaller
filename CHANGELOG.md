@@ -2,6 +2,7 @@
 
 - [ ] More languages...
 - [x] Gettext language support
+- [x] Mapped .targets file to XML editor
 
 Features that have a checkmark are complete and available for
 download in the
