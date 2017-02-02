@@ -3,6 +3,7 @@
 - [ ] More languages...
 - [x] Gettext language support
 - [x] Mapped .targets file to XML editor
+- [x] Mapped .mak files to Makefile bundle
 
 Features that have a checkmark are complete and available for
 download in the

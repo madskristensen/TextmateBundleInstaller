@@ -4,6 +4,7 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
+		<string>mak</string>
 		<string>Makefile</string>
 		<string>makefile</string>
 		<string>GNUmakefile</string>
