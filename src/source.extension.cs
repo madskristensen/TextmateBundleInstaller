@@ -11,7 +11,7 @@ namespace TextmateBundleInstaller
         public const string Name = "Syntax Highlighting Pack";
         public const string Description = @"Adds syntax highlighting and snippet support for a wide variety of programming languages such as Clojure, Go, Jade, Lua, Swift, Ruby and many more...";
         public const string Language = "en-US";
-        public const string Version = "2.4";
+        public const string Version = "2.5";
         public const string Author = "Mads Kristensen";
         public const string Tags = "bat, clojure, go, goovy, ini, jade, java, javadoc, lua, make, perl, php, ruby, rust, bash, swift";
     }

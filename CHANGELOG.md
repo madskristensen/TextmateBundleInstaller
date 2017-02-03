@@ -1,10 +1,6 @@
 # Road map
 
 - [ ] More languages...
-- [x] Gettext language support
-- [x] Mapped .targets file to XML editor
-- [x] Mapped .mak files to Makefile bundle
-- [x] Mapped .tcsh, .csh, .rc, .pre and .post to TCL bundle
 
 Features that have a checkmark are complete and available for
 download in the
@@ -14,6 +10,13 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 2.5
+
+- [x] Gettext language support
+- [x] Mapped .targets file to XML editor
+- [x] Mapped .mak files to Makefile bundle
+- [x] Mapped .tcsh, .csh, .rc, .pre and .post to TCL bundle
 
 ## 2.4
 
