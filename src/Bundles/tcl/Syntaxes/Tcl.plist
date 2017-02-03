@@ -5,6 +5,11 @@
 	<key>fileTypes</key>
 	<array>
 		<string>tcl</string>
+    <string>rc</string>
+    <string>pre</string>
+    <string>post</string>
+    <string>csh</string>
+    <string>tcsh</string>
 	</array>
 	<key>firstLineMatch</key>
 	<string>^#!/.*\btclsh\b</string>

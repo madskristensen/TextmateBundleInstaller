@@ -4,6 +4,7 @@
 - [x] Gettext language support
 - [x] Mapped .targets file to XML editor
 - [x] Mapped .mak files to Makefile bundle
+- [x] Mapped .tcsh, .csh, .rc, .pre and .post to TCL bundle
 
 Features that have a checkmark are complete and available for
 download in the
