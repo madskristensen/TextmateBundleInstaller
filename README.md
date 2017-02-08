@@ -62,6 +62,7 @@ languages already.
 - Groovy
 - HAML
 - Haskell
+- HCL
 - ICalendar
 - Idris
 - Ini
