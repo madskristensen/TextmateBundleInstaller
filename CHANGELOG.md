@@ -3,6 +3,7 @@
 - [ ] More languages...
 - [x] HCL language support
 - [x] Google GN language support
+- [x] Mapped .hhc files to the XML editor
 
 Features that have a checkmark are complete and available for
 download in the
