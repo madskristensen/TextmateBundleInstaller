@@ -57,6 +57,7 @@ languages already.
 - FoxPro
 - Gettext
 - Git configs
+- GN
 - Go
 - Gradle
 - Groovy
