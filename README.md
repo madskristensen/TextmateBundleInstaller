@@ -71,7 +71,6 @@ languages already.
 - Jade/Pug
 - Java
 - JavaDoc
-- JavaScript
 - JSON
 - Lisp
 - LaTeX
@@ -108,7 +107,6 @@ languages already.
 - TOML
 - Thrift
 - TTCN-3
-- TypeScript
 - VHDL
 - XQuery
 - YAML
