@@ -112,13 +112,15 @@ languages already.
 - YAML
 
 ## Unsupported langauges
-The Textmate bundle support in Visual Studio 2015 doesn't support all languages. Here are some extensions that provide language support to some of these unsupported languages:
+The Textmate bundle support in Visual Studio 2015/2017 doesn't support all languages. Here are some extensions that provide language support to some of these unsupported languages:
 
 - **PHP** - [PHP Tools for Visual Studio](https://visualstudiogallery.msdn.microsoft.com/6eb51f05-ef01-4513-ac83-4c5f50c95fb5).
 - **T4 (.tt)** - [Tangible T4 Editor](https://visualstudiogallery.msdn.microsoft.com/784cf592-b797-4d4d-ad33-331fcf63faad)
 
+Also please note that Textmate bundles for JavaScript and TypeScript are not working correctly and it is recommended to install the native VS components for those languages.
+
 ## Known issues
-You need [Visual Studio 2015 Update 3](https://www.visualstudio.com/en-us/news/releasenotes/vs2015-update3-vs) for the Textmate bundles to work correctly. 
+You need [Visual Studio 2015 Update 3](https://www.visualstudio.com/en-us/news/releasenotes/vs2015-update3-vs) or newer for the Textmate bundles to work correctly. 
 
 ## File Icons
 For the best experience, it is recommended that you also install the
