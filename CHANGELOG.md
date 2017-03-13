@@ -1,10 +1,6 @@
 # Road map
 
 - [ ] More languages...
-- [x] HCL language support
-- [x] Google GN language support
-- [x] Mapped .hhc files to the XML editor
-- [x] Removed JavaScript and TypeScript bundles. Conflicts with VS
 
 Features that have a checkmark are complete and available for
 download in the
@@ -14,6 +10,13 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 2.6
+
+- [x] HCL language support
+- [x] Google GN language support
+- [x] Mapped .hhc files to the XML editor
+- [x] Removed JavaScript and TypeScript bundles. Conflicts with VS
 
 ## 2.5
 
