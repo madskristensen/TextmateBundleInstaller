@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-  <Metadata>
-    <Identity Id="4773ce75-6f30-4269-9557-1f7c30a47be2" Version="2.5" Language="en-US" Publisher="Mads Kristensen" />
-    <DisplayName>Syntax Highlighting Pack</DisplayName>
-    <Description xml:space="preserve">Adds syntax highlighting and snippet support for a wide variety of programming languages such as Clojure, Go, Jade, Lua, Swift, Ruby and many more...</Description>
-    <MoreInfo>https://github.com/madskristensen/TextmateBundleInstaller</MoreInfo>
-    <License>Resources\LICENSE</License>
-    <ReleaseNotes>https://github.com/madskristensen/TextmateBundleInstaller/blob/master/CHANGELOG.md</ReleaseNotes>
-    <Icon>Resources\Icon.png</Icon>
-    <PreviewImage>Resources\Preview.png</PreviewImage>
-    <Tags>bat, clojure, go, goovy, ini, jade, java, javadoc, lua, make, perl, php, ruby, rust, bash, swift</Tags>
-  </Metadata>
-  <Installation>
-    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="14.0" />
-    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="15.0" />
-  </Installation>
-  <Prerequisites>
-    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
-  </Prerequisites>
-  <Assets>
-    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
-    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
-    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="EditorMappings.pkgdef" />
-  </Assets>
+    <Metadata>
+        <Identity Id="4773ce75-6f30-4269-9557-1f7c30a47be2" Version="2.6" Language="en-US" Publisher="Mads Kristensen" />
+        <DisplayName>Syntax Highlighting Pack</DisplayName>
+        <Description xml:space="preserve">Adds syntax highlighting and snippet support for a wide variety of programming languages such as Clojure, Go, Jade, Lua, Swift, Ruby and many more...</Description>
+        <MoreInfo>https://github.com/madskristensen/TextmateBundleInstaller</MoreInfo>
+        <License>Resources\LICENSE</License>
+        <ReleaseNotes>https://github.com/madskristensen/TextmateBundleInstaller/blob/master/CHANGELOG.md</ReleaseNotes>
+        <Icon>Resources\Icon.png</Icon>
+        <PreviewImage>Resources\Preview.png</PreviewImage>
+        <Tags>bat, clojure, go, goovy, ini, jade, java, javadoc, lua, make, perl, php, ruby, rust, bash, swift</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="14.0" />
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="15.0" />
+    </Installation>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+        <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="EditorMappings.pkgdef" />
+    </Assets>
 </PackageManifest>
