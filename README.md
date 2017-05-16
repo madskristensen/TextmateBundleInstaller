@@ -83,6 +83,7 @@ languages already.
 - Objective-C
 - Pascal
 - Perl
+- PostScript
 - PowerShell
 - Protocol Buffer
 - Puppet
