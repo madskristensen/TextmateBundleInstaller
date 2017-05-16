@@ -9,6 +9,7 @@
 		<string>dml</string>
         <string>sqlce</string>
         <string>psql</string>
+        <string>mysql</string>
 	</array>
 	<key>keyEquivalent</key>
 	<string>^~S</string>

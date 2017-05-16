@@ -2,7 +2,7 @@
 
 - [ ] More languages...
 - [x] PostScript language support
-- [x] SQL language support for .psql files
+- [x] SQL language support for .psql and .mysql files
 - [x] GetText language support for .pot files
 
 Features that have a checkmark are complete and available for
