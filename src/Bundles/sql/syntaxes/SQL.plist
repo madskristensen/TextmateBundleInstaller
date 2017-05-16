@@ -8,6 +8,7 @@
 		<string>ddl</string>
 		<string>dml</string>
         <string>sqlce</string>
+        <string>psql</string>
 	</array>
 	<key>keyEquivalent</key>
 	<string>^~S</string>
