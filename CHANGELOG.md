@@ -1,6 +1,18 @@
 # Road map
 
 - [ ] More languages...
+
+Features that have a checkmark are complete and available for
+download in the
+[CI build](http://vsixgallery.com/extension/4773ce75-6f30-4269-9557-1f7c30a47be2/).
+
+# Change log
+
+These are the changes to each version that has been released
+on the official Visual Studio extension gallery.
+
+## 2.7
+
 - [x] PostScript language support
 - [x] SQL language support for .psql and .mysql files
 - [x] GetText language support for .pot files
@@ -12,15 +24,6 @@
 - [x] Mapped .twig files to the HTML editor
 - [x] Mapped .tag files to the HTML editor
 - [x] Dust language support
-
-Features that have a checkmark are complete and available for
-download in the
-[CI build](http://vsixgallery.com/extension/4773ce75-6f30-4269-9557-1f7c30a47be2/).
-
-# Change log
-
-These are the changes to each version that has been released
-on the official Visual Studio extension gallery.
 
 ## 2.6
 
