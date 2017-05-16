@@ -6,6 +6,7 @@
 - [x] GetText language support for .pot files
 - [x] Mapped .kit files to the HTML editor
 - [x] Lisp language support for .lsp files
+- [x] Mapped .brail files to the HTML editor
 
 Features that have a checkmark are complete and available for
 download in the

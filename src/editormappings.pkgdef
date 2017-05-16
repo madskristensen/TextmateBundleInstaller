@@ -43,6 +43,8 @@
 @="{9bbfd173-9770-47dc-b191-651b7ff493cd}"
 [$RootKey$\Languages\File Extensions\.kit]
 @="{9bbfd173-9770-47dc-b191-651b7ff493cd}"
+[$RootKey$\Languages\File Extensions\.brail]
+@="{9bbfd173-9770-47dc-b191-651b7ff493cd}"
 
 [$RootKey$\Editors\{40d31677-cbc0-4297-a9ef-89d907823a98}\Extensions]
 "j2"=dword:32
@@ -67,6 +69,7 @@
 "cfml"=dword:32
 "cfc"=dword:32
 "kit"=dword:32
+"brail"=dword:32
 
 ; C++
 [$RootKey$\Languages\File Extensions\.frag]
