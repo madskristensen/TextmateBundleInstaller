@@ -5,6 +5,7 @@
 - [x] SQL language support for .psql and .mysql files
 - [x] GetText language support for .pot files
 - [x] Mapped .kit files to the HTML editor
+- [x] Lisp language support for .lsp files
 
 Features that have a checkmark are complete and available for
 download in the
