@@ -7,6 +7,7 @@
 - [x] Mapped .kit files to the HTML editor
 - [x] Lisp language support for .lsp files
 - [x] Mapped .brail files to the HTML editor
+- [x] NSIS language support
 
 Features that have a checkmark are complete and available for
 download in the

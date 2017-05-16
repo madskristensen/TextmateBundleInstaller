@@ -80,6 +80,7 @@ languages already.
 - Make
 - Markdown
 - Nim
+- NSIS
 - Objective-C
 - Pascal
 - Perl
