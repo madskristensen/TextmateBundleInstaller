@@ -8,6 +8,7 @@
 - [x] Lisp language support for .lsp files
 - [x] Mapped .brail files to the HTML editor
 - [x] NSIS language support
+- [x] Updated Protocol Buffer language to v3
 
 Features that have a checkmark are complete and available for
 download in the
