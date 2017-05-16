@@ -10,6 +10,7 @@
 - [x] NSIS language support
 - [x] Updated Protocol Buffer language to v3
 - [x] Mapped .twig files to the HTML editor
+- [x] Mapped .tag files to the HTML editor
 
 Features that have a checkmark are complete and available for
 download in the
