@@ -38,6 +38,7 @@ languages already.
 - Asm
 - ASN
 - ASP
+- Azure Log Analytics (Kusto)
 - Batch
 - Bond
 - C++ QT
