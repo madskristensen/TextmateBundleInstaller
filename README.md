@@ -48,6 +48,7 @@ languages already.
 - CSS
 - Cucumber Feature
 - Cypher Query Language
+- Dart
 - Diff
 - Dockerfile
 - Elixir
