@@ -6,6 +6,7 @@
 	<array>
 		<string>groovy</string>
 		<string>gvy</string>
+		<string>Jenkinsfile</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>(\{\s*$|^\s*// \{\{\{)</string>
