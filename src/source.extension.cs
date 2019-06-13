@@ -13,6 +13,6 @@ namespace TextmateBundleInstaller
         public const string Language = "en-US";
         public const string Version = "2.8";
         public const string Author = "Mads Kristensen";
-        public const string Tags = "bat, clojure, go, goovy, ini, jade, java, javadoc, lua, make, perl, php, ruby, rust, bash, swift";
+        public const string Tags = "bat, clojure, go, groovy, ini, jade, java, javadoc, lua, make, perl, php, ruby, rust, bash, swift";
     }
 }
