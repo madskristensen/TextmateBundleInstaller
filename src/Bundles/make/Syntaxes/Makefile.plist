@@ -4,6 +4,9 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
+		<string>mk</string>
+		<string>MK</string>
+		<string>Mak</string>
 		<string>mak</string>
 		<string>Makefile</string>
 		<string>makefile</string>
