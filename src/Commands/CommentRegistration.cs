@@ -57,6 +57,7 @@ namespace TextmateBundleInstaller
                 case ".javascript":
                 case ".json":
                 case ".less":
+                case ".mk":
                 case ".makefile":
                 case ".objective c":
                 case ".rust":
