@@ -9,6 +9,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>pl</string>
+		<string>plx</string>
 		<string>pm</string>
 		<string>pod</string>
 		<string>t</string>
